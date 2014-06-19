@@ -2,12 +2,12 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Ozan/Documents/eagle/eagle/atmega module/shm.brd
 
-Start at      : 15:03:39 (6/18/2014)
-End at        : 15:03:39 (6/18/2014)
+Start at      : 15:19:07 (6/19/2014)
+End at        : 15:19:07 (6/19/2014)
 Elapsed time  : 00:00:00
 
 Signals       :    30   RoutingGrid: 50 mil  Layers: 2
-Connections   :    42   predefined:  30 ( 4 Vias )
+Connections   :    42   predefined:  28 ( 4 Vias )
 
 Router memory :   10192
 
@@ -18,8 +18,8 @@ Number of Ripups  :         0         0         0         0         0         0
 max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
-Routed            :         2        12        12        12        12        12
-Vias              :         0         9         0         0         0         0
-Resolution        :    76.2 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :         2        14        14        14        14        14
+Vias              :         0         8         0         0         0         0
+Resolution        :    71.4 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
