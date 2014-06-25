@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : C:/Users/Ozan/Documents/eagle/eagle/ARMEDBASE_V0/RTU/RTU.brd
 
-Start at      : 09:51:12 (6/24/2014)
-End at        : 09:51:12 (6/24/2014)
+Start at      : 16:47:07 (6/25/2014)
+End at        : 16:47:07 (6/25/2014)
 Elapsed time  : 00:00:00
 
 Signals       :    19   RoutingGrid: 50 mil  Layers: 2
@@ -19,7 +19,7 @@ max. Level        :         0         0         0         0         0         0
 max. Total        :         0         0         0         0         0         0
 
 Routed            :        12        54        54        54        54        54
-Vias              :         0        33         6         5         4         4
+Vias              :         0        34         3         1         1         1
 Resolution        :    23.6 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
 Final             : 100.0% finished
