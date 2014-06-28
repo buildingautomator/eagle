@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../eagle/eagle/cncWTest/modbus.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/emc.pp  )
-(This file generated 6/29/2014 1:06:48 AM)
+(This file generated 6/29/2014 1:06:51 AM)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (0.1000 )
@@ -27,7 +27,9 @@
 G21
 (Absolute Coordinates)
 G90
+G00 X0.0000 Y0.0000 
 M03
 G04 P1.000000
+G00 Z15.0000 
 M05
 M02

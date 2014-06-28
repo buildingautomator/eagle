@@ -2478,7 +2478,7 @@ Source: www.kingbright.com</description>
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="1" drill="0.5">
+<class number="0" name="default" width="0.3" drill="0.5">
 <clearance class="0" value="0.25"/>
 </class>
 </classes>
