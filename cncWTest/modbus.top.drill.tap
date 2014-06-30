@@ -4,16 +4,16 @@
 (This file generated from the board:)
 (.../eagle/eagle/cncWTest/modbus.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/emc.pp  )
-(This file generated 6/29/2014 1:06:46 AM)
+(This file generated 6/29/2014 4:28:19 PM)
 (Settings from pcb-machine.h)
 (  Tool Size)
 (0.1000 )
 (Z Axis Settings)
 (  High     Up        Down     Drill)
-(15.0000 	2.0000 	-0.1000 	-1.0000 )
+(15.0000 	2.0000 	-0.1000 	-1.5000 )
 (spindle on time = 1.0000)
 (milling depth = -0.1000)
-(text depth = -0.5000)
+(text depth = -0.1000)
 (tool change at 15.0000 15.0000 15.0000 )
 (feed rate xy = F508.00 )
 (feed rate z  = F254.00 )
@@ -26,6 +26,7 @@
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
 ( T01 | 0.610mm 0.0240in | 0.0000in | 0.0000in |       0 )
 ( T02 | 0.813mm 0.0320in | 0.0000in | 0.0000in |       0 )
+( T03 | 1.000mm 0.0394in | 0.0000in | 0.0000in |       0 )
 (Metric Mode)
 G21
 (Absolute Coordinates)
@@ -39,7 +40,7 @@ M06 T01 (0.6096 )
 G00 Z2.0000 
 M03
 G04 P1.000000
-G82 X13.2500 Y11.2500 Z-1.0000 F254.00 R2.0000 P1.000000
+G82 X13.2500 Y11.2500 Z-1.5000 F254.00 R2.0000 P1.000000
 M05
 G00 Z15.0000 
 M06 T02 (0.8128 )
@@ -48,7 +49,7 @@ M06 T02 (0.8128 )
 G00 Z2.0000 
 M03
 G04 P1.000000
-G82 X7.6200 Y6.3500 Z-1.0000 F254.00 R2.0000 P1.000000
+G82 X7.6200 Y6.3500 Z-1.5000 F254.00 R2.0000 P1.000000
 G82 X7.6200 Y8.8900 
 G82 X7.6200 Y11.4300 
 G82 X7.6200 Y13.9700 
@@ -62,6 +63,18 @@ G82 X24.1300 Y8.8900
 G82 X24.1300 Y16.5100 
 G82 X26.6700 Y8.8900 
 G82 X26.6700 Y16.5100 
+M05
+G00 Z15.0000 
+M06 T03 (1.0000 )
+G01 Z0.0000 F254.00 
+M06 T03 (1.0000 )
+G00 Z2.0000 
+M03
+G04 P1.000000
+G82 X1.2700 Y1.2700 Z-1.5000 F254.00 R2.0000 P1.000000
+G82 X1.2700 Y24.1300 
+G82 X29.2100 Y1.2700 
+G82 X29.2100 Y24.1300 
 T01 
 G00 Z15.0000 
 M05
