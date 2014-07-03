@@ -2,12 +2,12 @@
 (Copyright 2005 - 2012 by John Johnson)
 (See readme.txt for licensing terms.)
 (This file generated from the board:)
-(.../eagle/ARMEDBASE_V0/MCU/MCU.brd)
+(.../eagle/ARMEDBASE_V0/DCU/DCU.brd)
 (Current profile is .../pcb-gcode-3.6.0.4/profiles/emc.pp  )
-(This file generated 7/3/2014 10:28:28 AM)
+(This file generated 7/3/2014 10:21:26 AM)
 (Settings from pcb-machine.h)
 (  Tool Size)
-(0.0500 )
+(0.1000 )
 (Z Axis Settings)
 (  High     Up        Down     Drill)
 (15.0000 	2.0000 	-0.0250 	-1.5000 )
@@ -27,7 +27,9 @@
 G21
 (Absolute Coordinates)
 G90
+G00 X0.0000 Y0.0000 
 M03
 G04 P1.000000
+G00 Z15.0000 
 M05
 M02
