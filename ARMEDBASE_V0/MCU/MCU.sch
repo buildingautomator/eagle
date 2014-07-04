@@ -7230,6 +7230,28 @@ RJ45 Jack connectors&lt;br&gt;
  &lt;/ul&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
+<package name="1X5MTA">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
+<wire x1="10.16" y1="6.35" x2="10.16" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="10.16" y1="3.81" x2="10.16" y2="-3.81" width="0.4064" layer="21"/>
+<wire x1="-10.16" y1="-3.81" x2="-10.16" y2="3.81" width="0.4064" layer="21"/>
+<wire x1="-10.16" y1="3.81" x2="-10.16" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-10.16" y1="6.35" x2="10.16" y2="6.35" width="0.4064" layer="21"/>
+<wire x1="-10.16" y1="3.81" x2="10.16" y2="3.81" width="0.3048" layer="21"/>
+<wire x1="-10.16" y1="-3.81" x2="10.16" y2="-3.81" width="0.4064" layer="21"/>
+<pad name="3" x="0" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="2" x="3.9624" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="1" x="7.9248" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="4" x="-3.9624" y="0" drill="1.6764" shape="long" rot="R90"/>
+<pad name="5" x="-7.9248" y="0" drill="1.6764" shape="long" rot="R90"/>
+<text x="-3.7338" y="-7.0612" size="1.778" layer="25">&gt;NAME</text>
+<text x="-9.4762" y="4.4508" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="7.4168" y1="-0.508" x2="8.4328" y2="0.508" layer="21"/>
+<rectangle x1="3.4544" y1="-0.508" x2="4.4704" y2="0.508" layer="21"/>
+<rectangle x1="-0.508" y1="-0.508" x2="0.508" y2="0.508" layer="21"/>
+<rectangle x1="-4.4704" y1="-0.508" x2="-3.4544" y2="0.508" layer="21"/>
+<rectangle x1="-8.4328" y1="-0.508" x2="-7.4168" y2="0.508" layer="21"/>
+</package>
 <package name="1X2MTA">
 <description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
 <wire x1="4.572" y1="6.35" x2="4.572" y2="3.81" width="0.4064" layer="21"/>
@@ -7248,6 +7270,25 @@ RJ45 Jack connectors&lt;br&gt;
 </package>
 </packages>
 <symbols>
+<symbol name="MTA-05">
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="11.43" y1="-1.905" x2="11.43" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="11.43" y2="1.27" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="0.635" width="0.254" layer="94"/>
+<circle x="10.16" y="0" radius="0.635" width="0.254" layer="94"/>
+<text x="12.7" y="0" size="1.778" layer="95">&gt;NAME</text>
+<text x="12.7" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-1.27" size="1.27" layer="95">1</text>
+<pin name="1" x="0" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="4" x="7.62" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="5" x="10.16" y="-2.54" visible="off" length="short" direction="pas" rot="R90"/>
+</symbol>
 <symbol name="MTA-02">
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
@@ -7263,6 +7304,26 @@ RJ45 Jack connectors&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
+<deviceset name="MTA05-156" prefix="J" uservalue="yes">
+<description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
+<gates>
+<gate name="G$1" symbol="MTA-05" x="-5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="1X5MTA">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 <deviceset name="MTA02-156" prefix="J" uservalue="yes">
 <description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
 <gates>
@@ -9615,6 +9676,12 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <part name="P&amp;C1" library="con-4ucon" deviceset="14867" device=""/>
 <part name="F1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" value="1.5A"/>
 <part name="SV5" library="con-lstb" deviceset="MA04-1" device="" value="5v"/>
+<part name="J3" library="con-amp" deviceset="MTA05-156" device=""/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="GND6" library="supply1" deviceset="GND" device=""/>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9668,6 +9735,12 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <instance part="P&amp;C1" gate="G$1" x="12.7" y="15.24" rot="R180"/>
 <instance part="F1" gate="G$1" x="60.96" y="86.36"/>
 <instance part="SV5" gate="1" x="86.36" y="109.22" rot="R180"/>
+<instance part="J3" gate="G$1" x="261.62" y="27.94" rot="R270"/>
+<instance part="R10" gate="G$1" x="233.68" y="33.02" rot="R90"/>
+<instance part="GND6" gate="1" x="251.46" y="35.56"/>
+<instance part="R12" gate="G$1" x="241.3" y="33.02" rot="R90"/>
+<instance part="R13" gate="G$1" x="226.06" y="33.02" rot="R90"/>
+<instance part="R14" gate="G$1" x="218.44" y="33.02" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -9724,6 +9797,11 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <pinref part="IC3" gate="G$1" pin="OUT"/>
 <wire x1="83.82" y1="86.36" x2="91.44" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="86.36" x2="106.68" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<label x="256.54" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="256.54" y1="27.94" x2="259.08" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -9815,6 +9893,20 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <wire x1="76.2" y1="111.76" x2="78.74" y2="111.76" width="0.1524" layer="91"/>
 <junction x="76.2" y="124.46"/>
 <junction x="76.2" y="114.3"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<wire x1="233.68" y1="38.1" x2="241.3" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="2"/>
+<wire x1="241.3" y1="38.1" x2="251.46" y2="38.1" width="0.1524" layer="91"/>
+<junction x="241.3" y="38.1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
+<wire x1="233.68" y1="38.1" x2="226.06" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="38.1" x2="226.06" y2="38.1" width="0.1524" layer="91"/>
+<junction x="226.06" y="38.1"/>
+<junction x="233.68" y="38.1"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -10082,6 +10174,50 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 <pinref part="IC2" gate="G$1" pin="PC0(ADC0)"/>
 <pinref part="SV1" gate="G$1" pin="3"/>
 <wire x1="208.28" y1="73.66" x2="246.38" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="22.86" x2="233.68" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="22.86" x2="233.68" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="22.86" x2="208.28" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB2(SS/OC1B)"/>
+<junction x="233.68" y="22.86"/>
+<pinref part="J3" gate="G$1" pin="3"/>
+</segment>
+</net>
+<net name="N$18" class="0">
+<segment>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="241.3" y1="27.94" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB1(OC1A)"/>
+<junction x="241.3" y="25.4"/>
+<wire x1="259.08" y1="25.4" x2="241.3" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="25.4" x2="208.28" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="2"/>
+</segment>
+</net>
+<net name="N$20" class="0">
+<segment>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="259.08" y1="20.32" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="226.06" y1="27.94" x2="226.06" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<wire x1="226.06" y1="20.32" x2="208.28" y2="20.32" width="0.1524" layer="91"/>
+<junction x="226.06" y="20.32"/>
+<pinref part="J3" gate="G$1" pin="4"/>
+</segment>
+</net>
+<net name="N$22" class="0">
+<segment>
+<pinref part="R14" gate="G$1" pin="1"/>
+<wire x1="218.44" y1="27.94" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="208.28" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
+<junction x="218.44" y="17.78"/>
+<wire x1="218.44" y1="17.78" x2="259.08" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
 </nets>
