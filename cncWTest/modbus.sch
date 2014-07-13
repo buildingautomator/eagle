@@ -2494,7 +2494,7 @@ Source: www.kingbright.com</description>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SV2" library="con-lsta" deviceset="FE06-1" device=""/>
-<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
+<part name="R8" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
 </parts>
 <sheets>
