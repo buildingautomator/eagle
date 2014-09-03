@@ -1335,25 +1335,26 @@ RJ45 Jack connectors&lt;br&gt;
  &lt;/ul&gt;
  &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="1X2MTA">
-<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;</description>
-<wire x1="4.572" y1="6.35" x2="4.572" y2="3.81" width="0.4064" layer="21"/>
-<wire x1="4.572" y1="3.81" x2="4.572" y2="-3.81" width="0.4064" layer="21"/>
-<wire x1="-4.318" y1="-3.81" x2="4.572" y2="-3.81" width="0.4064" layer="21"/>
-<wire x1="-4.318" y1="6.35" x2="4.572" y2="6.35" width="0.4064" layer="21"/>
-<wire x1="-4.318" y1="3.81" x2="4.572" y2="3.81" width="0.3048" layer="21"/>
-<wire x1="-4.318" y1="3.81" x2="-4.318" y2="-3.81" width="0.4064" layer="21"/>
-<wire x1="-4.318" y1="6.35" x2="-4.318" y2="3.81" width="0.4064" layer="21"/>
-<pad name="1" x="1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
-<pad name="2" x="-1.9812" y="0" drill="1.6764" shape="long" rot="R90"/>
-<text x="-4.3688" y="-6.35" size="1.778" layer="25">&gt;NAME</text>
-<text x="-3.4369" y="4.4148" size="1.27" layer="27">&gt;VALUE</text>
-<rectangle x1="1.4732" y1="-0.508" x2="2.4892" y2="0.508" layer="21"/>
-<rectangle x1="-2.4892" y1="-0.508" x2="-1.4732" y2="0.508" layer="21"/>
+<package name="10X02MTA">
+<description>&lt;b&gt;AMP MTA connector&lt;/b&gt;&lt;p&gt;
+Source: http://ecommas.tycoelectronics.com .. ENG_CD_640456_W.pdf</description>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="-2.54" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="1.905" x2="2.54" y2="1.27" width="0.1524" layer="21"/>
+<pad name="2" x="-1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="1.27" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-2.6162" y="-3.2512" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.5461" y="2.1509" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="1.016" y1="-0.254" x2="1.524" y2="0.254" layer="21"/>
+<rectangle x1="-1.524" y1="-0.254" x2="-1.016" y2="0.254" layer="21"/>
 </package>
 </packages>
 <symbols>
-<symbol name="MTA-02">
+<symbol name="MTA-1_2">
 <wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-1.905" x2="3.81" y2="1.27" width="0.254" layer="94"/>
@@ -1368,13 +1369,13 @@ RJ45 Jack connectors&lt;br&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MTA02-156" prefix="J" uservalue="yes">
+<deviceset name="MTA02-100" prefix="J" uservalue="yes">
 <description>&lt;b&gt;AMP connector&lt;/b&gt;</description>
 <gates>
-<gate name="G$1" symbol="MTA-02" x="0" y="0"/>
+<gate name="G$1" symbol="MTA-1_2" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="1X2MTA">
+<device name="" package="10X02MTA">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -6925,7 +6926,7 @@ W = angled&lt;p&gt;
 <part name="JP6" library="SparkFun" deviceset="M12" device="PTH" value=""/>
 <part name="JP7" library="SparkFun" deviceset="M12" device="PTH" value=""/>
 <part name="JP2" library="SparkFun" deviceset="M02" device="PTH"/>
-<part name="PUMP" library="con-amp" deviceset="MTA02-156" device=""/>
+<part name="PUMP" library="con-amp" deviceset="MTA02-100" device=""/>
 <part name="Q3" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23" value="2N5551"/>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA"/>
@@ -6939,16 +6940,15 @@ W = angled&lt;p&gt;
 <part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100uf"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
 <part name="F1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" value="1.5A"/>
-<part name="PW" library="con-amp" deviceset="MTA02-156" device=""/>
+<part name="PW" library="con-amp" deviceset="MTA02-100" device=""/>
 <part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="burr-brown" deviceset="REG1117" device=""/>
-<part name="LIGHT" library="con-amp" deviceset="MTA02-156" device=""/>
+<part name="LIGHT" library="con-amp" deviceset="MTA02-100" device=""/>
 <part name="Q1" library="semicon-smd-ipc" deviceset="NPN-TRANSISTOR_" device="SOT23" value="2N3904"/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA"/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="varistor" deviceset="THERMISTOR" device="-2,5"/>
 <part name="PH1" library="photo-elements" deviceset="A10" device="" technology="50_09"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="R16" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
@@ -6956,7 +6956,7 @@ W = angled&lt;p&gt;
 <part name="R17" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="R18" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="MS" library="con-amp" deviceset="MTA02-156" device=""/>
+<part name="MS" library="con-amp" deviceset="MTA02-100" device=""/>
 <part name="R19" library="pot" deviceset="TRIM_US-" device="CA6V" value="10K"/>
 <part name="SV2" library="con-lsta" deviceset="FE08-1" device=""/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
@@ -6973,10 +6973,11 @@ W = angled&lt;p&gt;
 <part name="GPI4" library="SparkFun-Electromechanical" deviceset="SWITCH-MOMENTARY-2" device="PTH"/>
 <part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="varistor" deviceset="THERMISTOR" device="-2,5"/>
+<part name="AIR" library="varistor" deviceset="THERMISTOR" device="-2,5"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="SV1" library="con-lstb" deviceset="MA04-1" device=""/>
+<part name="SOIL" library="con-amp" deviceset="MTA02-100" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7024,7 +7025,6 @@ W = angled&lt;p&gt;
 <instance part="R14" gate="G$1" x="142.24" y="129.54" rot="R180"/>
 <instance part="D3" gate="G$1" x="162.56" y="129.54"/>
 <instance part="GND4" gate="1" x="172.72" y="121.92" rot="R90"/>
-<instance part="R15" gate="G$1" x="210.82" y="78.74" rot="R90"/>
 <instance part="PH1" gate="G$1" x="149.86" y="109.22"/>
 <instance part="GND6" gate="1" x="129.54" y="114.3" rot="R270"/>
 <instance part="R16" gate="G$1" x="139.7" y="114.3" rot="R180"/>
@@ -7049,10 +7049,11 @@ W = angled&lt;p&gt;
 <instance part="GPI4" gate="G$1" x="127" y="53.34"/>
 <instance part="R5" gate="G$1" x="137.16" y="60.96" rot="R270"/>
 <instance part="GND11" gate="1" x="160.02" y="68.58" rot="R90"/>
-<instance part="R6" gate="G$1" x="210.82" y="53.34" rot="R90"/>
+<instance part="AIR" gate="G$1" x="210.82" y="53.34" rot="R90"/>
 <instance part="GND12" gate="1" x="190.5" y="58.42" rot="R270"/>
-<instance part="R7" gate="G$1" x="200.66" y="58.42" rot="R180"/>
+<instance part="R7" gate="G$1" x="198.12" y="58.42" rot="R180"/>
 <instance part="SV1" gate="1" x="96.52" y="27.94"/>
+<instance part="SOIL" gate="G$1" x="208.28" y="78.74" rot="MR270"/>
 </instances>
 <busses>
 </busses>
@@ -7149,7 +7150,6 @@ W = angled&lt;p&gt;
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="193.04" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RESET" class="0">
@@ -7273,7 +7273,8 @@ W = angled&lt;p&gt;
 <segment>
 <wire x1="210.82" y1="73.66" x2="220.98" y2="73.66" width="0.1524" layer="91"/>
 <label x="220.98" y="73.66" size="1.778" layer="95" xref="yes"/>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="SOIL" gate="G$1" pin="2"/>
+<wire x1="210.82" y1="73.66" x2="210.82" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="25.4" y1="101.6" x2="20.32" y2="101.6" width="0.1524" layer="91"/>
@@ -7301,7 +7302,7 @@ W = angled&lt;p&gt;
 <segment>
 <wire x1="210.82" y1="48.26" x2="220.98" y2="48.26" width="0.1524" layer="91"/>
 <label x="220.98" y="48.26" size="1.778" layer="95" xref="yes"/>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="AIR" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RAW" class="1">
@@ -7367,10 +7368,11 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <label x="220.98" y="58.42" size="1.778" layer="95" xref="yes"/>
-<wire x1="205.74" y1="58.42" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="203.2" y1="58.42" x2="210.82" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="AIR" gate="G$1" pin="1"/>
 <junction x="210.82" y="58.42"/>
 <wire x1="210.82" y1="58.42" x2="220.98" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="A2" class="0">
@@ -7396,10 +7398,11 @@ W = angled&lt;p&gt;
 </segment>
 <segment>
 <label x="220.98" y="83.82" size="1.778" layer="95" xref="yes"/>
-<wire x1="205.74" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="83.82" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="SOIL" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="78.74" x2="210.82" y2="83.82" width="0.1524" layer="91"/>
 <junction x="210.82" y="83.82"/>
 </segment>
 </net>
