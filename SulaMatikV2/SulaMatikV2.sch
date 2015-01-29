@@ -4510,14 +4510,15 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="BT" library="con-lsta" deviceset="FE06-1" device=""/>
 <part name="DHT" library="con-lstb" deviceset="MA03-1" device=""/>
-<part name="SV2" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SOIL" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="PW" library="SparkFun" deviceset="M02" device="PTH"/>
 <part name="MS" library="SparkFun" deviceset="M02" device="PTH"/>
-<part name="EX" library="con-lstb" deviceset="MA03-1" device=""/>
+<part name="BZZ" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="PRV" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="K1" library="relay" deviceset="CQ1-12V" device=""/>
 <part name="LRV1" library="con-lstb" deviceset="MA03-1" device=""/>
+<part name="R7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="20K"/>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="14K"/>
 </parts>
 <sheets>
 <sheet>
@@ -4538,6 +4539,7 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <text x="101.6" y="109.22" size="1.778" layer="91" rot="R90">vin</text>
 <text x="99.06" y="109.22" size="1.778" layer="91" rot="R90">vout</text>
 <text x="96.52" y="109.22" size="1.778" layer="91" rot="R90">gnd</text>
+<text x="55.88" y="43.18" size="1.778" layer="91">BUZZER</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
@@ -4583,15 +4585,16 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <instance part="GND2" gate="1" x="193.04" y="58.42"/>
 <instance part="BT" gate="G$1" x="55.88" y="55.88"/>
 <instance part="DHT" gate="G$1" x="7.62" y="60.96"/>
-<instance part="SV2" gate="G$1" x="81.28" y="10.16"/>
 <instance part="SOIL" gate="G$1" x="15.24" y="81.28"/>
 <instance part="PW" gate="G$1" x="144.78" y="154.94"/>
 <instance part="MS" gate="G$1" x="15.24" y="106.68"/>
-<instance part="EX" gate="G$1" x="55.88" y="33.02"/>
+<instance part="BZZ" gate="G$1" x="55.88" y="33.02"/>
 <instance part="PRV" gate="G$1" x="99.06" y="106.68" rot="R270"/>
 <instance part="K1" gate="1" x="91.44" y="152.4" rot="R90"/>
 <instance part="K1" gate="2" x="76.2" y="119.38" rot="R270"/>
 <instance part="LRV1" gate="G$1" x="58.42" y="119.38"/>
+<instance part="R7" gate="G$1" x="139.7" y="127" rot="R180"/>
+<instance part="R10" gate="G$1" x="157.48" y="127" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4633,7 +4636,7 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <segment>
 <label x="73.66" y="35.56" size="1.778" layer="95" xref="yes"/>
 <wire x1="63.5" y1="35.56" x2="73.66" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="EX" gate="G$1" pin="3"/>
+<pinref part="BZZ" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="E"/>
@@ -4763,7 +4766,7 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <segment>
 <label x="81.28" y="33.02" size="1.778" layer="95" xref="yes"/>
 <wire x1="63.5" y1="33.02" x2="81.28" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="EX" gate="G$1" pin="2"/>
+<pinref part="BZZ" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -4870,7 +4873,7 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <segment>
 <label x="73.66" y="30.48" size="1.778" layer="95" xref="yes"/>
 <wire x1="63.5" y1="30.48" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="EX" gate="G$1" pin="1"/>
+<pinref part="BZZ" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -4878,6 +4881,15 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <wire x1="66.04" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
 <label x="55.88" y="12.7" size="1.778" layer="95"/>
 <pinref part="JP2" gate="G$1" pin="1"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="152.4" y1="127" x2="147.32" y2="127" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="127" x2="147.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="134.62" x2="167.64" y2="134.62" width="0.1524" layer="91"/>
+<label x="167.64" y="134.62" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A3" class="0">
@@ -5080,6 +5092,11 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <wire x1="175.26" y1="167.64" x2="177.8" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="1"/>
 </segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="132.08" y1="127" x2="134.62" y2="127" width="0.1524" layer="91"/>
+<label x="132.08" y="127" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$2" class="0">
 <segment>
@@ -5158,6 +5175,11 @@ Source: http://www.mew-europe.com/.. en_ds_61208_0000.pdf</description>
 <pinref part="DHT" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="58.42" x2="17.78" y2="58.42" width="0.1524" layer="91"/>
 <label x="17.78" y="58.42" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="1"/>
+<wire x1="162.56" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
+<label x="167.64" y="127" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$22" class="0">
