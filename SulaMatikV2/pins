@@ -1,0 +1,197 @@
+Pinlist
+
+Exported from SulaMatikV2.brd at 1/31/2015 7:46:45 PM
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Part     Pad      Net
+
+BT       1                 *** unconnected ***
+         2        D2
+         3        D3
+         4        GND
+         5        VCC
+         6                 *** unconnected ***
+
+BZZ      1        A5
+         2        VCC
+         3        GND
+
+C1       1        GND
+         2        VCC
+
+C2       1        GND
+         2        VCC9V
+
+D1       A        N$13
+         C        VCC9V
+
+D2       A        N$5
+         C        N$3
+
+D3       A        N$19
+         C        VCC
+
+D4       A        SGND
+         C        VCC
+
+DHT      1        SGND
+         2        A3
+         3        VCC
+
+F1       1        VCC9V
+         2        N$1
+
+IC1      1        GND
+         2        VCC
+         3        N$1
+         4                 *** unconnected ***
+
+JP2      1        A4
+         2        A5
+
+JP6      1        RAW
+         10       MISO
+         11       MOSI
+         12       D10
+         2        GND
+         3        RESET
+         4        VCC
+         5        A3
+         6        A2
+         7        A1
+         8        A0
+         9        SCK
+
+JP7      1        D9
+         10       RESET
+         11       RXI
+         12       TXO
+         2        D8
+         3        D7
+         4        D6
+         5        D5
+         6        D4
+         7        D3
+         8        D2
+         9        GND
+
+K1       1        N$19
+         2        VCC
+         C        N$10
+         NC       N$12
+         NO       N$8
+
+LED1     A        N$11
+         C        GND
+
+LED2     A        N$22
+         C        SGND
+
+LRV1     1        N$12
+         2        N$10
+         3        N$8
+
+MS       1        VCC
+         2        A0
+
+PH1      1        A2
+         2        VCC
+
+PRV      1        N$5
+         2        N$3
+         3        N$3
+
+PS       1        N$13
+         2        N$2
+         3                 *** unconnected ***
+
+PW       1        GND
+         2        N$2
+
+Q1       1        N$20
+         2        GND
+         3        N$19
+
+Q2       1        N$7
+         2        GND
+         3        SGND
+
+Q3       1        N$6
+         2        GND
+         3        N$5
+
+R1       1        N$22
+         2        VCC
+
+R2       1        SCK
+         2        SDSCK
+
+R3       1        N$7
+         2        D10
+
+R4       1        SDSCK
+         2        GND
+
+R5       1        MOSI
+         2        SDMO
+
+R6       1        D4
+         2        SDCS
+
+R7       1        A4
+         2        VCC9V
+
+R8       1        SDCS
+         2        GND
+
+R9       1        SDMO
+         2        GND
+
+R10      1        SGND
+         2        A4
+
+R11      1        N$6
+         2        D9
+
+R12      1        N$11
+         2        VCC
+
+R14      1        N$20
+         2        D5
+
+R16      1        A2
+         2        SGND
+
+R17      1        A0
+         2        SGND
+
+R18      1        A1
+         2        SGND
+
+RTC      1        D8
+         2        D7
+         3        D6
+         4        GND
+         5        VCC
+
+SD       1        GND
+         10       SDMO
+         11       SDSCK
+         12       SDSCK
+         13       MISO
+         14       MISO
+         15       GND
+         16       GND
+         2        GND
+         3        N$29
+         4        N$29
+         5        VCC
+         6        VCC
+         7        SDCS
+         8        SDCS
+         9        SDMO
+
+SOIL     1        VCC
+         2        A1
+
