@@ -5640,6 +5640,7 @@ Standard 3-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <wire x1="203.2" y1="83.82" x2="203.2" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<junction x="203.2" y="83.82"/>
 </segment>
 </net>
 <net name="N$3" class="0">
