@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../KarasolBaxCont/KarasolboxCont.brd)
 (Current profile is .../external_usr-lang-prog/pcbgcode/profiles/emc.pp  )
-(This file generated 3/5/2017 11:28 PM)
+(This file generated 3/7/2017 10:38 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 3.0000)
 (spindle speed = 20000.0000)
@@ -21,8 +21,9 @@
 (Generated top outlines, top drill, bottom outlines, bottom drill, )
 (Unit of measure: mm)
 ( Tool|       Size       |  Min Sub |  Max Sub |   Count )
-( T01 | 0.800mm 0.0315in | 0.0000in | 0.0000in |       0 )
-( T02 | 1.016mm 0.0400in | 0.0000in | 0.0000in |       0 )
+( T01 | 0.600mm 0.0236in | 0.0000in | 0.0000in |       0 )
+( T02 | 0.800mm 0.0315in | 0.0000in | 0.0000in |       0 )
+( T03 | 1.016mm 0.0400in | 0.0000in | 0.0000in |       0 )
 (Metric Mode)
 G21
 (Absolute Coordinates)
@@ -35,7 +36,19 @@ G04 P3.000000
 M05
 G00 Z19.0000 
 G00 X15.0000 Y15.0000 
-M06 T01 (0.8000 )
+M06 T01 (0.6000 )
+G01 Z0.0000 F508.00 
+M06 
+G00 Z2.0000 
+M03
+G04 P3.000000
+G82 X-3.8100 Y3.8100 Z-1.5000 F508.00 R2.0000 P1.000000
+G82 X-48.2600 Y3.8100 
+G82 X-48.2600 Y72.3900 
+M05
+G00 Z19.0000 
+G00 X15.0000 Y15.0000 
+M06 T02 (0.8000 )
 G01 Z0.0000 F508.00 
 M06 
 G00 Z2.0000 
@@ -84,10 +97,12 @@ G82 X-43.1650 Y46.4325
 G82 X-43.1650 Y48.9725 
 G82 X-45.7050 Y48.9725 
 G82 X-45.7050 Y46.4325 
+G82 X-44.0000 Y29.6000 
+G82 X-36.0000 Y13.6000 
 M05
 G00 Z19.0000 
 G00 X15.0000 Y15.0000 
-M06 T02 (1.0160 )
+M06 T03 (1.0160 )
 G01 Z0.0000 F508.00 
 M06 
 G00 Z2.0000 
