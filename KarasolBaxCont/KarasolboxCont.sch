@@ -3256,148 +3256,6 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="Arduino-clone">
-<description>Arduino Clone pinheaders
-By cl@xganon.com
-http://www.xganon.com</description>
-<packages>
-<package name="ABK-PRO-MINI">
-<description>ABK-PRO-MINI</description>
-<pad name="GND2" x="-3.81" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="GND3" x="-1.27" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="VCC1" x="1.27" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="RX1-1" x="3.81" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="TX0-1" x="6.35" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="DTR" x="8.89" y="8.89" drill="0.8" shape="long" rot="R90"/>
-<pad name="TX0" x="-5.08" y="6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="RX1" x="-5.08" y="3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="RST1" x="-5.08" y="1.27" drill="0.8" shape="long" rot="R180"/>
-<pad name="GND1" x="-5.08" y="-1.27" drill="0.8" shape="long" rot="R180"/>
-<pad name="D2" x="-5.08" y="-3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="D3" x="-5.08" y="-6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="D4" x="-5.08" y="-8.89" drill="0.8" shape="long" rot="R180"/>
-<pad name="D5" x="-5.08" y="-11.43" drill="0.8" shape="long" rot="R180"/>
-<pad name="D6" x="-5.08" y="-13.97" drill="0.8" shape="long" rot="R180"/>
-<pad name="D7" x="-5.08" y="-16.51" drill="0.8" shape="long" rot="R180"/>
-<pad name="D8" x="-5.08" y="-19.05" drill="0.8" shape="long" rot="R180"/>
-<pad name="D9" x="-5.08" y="-21.59" drill="0.8" shape="long" rot="R180"/>
-<pad name="RAW" x="10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="GND" x="10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="RST" x="10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
-<pad name="VCC" x="10.16" y="-1.27" drill="0.8" shape="long" rot="R180"/>
-<pad name="A0" x="10.16" y="-3.81" drill="0.8" shape="long" rot="R180"/>
-<pad name="A1" x="10.16" y="-6.35" drill="0.8" shape="long" rot="R180"/>
-<pad name="A2" x="10.16" y="-8.89" drill="0.8" shape="long" rot="R180"/>
-<pad name="A3" x="10.16" y="-11.43" drill="0.8" shape="long" rot="R180"/>
-<pad name="D13" x="10.16" y="-13.97" drill="0.8" shape="long" rot="R180"/>
-<pad name="D12" x="10.16" y="-16.51" drill="0.8" shape="long" rot="R180"/>
-<pad name="D11" x="10.16" y="-19.05" drill="0.8" shape="long" rot="R180"/>
-<pad name="D10" x="10.16" y="-21.59" drill="0.8" shape="long" rot="R180"/>
-<pad name="A7" x="6.35" y="-21.59" drill="0.8" shape="long" rot="R270"/>
-<pad name="A6" x="3.81" y="-21.59" drill="0.8" shape="long" rot="R270"/>
-<pad name="GND4" x="1.27" y="-21.59" drill="0.8" shape="long" rot="R270"/>
-<pad name="A5" x="6.35" y="-2.54" drill="0.8" rot="R270"/>
-<pad name="A4" x="6.35" y="-5.08" drill="0.8" rot="R270"/>
-</package>
-</packages>
-<symbols>
-<symbol name="ABK-PRO-MINI">
-<description>ABK-Pro-Mini</description>
-<pin name="GND3" x="-10.16" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="GND4" x="-7.62" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="VCC1" x="-5.08" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="RX1-1" x="-2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="TX0-1" x="0" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="DTR" x="2.54" y="27.94" visible="pin" length="middle" rot="R270"/>
-<pin name="TX0" x="-22.86" y="12.7" visible="pin" length="middle"/>
-<pin name="RX1" x="-22.86" y="10.16" visible="pin" length="middle"/>
-<pin name="RST1" x="-22.86" y="7.62" visible="pin" length="middle"/>
-<pin name="GND2" x="-22.86" y="5.08" visible="pin" length="middle"/>
-<pin name="D2" x="-22.86" y="2.54" visible="pin" length="middle"/>
-<pin name="D3" x="-22.86" y="0" visible="pin" length="middle"/>
-<pin name="D4" x="-22.86" y="-2.54" visible="pin" length="middle"/>
-<pin name="D5" x="-22.86" y="-5.08" visible="pin" length="middle"/>
-<pin name="D6" x="-22.86" y="-7.62" visible="pin" length="middle"/>
-<pin name="D7" x="-22.86" y="-10.16" visible="pin" length="middle"/>
-<pin name="D8" x="-22.86" y="-12.7" visible="pin" length="middle"/>
-<pin name="D9" x="-22.86" y="-15.24" visible="pin" length="middle"/>
-<pin name="RAW" x="15.24" y="12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="15.24" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="RST" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="VCC" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="A3" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="A2" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
-<pin name="A1" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="A0" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="D13" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="D12" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="D11" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
-<pin name="D10" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
-<pin name="A7" x="0" y="-25.4" visible="pin" length="middle" rot="R90"/>
-<pin name="A6" x="-2.54" y="-25.4" visible="pin" length="middle" rot="R90"/>
-<pin name="GND1" x="-5.08" y="-25.4" visible="pin" length="middle" rot="R90"/>
-<pin name="A5" x="0" y="5.08" visible="pin" length="point" rot="R90"/>
-<pin name="A4" x="0" y="0" visible="pin" length="point" rot="R270"/>
-<wire x1="-17.78" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
-<wire x1="10.16" y1="22.86" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
-<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
-<text x="-5.08" y="-7.62" size="1.778" layer="95" rot="R90">Arduino Pro Mini</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="ABK-PRO-MINI">
-<description>ABK Pro-Mini Arduino Clone</description>
-<gates>
-<gate name="G$1" symbol="ABK-PRO-MINI" x="0" y="2.54"/>
-</gates>
-<devices>
-<device name="" package="ABK-PRO-MINI">
-<connects>
-<connect gate="G$1" pin="A0" pad="A0"/>
-<connect gate="G$1" pin="A1" pad="A1"/>
-<connect gate="G$1" pin="A2" pad="A2"/>
-<connect gate="G$1" pin="A3" pad="A3"/>
-<connect gate="G$1" pin="A4" pad="A4"/>
-<connect gate="G$1" pin="A5" pad="A5"/>
-<connect gate="G$1" pin="A6" pad="A6"/>
-<connect gate="G$1" pin="A7" pad="A7"/>
-<connect gate="G$1" pin="D10" pad="D10"/>
-<connect gate="G$1" pin="D11" pad="D11"/>
-<connect gate="G$1" pin="D12" pad="D12"/>
-<connect gate="G$1" pin="D13" pad="D13"/>
-<connect gate="G$1" pin="D2" pad="D2"/>
-<connect gate="G$1" pin="D3" pad="D3"/>
-<connect gate="G$1" pin="D4" pad="D4"/>
-<connect gate="G$1" pin="D5" pad="D5"/>
-<connect gate="G$1" pin="D6" pad="D6"/>
-<connect gate="G$1" pin="D7" pad="D7"/>
-<connect gate="G$1" pin="D8" pad="D8"/>
-<connect gate="G$1" pin="D9" pad="D9"/>
-<connect gate="G$1" pin="DTR" pad="DTR"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND1" pad="GND4"/>
-<connect gate="G$1" pin="GND2" pad="GND1"/>
-<connect gate="G$1" pin="GND3" pad="GND2"/>
-<connect gate="G$1" pin="GND4" pad="GND3"/>
-<connect gate="G$1" pin="RAW" pad="RAW"/>
-<connect gate="G$1" pin="RST" pad="RST"/>
-<connect gate="G$1" pin="RST1" pad="RST1"/>
-<connect gate="G$1" pin="RX1" pad="RX1"/>
-<connect gate="G$1" pin="RX1-1" pad="RX1-1"/>
-<connect gate="G$1" pin="TX0" pad="TX0"/>
-<connect gate="G$1" pin="TX0-1" pad="TX0-1"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-<connect gate="G$1" pin="VCC1" pad="VCC1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="esp8266modules">
 <packages>
 <package name="ESP01">
@@ -5129,6 +4987,115 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Arduino-Clk">
+<description>Arduino Clone pinheaders
+By cl@xganon.com
+http://www.xganon.com</description>
+<packages>
+<package name="ABK-PRO-MINI">
+<description>ABK-PRO-MINI</description>
+<pad name="TX0" x="-5.08" y="6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="RX1" x="-5.08" y="3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="RST1" x="-5.08" y="1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="GND1" x="-5.08" y="-1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="D2" x="-5.08" y="-3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="D3" x="-5.08" y="-6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="D4" x="-5.08" y="-8.89" drill="0.8" shape="long" rot="R180"/>
+<pad name="D5" x="-5.08" y="-11.43" drill="0.8" shape="long" rot="R180"/>
+<pad name="D6" x="-5.08" y="-13.97" drill="0.8" shape="long" rot="R180"/>
+<pad name="D7" x="-5.08" y="-16.51" drill="0.8" shape="long" rot="R180"/>
+<pad name="D8" x="-5.08" y="-19.05" drill="0.8" shape="long" rot="R180"/>
+<pad name="D9" x="-5.08" y="-21.59" drill="0.8" shape="long" rot="R180"/>
+<pad name="RAW" x="10.16" y="6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="GND" x="10.16" y="3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="RST" x="10.16" y="1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="VCC" x="10.16" y="-1.27" drill="0.8" shape="long" rot="R180"/>
+<pad name="A0" x="10.16" y="-11.43" drill="0.8" shape="long" rot="R180"/>
+<pad name="A1" x="10.16" y="-8.89" drill="0.8" shape="long" rot="R180"/>
+<pad name="A2" x="10.16" y="-6.35" drill="0.8" shape="long" rot="R180"/>
+<pad name="A3" x="10.16" y="-3.81" drill="0.8" shape="long" rot="R180"/>
+<pad name="D13" x="10.16" y="-13.97" drill="0.8" shape="long" rot="R180"/>
+<pad name="D12" x="10.16" y="-16.51" drill="0.8" shape="long" rot="R180"/>
+<pad name="D11" x="10.16" y="-19.05" drill="0.8" shape="long" rot="R180"/>
+<pad name="D10" x="10.16" y="-21.59" drill="0.8" shape="long" rot="R180"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ABK-PRO-MINI">
+<description>ABK-Pro-Mini</description>
+<pin name="TX0" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="RX1" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="RST1" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="GND2" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="D2" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="D3" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="D4" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="D5" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="D6" x="-22.86" y="-7.62" visible="pin" length="middle"/>
+<pin name="D7" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="D8" x="-22.86" y="-12.7" visible="pin" length="middle"/>
+<pin name="D9" x="-22.86" y="-15.24" visible="pin" length="middle"/>
+<pin name="RAW" x="15.24" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="RST" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="VCC" x="15.24" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="A3" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A2" x="15.24" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="A1" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="A0" x="15.24" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D13" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D12" x="15.24" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D11" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D10" x="15.24" y="-15.24" visible="pin" length="middle" rot="R180"/>
+<wire x1="-17.78" y1="22.86" x2="10.16" y2="22.86" width="0.254" layer="94"/>
+<wire x1="10.16" y1="22.86" x2="10.16" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-20.32" x2="-17.78" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-20.32" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<text x="-5.08" y="-7.62" size="1.778" layer="95" rot="R90">Arduino Pro Mini</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ABK-PRO-MINI">
+<description>ABK Pro-Mini Arduino Clone</description>
+<gates>
+<gate name="G$1" symbol="ABK-PRO-MINI" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="ABK-PRO-MINI">
+<connects>
+<connect gate="G$1" pin="A0" pad="A0"/>
+<connect gate="G$1" pin="A1" pad="A1"/>
+<connect gate="G$1" pin="A2" pad="A2"/>
+<connect gate="G$1" pin="A3" pad="A3"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13" pad="D13"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND2" pad="GND1"/>
+<connect gate="G$1" pin="RAW" pad="RAW"/>
+<connect gate="G$1" pin="RST" pad="RST"/>
+<connect gate="G$1" pin="RST1" pad="RST1"/>
+<connect gate="G$1" pin="RX1" pad="RX1"/>
+<connect gate="G$1" pin="TX0" pad="TX0"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5166,7 +5133,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="TR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4700"/>
-<part name="U$1" library="Arduino-clone" deviceset="ABK-PRO-MINI" device=""/>
 <part name="WIFI" library="esp8266modules" deviceset="ESP01" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
@@ -5180,6 +5146,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="IC2" library="linear" deviceset="78*" device="DT" technology="08"/>
 <part name="PC3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.33uf"/>
 <part name="Q1" library="transistor-power" deviceset="IRF3704" device="S" value="IRF3707S"/>
+<part name="U$1" library="Arduino-Clk" deviceset="ABK-PRO-MINI" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5218,7 +5185,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="GND3" gate="1" x="243.84" y="96.52"/>
 <instance part="GND4" gate="1" x="160.02" y="121.92" rot="R90"/>
 <instance part="TR1" gate="G$1" x="170.18" y="121.92" rot="R270"/>
-<instance part="U$1" gate="G$1" x="48.26" y="38.1"/>
 <instance part="WIFI" gate="G$1" x="35.56" y="83.82"/>
 <instance part="GND6" gate="1" x="7.62" y="91.44" rot="R270"/>
 <instance part="GND8" gate="1" x="15.24" y="43.18" rot="R270"/>
@@ -5238,6 +5204,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="IC2" gate="A1" x="175.26" y="160.02"/>
 <instance part="PC3" gate="G$1" x="162.56" y="152.4" rot="R180"/>
 <instance part="Q1" gate="G$1" x="17.78" y="106.68"/>
+<instance part="U$1" gate="G$1" x="48.26" y="38.1"/>
 </instances>
 <busses>
 </busses>
@@ -5300,8 +5267,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="U$1" gate="G$1" pin="GND2"/>
 <wire x1="17.78" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="GND2"/>
 </segment>
 </net>
 <net name="RAW" class="1">
@@ -5346,77 +5313,33 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="10.16" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D9"/>
 <wire x1="25.4" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
 <label x="22.86" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D9"/>
 </segment>
 </net>
-<net name="A1" class="0">
-<segment>
-<pinref part="MR2" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="109.22" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="114.3" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="121.92" x2="213.36" y2="127" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
-<label x="228.6" y="127" size="1.778" layer="95" xref="yes"/>
-<wire x1="213.36" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="MD2" gate="G$1" pin="C"/>
-<junction x="213.36" y="114.3"/>
-<junction x="213.36" y="121.92"/>
-<pinref part="MSENS" gate="-2" pin="S"/>
-<wire x1="213.36" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="A1"/>
-<wire x1="63.5" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
-<label x="66.04" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A0" class="0">
-<segment>
-<wire x1="213.36" y1="106.68" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="MR1" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="101.6" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="93.98" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="213.36" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
-<label x="228.6" y="88.9" size="1.778" layer="95" xref="yes"/>
-<wire x1="213.36" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="MD1" gate="G$1" pin="C"/>
-<junction x="213.36" y="101.6"/>
-<junction x="213.36" y="93.98"/>
-<pinref part="MSENS" gate="-1" pin="S"/>
-<wire x1="213.36" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="A0"/>
-<wire x1="63.5" y1="33.02" x2="68.58" y2="33.02" width="0.1524" layer="91"/>
-<label x="66.04" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="D12" class="0">
+<net name="A3_D" class="0">
 <segment>
 <pinref part="MD1" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="93.98" x2="228.6" y2="93.98" width="0.1524" layer="91"/>
 <label x="228.6" y="93.98" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D12"/>
-<wire x1="63.5" y1="27.94" x2="68.58" y2="27.94" width="0.1524" layer="91"/>
-<label x="66.04" y="27.94" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="A3"/>
+<wire x1="63.5" y1="40.64" x2="66.04" y2="40.64" width="0.1524" layer="91"/>
+<label x="66.04" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="D13" class="0">
+<net name="A0_D" class="0">
 <segment>
 <pinref part="MD2" gate="G$1" pin="A"/>
 <wire x1="226.06" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 <label x="228.6" y="121.92" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D13"/>
-<wire x1="63.5" y1="30.48" x2="68.58" y2="30.48" width="0.1524" layer="91"/>
-<label x="66.04" y="30.48" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="A0"/>
+<wire x1="63.5" y1="33.02" x2="66.04" y2="33.02" width="0.1524" layer="91"/>
+<label x="66.04" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5483,8 +5406,8 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </segment>
 <segment>
 <wire x1="63.5" y1="43.18" x2="73.66" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
 <label x="63.5" y="43.18" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5525,9 +5448,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="D10" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D10"/>
 <wire x1="63.5" y1="22.86" x2="66.04" y2="22.86" width="0.1524" layer="91"/>
 <label x="66.04" y="22.86" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D10"/>
 </segment>
 <segment>
 <pinref part="CR1" gate="G$1" pin="2"/>
@@ -5537,9 +5460,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="D11" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D11"/>
 <wire x1="63.5" y1="25.4" x2="66.04" y2="25.4" width="0.1524" layer="91"/>
 <label x="66.04" y="25.4" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D11"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="124.46" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
@@ -5560,9 +5483,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="53.34" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D3"/>
 <wire x1="25.4" y1="38.1" x2="22.86" y2="38.1" width="0.1524" layer="91"/>
 <label x="22.86" y="38.1" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D3"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -5572,9 +5495,9 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="12.7" y="83.82" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D2"/>
 <wire x1="25.4" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
 <label x="22.86" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="D2"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -5593,6 +5516,50 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <pinref part="PC2" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="154.94" x2="187.96" y2="160.02" width="0.1524" layer="91"/>
 <junction x="187.96" y="160.02"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<wire x1="213.36" y1="106.68" x2="213.36" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="MR1" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="101.6" x2="220.98" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="101.6" x2="213.36" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="93.98" x2="213.36" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
+<label x="228.6" y="88.9" size="1.778" layer="95" xref="yes"/>
+<wire x1="213.36" y1="93.98" x2="220.98" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="MD1" gate="G$1" pin="C"/>
+<junction x="213.36" y="101.6"/>
+<junction x="213.36" y="93.98"/>
+<pinref part="MSENS" gate="-1" pin="S"/>
+<wire x1="213.36" y1="106.68" x2="208.28" y2="106.68" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A2"/>
+<wire x1="63.5" y1="38.1" x2="66.04" y2="38.1" width="0.1524" layer="91"/>
+<label x="66.04" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A1" class="0">
+<segment>
+<pinref part="MR2" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="109.22" x2="213.36" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="114.3" x2="220.98" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="114.3" x2="213.36" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="121.92" x2="213.36" y2="127" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="127" x2="228.6" y2="127" width="0.1524" layer="91"/>
+<label x="228.6" y="127" size="1.778" layer="95" xref="yes"/>
+<wire x1="213.36" y1="121.92" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="MD2" gate="G$1" pin="C"/>
+<junction x="213.36" y="114.3"/>
+<junction x="213.36" y="121.92"/>
+<pinref part="MSENS" gate="-2" pin="S"/>
+<wire x1="213.36" y1="109.22" x2="208.28" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="A1"/>
+<wire x1="63.5" y1="35.56" x2="66.04" y2="35.56" width="0.1524" layer="91"/>
+<label x="66.04" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
