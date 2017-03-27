@@ -1,10 +1,10 @@
-(.../external_usr-lang-prog/pcbgcode/pcb-gcode.ulp)
+(.../02_pcbgcode/pcbgcode/pcb-gcode.ulp)
 (Copyright 2005 - 2012 by John Johnson)
 (See readme.txt for licensing terms.)
 (This file generated from the board:)
 (.../KarasolBaxCont/KarasolboxCont.brd)
-(Current profile is .../external_usr-lang-prog/pcbgcode/profiles/emc.pp  )
-(This file generated 3/26/2017 8:07 PM)
+(Current profile is .../02_pcbgcode/pcbgcode/profiles/emc.pp  )
+(This file generated 3/27/2017 9:52 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 3.0000)
 (spindle speed = 20000.0000)
@@ -16,7 +16,7 @@
 (19.5000 	2.0000 	-0.0250 	-1.5000 )
 (Settings from pcb-defaults.h)
 (isolate min = 0.0500)
-(isolate max = 1.0000)
+(isolate max = 0.3000)
 (isolate step = 0.1000)
 (Generated top outlines, top drill, bottom outlines, bottom drill, )
 (Unit of measure: mm)
@@ -83,12 +83,12 @@ G82 X-22.8600 Y21.5900
 G82 X-22.8600 Y19.0500 
 G82 X-31.7350 Y48.9725 
 G82 X-34.2750 Y48.9725 
+G82 X-34.2750 Y51.5125 
+G82 X-31.7350 Y51.5125 
+G82 X-36.8150 Y51.5125 
 G82 X-36.8150 Y48.9725 
 G82 X-39.3550 Y48.9725 
 G82 X-39.3550 Y51.5125 
-G82 X-36.8150 Y51.5125 
-G82 X-34.2750 Y51.5125 
-G82 X-31.7350 Y51.5125 
 G82 X-24.8000 Y54.0000 
 M05
 G00 Z19.0000 
