@@ -4983,8 +4983,8 @@ http://www.xganon.com</description>
 <part name="PLED1" library="led" deviceset="LED" device="CHIP-LED0805"/>
 <part name="PD1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="PC2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uf"/>
-<part name="PR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
+<part name="PC2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="100nf"/>
+<part name="PR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="470"/>
 <part name="F1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" value="1A"/>
 <part name="IC1" library="burr-brown" deviceset="REG1117" device=""/>
 <part name="CR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
@@ -5008,7 +5008,7 @@ http://www.xganon.com</description>
 <part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="TOE"/>
 <part name="Q4" library="transistor-power" deviceset="IRF3704" device="S" value="IRF3707S"/>
 <part name="IC2" library="linear" deviceset="78*" device="DT" technology="08"/>
-<part name="PC3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.33uf"/>
+<part name="PC3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uf"/>
 <part name="CQ1" library="transistor-power" deviceset="IRF3704" device="S" value="IRF3707S"/>
 <part name="U$1" library="Arduino-Clk" deviceset="ABK-PRO-MINI" device=""/>
 </parts>
