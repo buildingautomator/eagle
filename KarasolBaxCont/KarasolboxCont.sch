@@ -3191,137 +3191,6 @@ SIBA194600A&lt;b&gt;xxx&lt;/b&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="switch-misc">
-<description>&lt;b&gt;Switches&lt;/b&gt;&lt;p&gt;
-Marquardt, RAFI, ITT, TYCO and others&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="9077-2">
-<description>&lt;b&gt;MARQUARDT SWITCH&lt;/b&gt;</description>
-<wire x1="4.445" y1="-4.445" x2="4.445" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="4.445" x2="-3.175" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="4.445" x2="-4.445" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-4.445" x2="3.175" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="-4.064" x2="4.064" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.064" y1="3.937" x2="-3.175" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="-4.064" y1="3.937" x2="-4.064" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="-4.064" x2="3.175" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="3.175" x2="4.445" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="3.175" x2="4.064" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="3.175" x2="4.445" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="3.937" x2="3.175" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="3.937" x2="4.064" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="4.445" x2="4.445" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="3.937" x2="-3.175" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="3.937" x2="3.175" y2="3.937" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="4.445" x2="3.175" y2="4.445" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-4.445" x2="-3.175" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-4.445" x2="-4.445" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-4.064" x2="-4.064" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-4.445" x2="3.175" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-4.445" x2="-3.175" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-4.064" x2="-3.175" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="-3.175" x2="4.445" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="4.064" y1="-3.175" x2="4.064" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-3.175" x2="4.445" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-3.175" x2="-4.064" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-3.175" x2="-4.445" y2="-4.445" width="0.1524" layer="21"/>
-<wire x1="-4.064" y1="-3.175" x2="-4.064" y2="-4.064" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="3.175" x2="-4.064" y2="3.175" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="3.175" x2="-4.445" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="-4.064" y1="3.175" x2="-4.064" y2="-3.175" width="0.1524" layer="21"/>
-<wire x1="0.9433" y1="2.3583" x2="2.5401" y2="0" width="0.1524" layer="21" curve="-68.196862" cap="flat"/>
-<wire x1="2.5715" y1="1.6364" x2="3.048" y2="0" width="0.1524" layer="21" curve="-32.47115" cap="flat"/>
-<wire x1="-3.048" y1="0" x2="-2.5959" y2="1.5974" width="0.1524" layer="21" curve="-31.60634" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-0.9433" y2="2.3583" width="0.1524" layer="21" curve="-68.198389" cap="flat"/>
-<wire x1="0.9118" y1="-2.3707" x2="2.54" y2="0" width="0.1524" layer="21" curve="68.962644" cap="flat"/>
-<wire x1="2.5715" y1="-1.6364" x2="3.048" y2="0" width="0.1524" layer="21" curve="32.47115" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-0.9769" y2="-2.3446" width="0.1524" layer="21" curve="67.380135" cap="flat"/>
-<wire x1="-3.048" y1="0" x2="-2.6008" y2="-1.5894" width="0.1524" layer="21" curve="31.429965" cap="flat"/>
-<wire x1="0" y1="2.54" x2="1.0316" y2="2.3211" width="0.1524" layer="51" curve="-23.962587" cap="flat"/>
-<wire x1="-1.0181" y1="2.327" x2="0" y2="2.54" width="0.1524" layer="51" curve="-23.63002" cap="flat"/>
-<wire x1="0" y1="-2.54" x2="1.0316" y2="-2.3211" width="0.1524" layer="51" curve="23.962587" cap="flat"/>
-<wire x1="-1.0815" y1="-2.2982" x2="0" y2="-2.54" width="0.1524" layer="51" curve="25.200771" cap="flat"/>
-<wire x1="0" y1="3.048" x2="2.6272" y2="1.5454" width="0.1524" layer="51" curve="-59.534887" cap="flat"/>
-<wire x1="-2.6707" y1="1.4689" x2="0" y2="3.048" width="0.1524" layer="51" curve="-61.188962" cap="flat"/>
-<wire x1="0" y1="-3.048" x2="2.6328" y2="-1.5358" width="0.1524" layer="51" curve="59.743587" cap="flat"/>
-<wire x1="-2.6758" y1="-1.4595" x2="0" y2="-3.048" width="0.1524" layer="51" curve="61.389518" cap="flat"/>
-<pad name="2" x="0" y="2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="1" x="-2.54" y="2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="4" x="-2.54" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="5" x="0" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<pad name="6" x="2.54" y="-2.54" drill="0.8128" shape="long" rot="R90"/>
-<text x="-4.445" y="5.08" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.445" y="-6.35" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<text x="2.54" y="2.286" size="1.27" layer="51" ratio="10">E</text>
-<text x="-3.683" y="2.286" size="1.27" layer="51" ratio="10">T</text>
-</package>
-</packages>
-<symbols>
-<symbol name="TSU-">
-<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="1.905" x2="-3.81" y2="1.905" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.905" x2="-5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-1.905" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-3.175" y2="0" width="0.1524" layer="94"/>
-<wire x1="-5.08" y1="0" x2="-5.08" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="0.635" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.905" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.635" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<text x="-4.445" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<text x="-6.985" y="-1.905" size="1.778" layer="95" rot="R90">&gt;PART</text>
-<pin name="P" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-<symbol name="U-2">
-<wire x1="0" y1="-3.175" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-1.905" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="3.175" width="0.254" layer="94"/>
-<wire x1="-0.889" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
-<wire x1="-1.905" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.175" y1="0" x2="-3.81" y2="0" width="0.1524" layer="94"/>
-<text x="5.08" y="-1.905" size="1.778" layer="95" rot="R90">&gt;PART</text>
-<pin name="P" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="S" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="O" x="-2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="9077-2" prefix="S">
-<description>&lt;b&gt;MARQUARDT SWITCH&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="TSU-" x="0" y="0" addlevel="must"/>
-<gate name="2" symbol="U-2" x="10.16" y="0" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="9077-2">
-<connects>
-<connect gate="1" pin="O" pad="3"/>
-<connect gate="1" pin="P" pad="2"/>
-<connect gate="1" pin="S" pad="1"/>
-<connect gate="2" pin="O" pad="6"/>
-<connect gate="2" pin="P" pad="5"/>
-<connect gate="2" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-amp-mt">
 <description>&lt;b&gt;AMP Connectors, Type MT&lt;/b&gt;&lt;p&gt;
 include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
@@ -5000,7 +4869,6 @@ http://www.xganon.com</description>
 <part name="WIFI" library="esp8266modules" deviceset="ESP01" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="S1" library="switch-misc" deviceset="9077-2" device=""/>
 <part name="MSENS" library="con-amp-mt" deviceset="S02P" device=""/>
 <part name="TSENS" library="con-amp-mt" deviceset="S03P" device=""/>
 <part name="CCON" library="con-ptr500" deviceset="AK300/2" device=""/>
@@ -5011,13 +4879,14 @@ http://www.xganon.com</description>
 <part name="PC3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uf"/>
 <part name="CQ1" library="transistor-power" deviceset="IRF3704" device="S" value="IRF3707S"/>
 <part name="U$1" library="Arduino-Clk" deviceset="ABK-PRO-MINI" device=""/>
+<part name="CCON1" library="con-ptr500" deviceset="AK300/2" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="10.16" y="167.64" size="1.778" layer="91">IRRIGATION</text>
 <text x="5.08" y="63.5" size="1.778" layer="91">Pro Mini Stamp Socket</text>
-<text x="114.3" y="167.64" size="1.778" layer="91">POWER</text>
+<text x="114.3" y="160.02" size="1.778" layer="91">POWER</text>
 <text x="200.66" y="129.54" size="1.778" layer="91">MOISTURE SENSOR</text>
 <text x="10.16" y="129.54" size="1.778" layer="91">CLIMATE</text>
 <text x="137.16" y="132.08" size="1.778" layer="91">TEMPERATURE SENSOR</text>
@@ -5050,8 +4919,6 @@ http://www.xganon.com</description>
 <instance part="WIFI" gate="G$1" x="35.56" y="83.82"/>
 <instance part="GND6" gate="1" x="7.62" y="91.44" rot="R270"/>
 <instance part="GND8" gate="1" x="15.24" y="43.18" rot="R270"/>
-<instance part="S1" gate="1" x="137.16" y="165.1" rot="R180"/>
-<instance part="S1" gate="2" x="127" y="165.1" rot="R180"/>
 <instance part="MSENS" gate="-1" x="203.2" y="106.68"/>
 <instance part="MSENS" gate="-2" x="203.2" y="109.22"/>
 <instance part="TSENS" gate="-1" x="142.24" y="119.38"/>
@@ -5067,6 +4934,8 @@ http://www.xganon.com</description>
 <instance part="PC3" gate="G$1" x="162.56" y="152.4" rot="R180"/>
 <instance part="CQ1" gate="G$1" x="27.94" y="116.84"/>
 <instance part="U$1" gate="G$1" x="48.26" y="38.1"/>
+<instance part="CCON1" gate="-1" x="127" y="170.18"/>
+<instance part="CCON1" gate="-2" x="127" y="165.1"/>
 </instances>
 <busses>
 </busses>
@@ -5281,16 +5150,17 @@ http://www.xganon.com</description>
 <net name="N$3" class="0">
 <segment>
 <pinref part="PD1" gate="G$1" pin="A"/>
-<pinref part="S1" gate="1" pin="P"/>
-<wire x1="137.16" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
+<pinref part="CCON1" gate="-1" pin="KL"/>
+<wire x1="132.08" y1="170.18" x2="142.24" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="134.62" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="S1" gate="1" pin="S"/>
-<wire x1="134.62" y1="149.86" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="149.86" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
+<pinref part="CCON1" gate="-2" pin="KL"/>
+<wire x1="132.08" y1="165.1" x2="134.62" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
