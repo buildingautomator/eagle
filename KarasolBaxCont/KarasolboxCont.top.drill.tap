@@ -4,7 +4,7 @@
 (This file generated from the board:)
 (.../KarasolBaxCont/KarasolboxCont.brd)
 (Current profile is .../02_pcbgcode/pcbgcode/profiles/emc.pp  )
-(This file generated 4/19/2017 4:02 PM)
+(This file generated 4/21/2017 6:03 PM)
 (Settings from pcb-machine.h)
 (spindle on time = 3.0000)
 (spindle speed = 20000.0000)
@@ -139,6 +139,9 @@ G00 X39.3550 Y51.5125
 G01 Z-1.5000 F508.00 
 G00 Z2.0000 
 G00 X24.8000 Y54.0000 
+G01 Z-1.5000 F508.00 
+G00 Z2.0000 
+G00 X22.8000 Y63.2000 
 G01 Z-1.5000 F508.00 
 G00 Z2.0000 
 M05

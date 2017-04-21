@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.0">
+<eagle version="8.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5061,7 +5061,7 @@ http://www.xganon.com</description>
 <instance part="CCON" gate="-2" x="38.1" y="134.62" rot="R270"/>
 <instance part="ICON" gate="-1" x="43.18" y="172.72" rot="R270"/>
 <instance part="ICON" gate="-2" x="38.1" y="172.72" rot="R270"/>
-<instance part="J1" gate="G$1" x="121.92" y="144.78"/>
+<instance part="J1" gate="G$1" x="121.92" y="142.24"/>
 <instance part="Q4" gate="G$1" x="27.94" y="154.94"/>
 <instance part="IC2" gate="A1" x="175.26" y="160.02"/>
 <instance part="PC3" gate="G$1" x="162.56" y="152.4" rot="R180"/>
@@ -5094,15 +5094,15 @@ http://www.xganon.com</description>
 <pinref part="PLED1" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="147.32" x2="220.98" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="124.46" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="A1" pin="GND"/>
+<wire x1="124.46" y1="147.32" x2="162.56" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="147.32" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="147.32" x2="187.96" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="152.4" x2="175.26" y2="147.32" width="0.1524" layer="91"/>
 <junction x="175.26" y="147.32"/>
 <pinref part="PC3" gate="G$1" pin="1"/>
 <junction x="162.56" y="147.32"/>
+<pinref part="J1" gate="G$1" pin="GNDBREAK"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="111.76" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
@@ -5287,9 +5287,9 @@ http://www.xganon.com</description>
 </net>
 <net name="N$7" class="0">
 <segment>
-<wire x1="132.08" y1="152.4" x2="124.46" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="149.86" x2="124.46" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="S1" gate="1" pin="S"/>
-<wire x1="132.08" y1="152.4" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="134.62" y1="149.86" x2="134.62" y2="160.02" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="PWR"/>
 </segment>
 </net>
