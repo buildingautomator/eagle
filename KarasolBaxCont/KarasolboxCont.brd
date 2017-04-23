@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.1.1">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1303,14 +1303,15 @@ design rules under a new name.</description>
 <element name="PC3" library="SparkFun-Capacitors" package="0805" value="1uf" x="38.1" y="69.85" rot="R180"/>
 <element name="CQ1" library="transistor-power" package="D2PACK" value="IRF3707S" x="30.48" y="7.62" rot="R180"/>
 <element name="U$1" library="Arduino-Clk" package="ABK-PRO-MINI" value="ABK-PRO-MINI" x="12.7" y="40.64"/>
-<element name="U$2" library="Logo" package="IOTECH_COPPER" value="" x="40.64" y="11.43"/>
+<element name="U$2" library="Logo" package="IOTECH_COPPER" value="" x="15.24" y="24.13"/>
 <element name="CCON1" library="con-ptr500" package="AK300/2" value="" x="19.05" y="72.39" rot="R180">
 <attribute name="MF" value="" x="19.05" y="72.39" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="19.05" y="72.39" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="19.05" y="72.39" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="19.05" y="72.39" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U$3" library="Logo" package="IOTECH_COPPER_M" value="" x="34.29" y="66.04" rot="MR0"/>
+<element name="U$3" library="Logo" package="IOTECH_COPPER_M" value="" x="34.29" y="63.5" rot="MR0"/>
+<element name="U$4" library="Logo" package="IOTECH_COPPER_M" value="" x="40.64" y="11.43"/>
 </elements>
 <signals>
 <signal name="GND">
