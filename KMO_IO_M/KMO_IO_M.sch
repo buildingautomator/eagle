@@ -4940,13 +4940,6 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <wire x1="139.7" y1="205.74" x2="139.7" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VCCSRV" class="0">
-<segment>
-<pinref part="MC" gate="G$1" pin="VCC$1"/>
-<wire x1="66.04" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
-<label x="73.66" y="68.58" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
 <net name="N$7" class="0">
 <segment>
 <wire x1="45.72" y1="208.28" x2="35.56" y2="208.28" width="0.1524" layer="91"/>
@@ -5073,6 +5066,11 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <junction x="213.36" y="190.5"/>
 <pinref part="TSENS1" gate="-1" pin="S"/>
 <wire x1="190.5" y1="195.58" x2="193.04" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="MC" gate="G$1" pin="VCC$1"/>
+<wire x1="66.04" y1="68.58" x2="73.66" y2="68.58" width="0.1524" layer="91"/>
+<label x="73.66" y="68.58" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$4" class="0">
