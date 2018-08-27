@@ -4737,6 +4737,163 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="diy-modules">
+<description>&lt;b&gt;DIY Modules for Arduino, Raspberry Pi, CubieBoard etc.&lt;/b&gt;
+&lt;br&gt;&lt;br&gt;
+The library contains a list of symbols and footprints for popular, cheap and easy-to-use electronic modules.&lt;br&gt;
+The modules are intend to work with microprocessor-based platforms such as &lt;a href="http://arduino.cc"&gt;Arduino&lt;/a&gt;, &lt;a href="http://raspberrypi.org/"&gt;Raspberry Pi&lt;/a&gt;, &lt;a href="http://cubieboard.org/"&gt;CubieBoard&lt;/a&gt;, &lt;a href="http://beagleboard.org/"&gt;BeagleBone&lt;/a&gt; and many others. There are many manufacturers of the modules in the world. Almost all of them can be bought on &lt;a href="ebay.com"&gt;ebay.com&lt;/a&gt;.&lt;br&gt;
+&lt;br&gt;
+By using this library, you can design a PCB for devices created with usage of modules. Even if you do not need to create PCB design, you can also use the library to quickly document your work by drawing schematics of devices built by you.&lt;br&gt;
+&lt;br&gt;
+The latest version, examples, photos and much more can be found at: &lt;b&gt;&lt;a href="http://diymodules.org/eagle"&gt;diymodules.org/eagle&lt;/a&gt;&lt;/b&gt;&lt;br&gt;&lt;br&gt;
+Comments, suggestions and bug reports please send to: &lt;b&gt;&lt;a href="mailto:eagle@diymodules.org"&gt;eagle@diymodules.org&lt;/b&gt;&lt;/a&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Version: 1.8.0 (2017-Jul-02)&lt;/i&gt;&lt;br&gt;
+&lt;i&gt;Created by: Miroslaw Brudnowski&lt;/i&gt;&lt;br&gt;&lt;br&gt;
+&lt;i&gt;Released under the Creative Commons Attribution 4.0 International License: &lt;a href="http://creativecommons.org/licenses/by/4.0"&gt;http://creativecommons.org/licenses/by/4.0&lt;/a&gt;&lt;/i&gt;
+&lt;br&gt;&lt;br&gt;
+&lt;center&gt;
+&lt;a href="http://diymodules.org/eagle"&gt;&lt;img src="http://www.diymodules.org/img/diymodules-lbr-image.php?v=1.8.0" alt="DIYmodules.org"&gt;&lt;/a&gt;
+&lt;/center&gt;</description>
+<packages>
+<package name="ETHERNET-ENC28J60">
+<description>&lt;b&gt;Ethernet Module&lt;/b&gt; based on &lt;b&gt;ENC28J60&lt;/b&gt; chip</description>
+<wire x1="-25.4" y1="16.51" x2="25.4" y2="16.51" width="0.127" layer="21"/>
+<wire x1="25.4" y1="16.51" x2="25.4" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="25.4" y1="-16.51" x2="-25.4" y2="-16.51" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="-16.51" x2="-25.4" y2="-8.001" width="0.127" layer="21"/>
+<hole x="-21.844" y="13.97" drill="2"/>
+<hole x="21.844" y="13.97" drill="2"/>
+<hole x="-21.844" y="-13.97" drill="2"/>
+<hole x="21.844" y="-13.97" drill="2"/>
+<pad name="1" x="22.86" y="-6.35" drill="1" shape="square"/>
+<pad name="2" x="20.32" y="-6.35" drill="1"/>
+<pad name="3" x="22.86" y="-3.81" drill="1"/>
+<pad name="4" x="20.32" y="-3.81" drill="1"/>
+<pad name="5" x="22.86" y="-1.27" drill="1"/>
+<pad name="6" x="20.32" y="-1.27" drill="1"/>
+<pad name="7" x="22.86" y="1.27" drill="1"/>
+<pad name="8" x="20.32" y="1.27" drill="1"/>
+<pad name="9" x="22.86" y="3.81" drill="1"/>
+<pad name="10" x="20.32" y="3.81" drill="1"/>
+<pad name="11" x="22.86" y="6.35" drill="1"/>
+<pad name="12" x="20.32" y="6.35" drill="1"/>
+<wire x1="-25.4" y1="-8.001" x2="-25.4" y2="8.001" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="8.001" x2="-25.4" y2="16.51" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-6.985" x2="23.495" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="23.495" y1="-7.62" x2="22.225" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="22.225" y1="-7.62" x2="21.59" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="21.59" y1="-6.985" x2="20.955" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="20.955" y1="-7.62" x2="19.685" y2="-7.62" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-7.62" x2="19.05" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-6.985" x2="19.05" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-5.715" x2="19.685" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-5.08" x2="19.05" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-4.445" x2="19.05" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-3.175" x2="19.685" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="19.685" y1="-2.54" x2="19.05" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-1.905" x2="19.05" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="19.05" y1="-0.635" x2="19.685" y2="0" width="0.127" layer="21"/>
+<wire x1="19.685" y1="0" x2="19.05" y2="0.635" width="0.127" layer="21"/>
+<wire x1="19.05" y1="0.635" x2="19.05" y2="1.905" width="0.127" layer="21"/>
+<wire x1="19.05" y1="1.905" x2="19.685" y2="2.54" width="0.127" layer="21"/>
+<wire x1="19.685" y1="2.54" x2="19.05" y2="3.175" width="0.127" layer="21"/>
+<wire x1="19.05" y1="3.175" x2="19.05" y2="4.445" width="0.127" layer="21"/>
+<wire x1="19.05" y1="4.445" x2="19.685" y2="5.08" width="0.127" layer="21"/>
+<wire x1="19.685" y1="5.08" x2="19.05" y2="5.715" width="0.127" layer="21"/>
+<wire x1="19.05" y1="5.715" x2="19.05" y2="6.985" width="0.127" layer="21"/>
+<wire x1="19.05" y1="6.985" x2="19.685" y2="7.62" width="0.127" layer="21"/>
+<wire x1="19.685" y1="7.62" x2="20.955" y2="7.62" width="0.127" layer="21"/>
+<wire x1="20.955" y1="7.62" x2="21.59" y2="6.985" width="0.127" layer="21"/>
+<wire x1="21.59" y1="6.985" x2="22.225" y2="7.62" width="0.127" layer="21"/>
+<wire x1="22.225" y1="7.62" x2="23.495" y2="7.62" width="0.127" layer="21"/>
+<wire x1="23.495" y1="7.62" x2="24.13" y2="6.985" width="0.127" layer="21"/>
+<wire x1="24.13" y1="6.985" x2="24.13" y2="5.715" width="0.127" layer="21"/>
+<wire x1="24.13" y1="5.715" x2="23.495" y2="5.08" width="0.127" layer="21"/>
+<wire x1="23.495" y1="5.08" x2="24.13" y2="4.445" width="0.127" layer="21"/>
+<wire x1="24.13" y1="4.445" x2="24.13" y2="3.175" width="0.127" layer="21"/>
+<wire x1="24.13" y1="3.175" x2="23.495" y2="2.54" width="0.127" layer="21"/>
+<wire x1="23.495" y1="2.54" x2="24.13" y2="1.905" width="0.127" layer="21"/>
+<wire x1="24.13" y1="1.905" x2="24.13" y2="0.635" width="0.127" layer="21"/>
+<wire x1="24.13" y1="0.635" x2="23.495" y2="0" width="0.127" layer="21"/>
+<wire x1="23.495" y1="0" x2="24.13" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-0.635" x2="24.13" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-1.905" x2="23.495" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="23.495" y1="-2.54" x2="24.13" y2="-3.175" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-3.175" x2="24.13" y2="-4.445" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-4.445" x2="23.495" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="23.495" y1="-5.08" x2="24.13" y2="-5.715" width="0.127" layer="21"/>
+<wire x1="24.13" y1="-5.715" x2="24.13" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-25.4" y1="8.001" x2="-4.318" y2="8.001" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="8.001" x2="-4.318" y2="-8.001" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="-8.001" x2="-25.4" y2="-8.001" width="0.127" layer="21"/>
+<text x="-14.605" y="0" size="1.778" layer="21" align="center">RJ45</text>
+<text x="0" y="17.78" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-17.78" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="ETHERNET-ENC28J60">
+<description>&lt;b&gt;Ethernet Module&lt;/b&gt; based on &lt;b&gt;ENC28J60&lt;/b&gt; chip</description>
+<pin name="GND.1" x="25.4" y="-12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="3V3" x="25.4" y="-10.16" length="middle" direction="pwr" rot="R180"/>
+<pin name="CS" x="25.4" y="-7.62" length="middle" rot="R180"/>
+<pin name="RST" x="25.4" y="-5.08" length="middle" rot="R180"/>
+<pin name="SI" x="25.4" y="-2.54" length="middle" rot="R180"/>
+<pin name="SCK" x="25.4" y="0" length="middle" rot="R180"/>
+<pin name="WOL" x="25.4" y="2.54" length="middle" rot="R180"/>
+<pin name="SO" x="25.4" y="5.08" length="middle" rot="R180"/>
+<pin name="CLK" x="25.4" y="7.62" length="middle" rot="R180"/>
+<pin name="INT" x="25.4" y="10.16" length="middle" rot="R180"/>
+<pin name="GND.2" x="25.4" y="12.7" length="middle" direction="pwr" rot="R180"/>
+<pin name="5V" x="25.4" y="15.24" length="middle" direction="pwr" rot="R180"/>
+<wire x1="20.32" y1="17.78" x2="20.32" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-15.24" x2="-25.4" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-15.24" x2="-25.4" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-7.62" x2="-25.4" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="10.16" x2="-25.4" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="17.78" x2="20.32" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-25.4" y1="-7.62" x2="-2.54" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-7.62" x2="-2.54" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="10.16" x2="-25.4" y2="10.16" width="0.254" layer="94"/>
+<text x="-13.97" y="1.27" size="2.54" layer="94" align="center">RJ-45</text>
+<text x="-22.86" y="22.86" size="1.778" layer="95">&gt;NAME</text>
+<text x="-22.86" y="20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ETHERNET-ENC28J60" prefix="M">
+<description>&lt;b&gt;Ethernet Module&lt;/b&gt; based on &lt;b&gt;ENC28J60&lt;/b&gt; chip
+&lt;p&gt;&lt;b&gt;&lt;a href="http://www.ebay.com/sch/end28j60+ethernet+lan+module"&gt;Click here to find device on ebay.com&lt;/a&gt;&lt;/b&gt;&lt;br /&gt;
+&lt;b&gt;Note:&lt;/b&gt; There are many variants. Search for the proper version.&lt;/p&gt;
+
+&lt;p&gt;&lt;img alt="photo" src="http://www.diymodules.org/img/device-photo.php?name=ETHERNET-ENC28J60"&gt;&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="ETHERNET-ENC28J60" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ETHERNET-ENC28J60">
+<connects>
+<connect gate="G$1" pin="3V3" pad="2"/>
+<connect gate="G$1" pin="5V" pad="12"/>
+<connect gate="G$1" pin="CLK" pad="9"/>
+<connect gate="G$1" pin="CS" pad="3"/>
+<connect gate="G$1" pin="GND.1" pad="1"/>
+<connect gate="G$1" pin="GND.2" pad="11"/>
+<connect gate="G$1" pin="INT" pad="10"/>
+<connect gate="G$1" pin="RST" pad="4"/>
+<connect gate="G$1" pin="SCK" pad="6"/>
+<connect gate="G$1" pin="SI" pad="5"/>
+<connect gate="G$1" pin="SO" pad="8"/>
+<connect gate="G$1" pin="WOL" pad="7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4781,6 +4938,7 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="ICON1" library="con-ptr500" deviceset="AK300/2" device=""/>
 <part name="Q1" library="transistor-power" deviceset="IRF3704" device="S" value="IRF3707S"/>
+<part name="M1" library="diy-modules" deviceset="ETHERNET-ENC28J60" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4829,6 +4987,7 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <instance part="ICON1" gate="-1" x="132.08" y="180.34" rot="R270"/>
 <instance part="ICON1" gate="-2" x="127" y="180.34" rot="R270"/>
 <instance part="Q1" gate="G$1" x="116.84" y="162.56"/>
+<instance part="M1" gate="G$1" x="116.84" y="109.22"/>
 </instances>
 <busses>
 </busses>
