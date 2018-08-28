@@ -1354,8 +1354,8 @@ design rules under a new name.</description>
 <element name="PD1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="" x="78" y="4" rot="R180"/>
 <element name="PC2" library="SparkFun-Capacitors" package="0805" value="100nf" x="53" y="3.5" rot="R180"/>
 <element name="PR1" library="SparkFun-Passives" package="0805" value="470" x="62.75" y="19" rot="R180"/>
-<element name="F1" library="_hhn_PtcFuses_Siba_r500_Ozan" package="1820" value="1A" x="66.75" y="8.25" rot="R180"/>
-<element name="IC1" library="burr-brown" package="SOT223" value="REG1117" x="55.25" y="21" rot="R180">
+<element name="PF1" library="_hhn_PtcFuses_Siba_r500_Ozan" package="1820" value="1A" x="66.75" y="8.25" rot="R180"/>
+<element name="PIC1" library="burr-brown" package="SOT223" value="REG1117" x="55.25" y="21" rot="R180">
 <attribute name="MF" value="" x="79" y="-0.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="REG1117" x="79" y="-0.75" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1097566" x="79" y="-0.75" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1365,28 +1365,28 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="CONN-08106" x="120.25" y="6.25" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SF_ID" value="PRT-12748" x="120.25" y="6.25" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="IC2" library="linear" package="TO252" value="7808DT" x="56.25" y="10.75" rot="R90"/>
+<element name="PIC2" library="linear" package="TO252" value="7808DT" x="56.25" y="10.75" rot="R90"/>
 <element name="PC3" library="SparkFun-Capacitors" package="0805" value="1uf" x="58.25" y="3.5"/>
-<element name="JPF1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="67" y="3" rot="R90"/>
+<element name="PFJ1" library="jumper" library_urn="urn:adsk.eagle:library:252" package="JP1" package3d_urn="urn:adsk.eagle:package:15455/1" value="" x="67" y="3" rot="R90"/>
 <element name="OR1" library="SparkFun-Passives" package="0805" value="1K" x="41.25" y="90.5" rot="R270"/>
 <element name="OD1" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="" x="17" y="90.5" rot="R90"/>
-<element name="ICON1" library="con-ptr500" package="AK300/2" value="" x="5.5" y="88" rot="R270">
+<element name="OT1" library="con-ptr500" package="AK300/2" value="" x="5.5" y="88" rot="R270">
 <attribute name="MF" value="" x="40.25" y="102.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="40.25" y="102.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="40.25" y="102.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.25" y="102.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q1" library="transistor-power" package="D2PACK" value="IRF3707S" x="28.25" y="88.5" rot="R90"/>
-<element name="U$4" library="Logo" package="IOTECH_COPPER_M" value="" x="5.5" y="4.75"/>
-<element name="TR1" library="SparkFun-Passives" package="0805" value="4700" x="74" y="30.25" rot="R270"/>
-<element name="TSENS" library="con-amp-mt" package="S03P" value="" x="80" y="31.75" rot="R270">
+<element name="OQ1" library="transistor-power" package="D2PACK" value="IRF3707S" x="28.25" y="88.5" rot="R90"/>
+<element name="LOGO" library="Logo" package="IOTECH_COPPER_M" value="" x="5.5" y="4.75"/>
+<element name="NIR1" library="SparkFun-Passives" package="0805" value="4700" x="74" y="30.25" rot="R270"/>
+<element name="NIT1" library="con-amp-mt" package="S03P" value="" x="80" y="31.75" rot="R270">
 <attribute name="MF" value="" x="80" y="34.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="80" y="34.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="80" y="34.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="80" y="34.75" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="TR2" library="SparkFun-Passives" package="0805" value="4700" x="74.25" y="44.5" rot="R270"/>
-<element name="TSENS1" library="con-amp-mt" package="S03P" value="" x="80" y="46" rot="R270">
+<element name="NIR2" library="SparkFun-Passives" package="0805" value="4700" x="74.25" y="44.5" rot="R270"/>
+<element name="NIT2" library="con-amp-mt" package="S03P" value="" x="80" y="46" rot="R270">
 <attribute name="MF" value="" x="80" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="80" y="49" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="80" y="49" size="1.778" layer="27" rot="R270" display="off"/>
@@ -1394,13 +1394,13 @@ design rules under a new name.</description>
 </element>
 <element name="OR2" library="SparkFun-Passives" package="0805" value="1K" x="41.5" y="77.5" rot="R270"/>
 <element name="OD2" library="SparkFun-DiscreteSemi" package="SMA-DIODE" value="" x="17" y="76" rot="R90"/>
-<element name="ICON2" library="con-ptr500" package="AK300/2" value="" x="5.5" y="77.75" rot="R270">
+<element name="OT2" library="con-ptr500" package="AK300/2" value="" x="5.5" y="77.75" rot="R270">
 <attribute name="MF" value="" x="40.25" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="40.25" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="40.25" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="40.25" y="92.5" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="Q2" library="transistor-power" package="D2PACK" value="IRF3707S" x="28.25" y="75.5" rot="R90"/>
+<element name="OQ2" library="transistor-power" package="D2PACK" value="IRF3707S" x="28.25" y="75.5" rot="R90"/>
 <element name="ETH" library="diy-modules" package="ETHERNET-ENC28J60" value="ETHERNET-ENC28J60" x="38" y="37.75"/>
 <element name="WIFI" library="esp8266modules" package="ESP01" value="ESP01" x="35" y="11.75" rot="R90"/>
 </elements>
@@ -1409,14 +1409,14 @@ design rules under a new name.</description>
 <contactref element="MC" pad="GDN$1"/>
 </signal>
 <signal name="RAW_IV" class="1">
-<contactref element="IC2" pad="1"/>
+<contactref element="PIC2" pad="1"/>
 <contactref element="PC3" pad="2"/>
-<contactref element="JPF1" pad="2"/>
-<contactref element="ICON1" pad="1"/>
+<contactref element="PFJ1" pad="2"/>
+<contactref element="OT1" pad="1"/>
 <contactref element="OD1" pad="C"/>
-<contactref element="ICON2" pad="1"/>
+<contactref element="OT2" pad="1"/>
 <contactref element="OD2" pad="C"/>
-<contactref element="F1" pad="2"/>
+<contactref element="PF1" pad="2"/>
 </signal>
 <signal name="GND$3">
 <contactref element="MC" pad="GND$3"/>
@@ -1428,19 +1428,19 @@ design rules under a new name.</description>
 <contactref element="MC" pad="VCC$2"/>
 </signal>
 <signal name="GND">
-<contactref element="IC1" pad="1"/>
+<contactref element="PIC1" pad="1"/>
 <contactref element="PC2" pad="1"/>
 <contactref element="PC1" pad="1"/>
 <contactref element="PLED1" pad="C"/>
-<contactref element="IC2" pad="3"/>
+<contactref element="PIC2" pad="3"/>
 <contactref element="PC3" pad="1"/>
 <contactref element="PJ1" pad="GND"/>
 <contactref element="MC" pad="GND$4"/>
-<contactref element="Q1" pad="3"/>
+<contactref element="OQ1" pad="3"/>
 <contactref element="OR1" pad="1"/>
-<contactref element="TSENS" pad="3"/>
-<contactref element="TSENS1" pad="3"/>
-<contactref element="Q2" pad="3"/>
+<contactref element="NIT1" pad="3"/>
+<contactref element="NIT2" pad="3"/>
+<contactref element="OQ2" pad="3"/>
 <contactref element="OR2" pad="1"/>
 <contactref element="WIFI" pad="GND"/>
 <contactref element="ETH" pad="1"/>
@@ -1454,21 +1454,21 @@ design rules under a new name.</description>
 <contactref element="PD1" pad="A"/>
 </signal>
 <signal name="N$12">
-<contactref element="IC2" pad="2"/>
-<contactref element="IC1" pad="3"/>
+<contactref element="PIC2" pad="2"/>
+<contactref element="PIC1" pad="3"/>
 <contactref element="PC2" pad="2"/>
 </signal>
 <signal name="N$2">
-<contactref element="JPF1" pad="1"/>
+<contactref element="PFJ1" pad="1"/>
 <contactref element="PD1" pad="C"/>
-<contactref element="F1" pad="1"/>
+<contactref element="PF1" pad="1"/>
 </signal>
 <signal name="N$1">
 <contactref element="MC" pad="RAW"/>
 </signal>
 <signal name="N$3">
-<contactref element="ICON1" pad="2"/>
-<contactref element="Q1" pad="2"/>
+<contactref element="OT1" pad="2"/>
+<contactref element="OQ1" pad="2"/>
 <contactref element="OD1" pad="A"/>
 </signal>
 <signal name="D11">
@@ -1476,26 +1476,26 @@ design rules under a new name.</description>
 <contactref element="ETH" pad="5"/>
 </signal>
 <signal name="A1">
-<contactref element="TR2" pad="1"/>
-<contactref element="TSENS1" pad="2"/>
+<contactref element="NIR2" pad="1"/>
+<contactref element="NIT2" pad="2"/>
 <contactref element="MC" pad="A1"/>
 </signal>
 <signal name="VCC3.3">
 <contactref element="PC1" pad="2"/>
 <contactref element="PR1" pad="2"/>
-<contactref element="IC1" pad="2"/>
-<contactref element="TR1" pad="2"/>
-<contactref element="TSENS" pad="1"/>
-<contactref element="TR2" pad="2"/>
-<contactref element="TSENS1" pad="1"/>
+<contactref element="PIC1" pad="2"/>
+<contactref element="NIR1" pad="2"/>
+<contactref element="NIT1" pad="1"/>
+<contactref element="NIR2" pad="2"/>
+<contactref element="NIT2" pad="1"/>
 <contactref element="MC" pad="VCC$1"/>
 <contactref element="ETH" pad="2"/>
 <contactref element="WIFI" pad="VCC"/>
 <contactref element="WIFI" pad="CH_PD"/>
 </signal>
 <signal name="N$4">
-<contactref element="ICON2" pad="2"/>
-<contactref element="Q2" pad="2"/>
+<contactref element="OT2" pad="2"/>
+<contactref element="OQ2" pad="2"/>
 <contactref element="OD2" pad="A"/>
 </signal>
 <signal name="D2">
@@ -1505,12 +1505,12 @@ design rules under a new name.</description>
 <signal name="D3">
 <contactref element="MC" pad="D3"/>
 <contactref element="OR1" pad="2"/>
-<contactref element="Q1" pad="1"/>
+<contactref element="OQ1" pad="1"/>
 </signal>
 <signal name="D4">
 <contactref element="MC" pad="D4"/>
 <contactref element="OR2" pad="2"/>
-<contactref element="Q2" pad="1"/>
+<contactref element="OQ2" pad="1"/>
 </signal>
 <signal name="D5">
 <contactref element="MC" pad="D5"/>
@@ -1543,8 +1543,8 @@ design rules under a new name.</description>
 </signal>
 <signal name="A0">
 <contactref element="MC" pad="A0"/>
-<contactref element="TR1" pad="1"/>
-<contactref element="TSENS" pad="2"/>
+<contactref element="NIR1" pad="1"/>
+<contactref element="NIT1" pad="2"/>
 </signal>
 <signal name="D13">
 <contactref element="MC" pad="D13"/>
