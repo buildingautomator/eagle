@@ -4886,6 +4886,62 @@ Based on the previous libraries:
 </deviceset>
 </devicesets>
 </library>
+<library name="frames" urn="urn:adsk.eagle:library:229">
+<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<packages>
+</packages>
+<symbols>
+<symbol name="LETTER_L" urn="urn:adsk.eagle:symbol:13870/1" library_version="1">
+<frame x1="0" y1="0" x2="248.92" y2="185.42" columns="12" rows="17" layer="94" border-left="no" border-top="no" border-right="no" border-bottom="no"/>
+</symbol>
+<symbol name="DOCFIELD" urn="urn:adsk.eagle:symbol:13864/1" library_version="1">
+<wire x1="0" y1="0" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="87.63" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="71.12" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="15.24" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="0" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="5.08" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="71.12" y1="0" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="87.63" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="15.24" x2="0" y2="15.24" width="0.1016" layer="94"/>
+<wire x1="87.63" y1="5.08" x2="101.6" y2="5.08" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="5.08" x2="101.6" y2="0" width="0.1016" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="35.56" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="101.6" y2="22.86" width="0.1016" layer="94"/>
+<wire x1="0" y1="22.86" x2="0" y2="35.56" width="0.1016" layer="94"/>
+<wire x1="101.6" y1="22.86" x2="101.6" y2="15.24" width="0.1016" layer="94"/>
+<text x="1.27" y="1.27" size="2.54" layer="94">Date:</text>
+<text x="12.7" y="1.27" size="2.54" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="72.39" y="1.27" size="2.54" layer="94">Sheet:</text>
+<text x="86.36" y="1.27" size="2.54" layer="94">&gt;SHEET</text>
+<text x="88.9" y="11.43" size="2.54" layer="94">REV:</text>
+<text x="1.27" y="19.05" size="2.54" layer="94">TITLE:</text>
+<text x="1.27" y="11.43" size="2.54" layer="94">Document Number:</text>
+<text x="17.78" y="19.05" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="LETTER_L" urn="urn:adsk.eagle:component:13920/1" prefix="FRAME" uservalue="yes" library_version="1">
+<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
+LETTER landscape</description>
+<gates>
+<gate name="G$1" symbol="LETTER_L" x="0" y="0"/>
+<gate name="G$2" symbol="DOCFIELD" x="147.32" y="0" addlevel="must"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -4947,6 +5003,7 @@ Based on the previous libraries:
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="IR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
+<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4965,9 +5022,9 @@ Based on the previous libraries:
 <text x="12.7" y="43.18" size="1.778" layer="97">D9 NATIVE DIGITAL SENSOR 2</text>
 <text x="30.48" y="38.1" size="1.778" layer="97">EMPTY</text>
 <text x="30.48" y="35.56" size="1.778" layer="97">EMPTY</text>
-<text x="116.84" y="60.96" size="1.778" layer="97">EMPTY</text>
-<text x="116.84" y="58.42" size="1.778" layer="97">EMPTY</text>
-<text x="116.84" y="55.88" size="1.778" layer="97">EMPTY</text>
+<text x="116.84" y="60.96" size="1.778" layer="97">A3 IN3</text>
+<text x="116.84" y="58.42" size="1.778" layer="97">A2 IN2</text>
+<text x="116.84" y="55.88" size="1.778" layer="97">A1 IN1</text>
 <text x="116.84" y="53.34" size="1.778" layer="97">A0 NATIVE ANALOG-DIGITAL SENSOR 3</text>
 <text x="116.84" y="50.8" size="1.778" layer="97">D13 ETH SCK</text>
 <text x="116.84" y="48.26" size="1.778" layer="97">D12 ETH SO</text>
@@ -4985,6 +5042,8 @@ Based on the previous libraries:
 <text x="157.48" y="134.62" size="1.778" layer="91">IN1</text>
 <text x="157.48" y="121.92" size="1.778" layer="91">IN2</text>
 <text x="157.48" y="109.22" size="1.778" layer="91">IN3</text>
+<text x="309.88" y="15.24" size="2.54" layer="94">IOTB by Team IOTECH</text>
+<text x="365.76" y="12.7" size="2.54" layer="94">0.1</text>
 </plain>
 <instances>
 <instance part="PC1" gate="G$1" x="129.54" y="210.82" rot="R180"/>
@@ -5050,6 +5109,7 @@ Based on the previous libraries:
 <instance part="GND12" gate="1" x="198.12" y="114.3" rot="R90"/>
 <instance part="IR3" gate="G$1" x="187.96" y="101.6" rot="R180"/>
 <instance part="GND13" gate="1" x="198.12" y="101.6" rot="R90"/>
+<instance part="FRAME1" gate="G$2" x="274.32" y="5.08"/>
 </instances>
 <busses>
 </busses>

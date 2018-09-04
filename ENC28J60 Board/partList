@@ -1,0 +1,44 @@
+Partlist
+
+Exported from KMO_IO_M.brd at 9/3/2018 10:12 AM
+
+EAGLE Version 9.1.3 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                 Package                      Library                      Position (mm)         Orientation
+
+ETH      ETHERNET-ENC28J60_PER ETHERNET-ENC28J60_PER        personal_diy-modules         (54 35.75)            R180
+IR1      10K                   0805                         SparkFun-Passives            (13.25 17.5)          R270
+IR2      10K                   0805                         SparkFun-Passives            (13.25 12.5)          R270
+IR3      10K                   0805                         SparkFun-Passives            (13.25 7.5)           R270
+MC       ARDUINO_PRO_MINI2     ARDUINO_PRO_MINI2            personal_srgPersonal         (55 76)               R180
+NIR1     4700                  0805                         SparkFun-Passives            (73.5 58)             R270
+NIR2     4700                  0805                         SparkFun-Passives            (73.75 72.25)         R270
+NIR3     4700                  0805                         SparkFun-Passives            (73.5 86.5)           R270
+NIT1                           S03P                         con-amp-mt                   (80.25 59.5)          R270
+NIT2                           S03P                         con-amp-mt                   (80.25 73.75)         R270
+NIT3                           S03P                         con-amp-mt                   (80.25 88)            R270
+OD1                            SMA-DIODE                    SparkFun-DiscreteSemi        (17 90.5)             R90
+OD2                            SMA-DIODE                    SparkFun-DiscreteSemi        (17 76)               R90
+OD3                            SMA-DIODE                    SparkFun-DiscreteSemi        (17.25 63.25)         R90
+OQ1      IRF3707S              D2PACK                       transistor-power             (28.25 88.5)          R90
+OQ2      IRF3707S              D2PACK                       transistor-power             (28.25 75.5)          R90
+OQ3      IRF3707S              D2PACK                       transistor-power             (28.5 62.5)           R90
+OR1      1K                    0805                         SparkFun-Passives            (41.25 90.5)          R270
+OR2      1K                    0805                         SparkFun-Passives            (41.5 77.5)           R270
+OR3      1K                    0805                         SparkFun-Passives            (41.5 62.5)           R270
+PC1      10uf                  0805                         SparkFun-Capacitors          (44.25 18.75)         R90
+PC2      100nf                 0805                         SparkFun-Capacitors          (43 4.25)             R180
+PC3      1uf                   0805                         SparkFun-Capacitors          (50.5 3.75)           R0
+PD1                            SMA-DIODE                    SparkFun-DiscreteSemi        (65.75 7.5)           R180
+PF1      1A                    1820                         _hhn_PtcFuses_Siba_r500_Ozan (58.5 10)             R180
+PFJ1                           JP1                          jumper                       (58.75 4)             R90
+PIC1     REG1117               SOT223                       burr-brown                   (52.25 20)            R180
+PIC2     7808DT                TO252                        linear                       (46.25 10.5)          R90
+PJ1      POWER_JACKTOE         POWER_JACK_SMD_OVERPASTE_TOE SparkFun-Connectors          (81 10)               R180
+PLED1                          CHIP-LED0805                 led                          (63.75 16.5)          R270
+PR1      470                   0805                         SparkFun-Passives            (59 16.5)             R180
+WIFI     ESP01                 ESP01                        esp8266modules               (38.75 11)            R270
+XI       MSTBA6                MSTBA6                       con-phoenix-508              (2 19.25)             R270
+XO       MSTBA6                MSTBA6                       con-phoenix-508              (1.75 77.75)          R270
