@@ -14009,6 +14009,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R22" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="100R"/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="U1" library="microchip-enc28j60" deviceset="ENC28J60-*" device="SSOP"/>
+<part name="GND14" library="supply1" deviceset="GND" device=""/>
+<part name="EC3" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10u"/>
 </parts>
 <sheets>
 <sheet>
@@ -14728,7 +14730,9 @@ D13-&gt;SCK</text>
 <attribute name="VALUE" x="26.67" y="193.548" size="1.778" layer="96"/>
 </instance>
 <instance part="FRAME2" gate="G$2" x="274.32" y="5.08"/>
-<instance part="U1" gate="G$1" x="43.18" y="132.08"/>
+<instance part="U1" gate="G$1" x="83.9" y="107.68"/>
+<instance part="GND14" gate="1" x="48.45" y="84.55"/>
+<instance part="EC3" gate="G$1" x="48.45" y="97.25"/>
 </instances>
 <busses>
 </busses>
@@ -14839,6 +14843,14 @@ D13-&gt;SCK</text>
 <wire x1="161.29" y1="161.29" x2="161.29" y2="168.91" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <pinref part="R19" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<wire x1="48.45" y1="87.09" x2="48.45" y2="89.63" width="0.1524" layer="91"/>
+<wire x1="48.45" y1="89.63" x2="58.61" y2="89.63" width="0.1524" layer="91"/>
+<wire x1="48.45" y1="89.63" x2="48.45" y2="92.17" width="0.1524" layer="91"/>
+<junction x="48.45" y="89.63"/>
+<pinref part="GND14" gate="1" pin="GND"/>
+<pinref part="EC3" gate="G$1" pin="-"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
