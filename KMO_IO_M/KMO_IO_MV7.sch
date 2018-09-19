@@ -17708,7 +17708,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 </class>
 </classes>
 <parts>
-<part name="PLED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="Blue"/>
+<part name="PLED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="RED"/>
 <part name="PD1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="M7"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="PR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="470"/>
@@ -17776,7 +17776,7 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="GND16" library="SparkFun" deviceset="GND" device=""/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="330"/>
-<part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="Green"/>
+<part name="D3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLUE"/>
 <part name="GND17" library="SparkFun" deviceset="GND" device=""/>
 <part name="GND18" library="SparkFun" deviceset="GND" device=""/>
 <part name="U1" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328"/>
@@ -17791,9 +17791,9 @@ diameter 5 mm, horizontal, grid 15.24 mm</description>
 <part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="680uf"/>
 <part name="PC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="220uf"/>
 <part name="PCO" library="inductor-coilcraft" deviceset="MSS1260" device="" value="33 uh"/>
-<part name="PIC1" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:21218/1"/>
+<part name="PIC33" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:21218/1"/>
 <part name="PD2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2" value="SS54"/>
-<part name="S1" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1"/>
+<part name="SR" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -17937,7 +17937,7 @@ TESA IO Kart Tasarımı.</text>
 <instance part="PC1" gate="G$1" x="45.72" y="223.52"/>
 <instance part="PC2" gate="G$1" x="116.84" y="223.52"/>
 <instance part="PCO" gate="G$1" x="106.68" y="231.14" rot="R270"/>
-<instance part="PIC1" gate="G$1" x="68.58" y="228.6"/>
+<instance part="PIC33" gate="G$1" x="68.58" y="228.6"/>
 <instance part="PD2" gate="G$1" x="96.52" y="223.52" rot="R90"/>
 <instance part="OP" gate="1" x="134.62" y="129.54"/>
 <instance part="GND20" gate="1" x="124.46" y="121.92"/>
@@ -17977,7 +17977,7 @@ TESA IO Kart Tasarımı.</text>
 </instance>
 <instance part="R3" gate="G$1" x="149.86" y="76.2" rot="R90"/>
 <instance part="+3V2" gate="G$1" x="86.36" y="99.06"/>
-<instance part="S1" gate="1" x="40.64" y="71.12" rot="R180"/>
+<instance part="SR" gate="1" x="40.64" y="71.12" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -17994,10 +17994,10 @@ TESA IO Kart Tasarımı.</text>
 <wire x1="96.52" y1="215.9" x2="109.22" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="215.9" x2="116.84" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="PJ1" gate="G$1" pin="GNDBREAK"/>
-<pinref part="PIC1" gate="G$1" pin="!ON!/OFF"/>
+<pinref part="PIC33" gate="G$1" pin="!ON!/OFF"/>
 <wire x1="55.88" y1="228.6" x2="53.34" y2="228.6" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="228.6" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="PIC1" gate="G$1" pin="GND"/>
+<pinref part="PIC33" gate="G$1" pin="GND"/>
 <wire x1="53.34" y1="223.52" x2="53.34" y2="215.9" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="223.52" x2="53.34" y2="223.52" width="0.1524" layer="91"/>
 <junction x="53.34" y="223.52"/>
@@ -18163,7 +18163,7 @@ TESA IO Kart Tasarımı.</text>
 <segment>
 <wire x1="40.64" y1="66.04" x2="40.64" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<pinref part="S1" gate="1" pin="S"/>
+<pinref part="SR" gate="1" pin="S"/>
 </segment>
 <segment>
 <wire x1="111.76" y1="86.36" x2="109.22" y2="86.36" width="0.1524" layer="91"/>
@@ -18212,7 +18212,7 @@ TESA IO Kart Tasarımı.</text>
 <junction x="45.72" y="241.3"/>
 <wire x1="45.72" y1="233.68" x2="45.72" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="241.3" x2="124.46" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="PIC1" gate="G$1" pin="VIN"/>
+<pinref part="PIC33" gate="G$1" pin="VIN"/>
 <wire x1="55.88" y1="233.68" x2="45.72" y2="233.68" width="0.1524" layer="91"/>
 <junction x="45.72" y="233.68"/>
 </segment>
@@ -18450,7 +18450,7 @@ TESA IO Kart Tasarımı.</text>
 <junction x="99.06" y="93.98"/>
 </segment>
 <segment>
-<pinref part="PIC1" gate="G$1" pin="FB"/>
+<pinref part="PIC33" gate="G$1" pin="FB"/>
 <wire x1="81.28" y1="226.06" x2="83.82" y2="226.06" width="0.1524" layer="91"/>
 <label x="83.82" y="226.06" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -18917,7 +18917,7 @@ TESA IO Kart Tasarımı.</text>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="PIC1" gate="G$1" pin="OUT"/>
+<pinref part="PIC33" gate="G$1" pin="OUT"/>
 <wire x1="81.28" y1="231.14" x2="96.52" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="PD2" gate="G$1" pin="C"/>
 <wire x1="96.52" y1="231.14" x2="96.52" y2="226.06" width="0.1524" layer="91"/>
@@ -19007,7 +19007,7 @@ TESA IO Kart Tasarımı.</text>
 <pinref part="U1" gate="G$1" pin="PC6(/RESET)"/>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<pinref part="S1" gate="1" pin="P"/>
+<pinref part="SR" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$5" class="0">
