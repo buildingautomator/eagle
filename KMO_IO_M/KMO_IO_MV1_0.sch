@@ -17696,6 +17696,90 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <text x="3.8208" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
 <text x="-4.7136" y="-0.635" size="1.27" layer="21" ratio="10">3</text>
 </package>
+<package name="S06P">
+<description>&lt;b&gt;AMP MT CONNECTOR&lt;/b&gt;</description>
+<wire x1="0.891" y1="-0.381" x2="1.653" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="1.653" y1="-0.381" x2="1.653" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="1.653" y1="0.381" x2="0.891" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="0.891" y1="0.381" x2="0.891" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="0.891" y1="0.381" x2="1.653" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="1.653" y1="0.381" x2="0.891" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.891" y1="-0.381" x2="-5.891" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-5.891" y1="0.381" x2="-6.653" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-6.653" y1="0.381" x2="-5.891" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-6.653" y1="0.381" x2="-6.653" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-5.891" y1="0.381" x2="-6.653" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-6.653" y1="-0.381" x2="-5.891" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.351" y1="-0.381" x2="-3.351" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-4.113" y1="0.381" x2="-3.351" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.351" y1="0.381" x2="-4.113" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-4.113" y1="-0.381" x2="-3.351" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.351" y1="0.381" x2="-4.113" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-4.113" y1="0.381" x2="-4.113" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-0.862" y1="-0.381" x2="-0.862" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-0.862" y1="0.381" x2="-1.624" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="-1.624" y1="0.381" x2="-1.624" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.624" y1="-0.381" x2="-0.862" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-0.862" y1="0.381" x2="-1.624" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.624" y1="0.381" x2="-0.862" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="5.869" y1="0.381" x2="5.869" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="6.631" y1="0.381" x2="5.869" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="6.631" y1="-0.381" x2="6.631" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="5.869" y1="0.381" x2="6.631" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="6.631" y1="0.381" x2="5.869" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="5.869" y1="-0.381" x2="6.631" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="3.38" y1="0.381" x2="3.38" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="4.142" y1="0.381" x2="3.38" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="4.142" y1="-0.381" x2="4.142" y2="0.381" width="0.1524" layer="51"/>
+<wire x1="3.38" y1="0.381" x2="4.142" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="4.142" y1="0.381" x2="3.38" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="3.38" y1="-0.381" x2="4.142" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="8.638" y1="-2.667" x2="8.892" y2="-2.413" width="0.1524" layer="21" curve="90"/>
+<wire x1="8.638" y1="2.667" x2="8.892" y2="2.413" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-8.812" y1="2.413" x2="-8.558" y2="2.667" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-8.812" y1="-2.413" x2="-8.558" y2="-2.667" width="0.1524" layer="21" curve="90"/>
+<wire x1="-9.32" y1="3.683" x2="9.4" y2="3.683" width="0.1524" layer="21"/>
+<wire x1="-8.558" y1="2.667" x2="8.638" y2="2.667" width="0.1524" layer="21"/>
+<wire x1="-8.558" y1="-2.667" x2="-7.669" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-8.812" y1="-2.413" x2="-8.812" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-9.828" y1="3.175" x2="-9.828" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="9.4" y1="3.683" x2="9.908" y2="3.175" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-9.828" y1="-3.175" x2="-9.32" y2="-3.683" width="0.1524" layer="21" curve="90"/>
+<wire x1="-9.828" y1="3.175" x2="-9.32" y2="3.683" width="0.1524" layer="21" curve="-90"/>
+<wire x1="9.4" y1="-3.683" x2="9.908" y2="-3.175" width="0.1524" layer="21" curve="90"/>
+<wire x1="-7.288" y1="-2.667" x2="-7.288" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-7.288" y1="-3.683" x2="-7.669" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-7.669" y1="-2.667" x2="-7.669" y2="-3.683" width="0.0508" layer="21"/>
+<wire x1="-7.669" y1="-2.667" x2="-7.288" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="-7.669" y1="-3.683" x2="-9.32" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="-8.812" y1="-1.27" x2="8.892" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-8.812" y1="1.27" x2="8.892" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.812" y1="-1.27" x2="-8.812" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="-8.812" y1="1.27" x2="-8.812" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="-7.288" y1="-2.667" x2="-7.288" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="-7.288" y1="-2.159" x2="7.368" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="8.892" y1="-1.27" x2="8.892" y2="1.27" width="0.1524" layer="21"/>
+<wire x1="8.892" y1="1.27" x2="8.892" y2="2.413" width="0.1524" layer="21"/>
+<wire x1="8.892" y1="-2.413" x2="8.892" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="9.908" y1="3.175" x2="9.908" y2="-3.175" width="0.1524" layer="21"/>
+<wire x1="7.749" y1="-2.667" x2="8.638" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="7.749" y1="-2.667" x2="7.749" y2="-3.683" width="0.0508" layer="21"/>
+<wire x1="9.4" y1="-3.683" x2="7.749" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="7.749" y1="-3.683" x2="7.368" y2="-3.683" width="0.1524" layer="21"/>
+<wire x1="7.368" y1="-2.667" x2="7.749" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="7.368" y1="-3.683" x2="7.368" y2="-2.667" width="0.1524" layer="21"/>
+<wire x1="7.368" y1="-2.667" x2="7.368" y2="-2.159" width="0.1524" layer="21"/>
+<pad name="3" x="1.25" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="6" x="-6.25" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="5" x="-3.75" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="4" x="-1.25" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="2" x="3.75" y="0" drill="1.016" shape="long" rot="R90"/>
+<pad name="1" x="6.25" y="0" drill="1.016" shape="long" rot="R90"/>
+<text x="-9.8028" y="4.191" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.4208" y="4.191" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="7.5708" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
+<text x="-8.482" y="-0.635" size="1.27" layer="21" ratio="10">6</text>
+</package>
 </packages>
 <symbols>
 <symbol name="M">
@@ -17720,6 +17804,32 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <connect gate="-1" pin="S" pad="1"/>
 <connect gate="-2" pin="S" pad="2"/>
 <connect gate="-3" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="S06P" prefix="SV" uservalue="yes">
+<description>&lt;b&gt;AMP MT CONNECTOR&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="M" x="0" y="10.16" addlevel="always"/>
+<gate name="-2" symbol="M" x="0" y="5.08" addlevel="always"/>
+<gate name="-3" symbol="M" x="0" y="0" addlevel="always"/>
+<gate name="-4" symbol="M" x="0" y="-5.08" addlevel="always"/>
+<gate name="-5" symbol="M" x="0" y="-10.16" addlevel="always"/>
+<gate name="-6" symbol="M" x="0" y="-15.24" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="S06P">
+<connects>
+<connect gate="-1" pin="S" pad="1"/>
+<connect gate="-2" pin="S" pad="2"/>
+<connect gate="-3" pin="S" pad="3"/>
+<connect gate="-4" pin="S" pad="4"/>
+<connect gate="-5" pin="S" pad="5"/>
+<connect gate="-6" pin="S" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -17835,6 +17945,9 @@ include  Type MT6; con-amp-mt6.lbr&lt;p&gt;
 <part name="IR7" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="BL" library="con_io_sxp" deviceset="S06P" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND20" library="SparkFun" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17893,6 +18006,13 @@ TESA IO Board Design.</text>
 <text x="251.46" y="63.5" size="1.778" layer="91">IN5</text>
 <text x="307.34" y="76.2" size="1.778" layer="91">IN6</text>
 <text x="307.34" y="63.5" size="1.778" layer="91">IN7</text>
+<text x="144.78" y="55.88" size="1.778" layer="91">BOOTLOADER</text>
+<text x="165.1" y="50.8" size="1.778" layer="97">-&gt; D11</text>
+<text x="165.1" y="45.72" size="1.778" layer="97">-&gt; D12</text>
+<text x="165.1" y="40.64" size="1.778" layer="97">-&gt; D13</text>
+<text x="165.1" y="35.56" size="1.778" layer="97">-&gt; D10</text>
+<text x="165.1" y="30.48" size="1.778" layer="97">-&gt; V3.3</text>
+<text x="165.1" y="25.4" size="1.778" layer="97">-&gt; GND</text>
 </plain>
 <instances>
 <instance part="PL" gate="G$1" x="129.54" y="215.9" smashed="yes" rot="R270">
@@ -18307,6 +18427,36 @@ TESA IO Board Design.</text>
 <instance part="+3V1" gate="G$1" x="264.16" y="182.88" smashed="yes">
 <attribute name="VALUE" x="261.62" y="177.8" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="BL" gate="-1" x="154.94" y="25.4" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="24.384" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="27.813" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BL" gate="-2" x="154.94" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="29.464" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="32.893" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BL" gate="-3" x="154.94" y="35.56" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="34.544" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="37.973" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BL" gate="-4" x="154.94" y="40.64" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="39.624" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="43.053" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BL" gate="-5" x="154.94" y="45.72" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="44.704" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="48.133" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="BL" gate="-6" x="154.94" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="155.448" y="49.784" size="1.778" layer="95"/>
+<attribute name="VALUE" x="154.686" y="53.213" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="+3V3" gate="G$1" x="144.78" y="30.48" smashed="yes" rot="R90">
+<attribute name="VALUE" x="149.86" y="27.94" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND20" gate="1" x="142.24" y="25.4" smashed="yes" rot="R270">
+<attribute name="VALUE" x="139.7" y="27.94" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18543,6 +18693,11 @@ TESA IO Board Design.</text>
 <wire x1="342.9" y1="55.88" x2="345.44" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="BL" gate="-1" pin="S"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+<wire x1="144.78" y1="25.4" x2="149.86" y2="25.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RAW_IV" class="1">
 <segment>
@@ -18639,6 +18794,11 @@ TESA IO Board Design.</text>
 <wire x1="114.3" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB4(MISO)"/>
 <label x="116.84" y="22.86" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BL" gate="-5" pin="S"/>
+<wire x1="149.86" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="147.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -18794,6 +18954,11 @@ TESA IO Board Design.</text>
 <pinref part="PIC33" gate="G$1" pin="FB"/>
 <wire x1="81.28" y1="226.06" x2="83.82" y2="226.06" width="0.1524" layer="91"/>
 <label x="83.82" y="226.06" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BL" gate="-2" pin="S"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+<wire x1="149.86" y1="30.48" x2="147.32" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -18998,6 +19163,11 @@ TESA IO Board Design.</text>
 <wire x1="116.84" y1="20.32" x2="119.38" y2="20.32" width="0.1524" layer="91"/>
 <label x="119.38" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="BL" gate="-4" pin="S"/>
+<wire x1="149.86" y1="40.64" x2="147.32" y2="40.64" width="0.1524" layer="91"/>
+<label x="147.32" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="D12" class="0">
 <segment>
@@ -19009,6 +19179,11 @@ TESA IO Board Design.</text>
 <wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <label x="116.84" y="25.4" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="BL" gate="-6" pin="S"/>
+<wire x1="149.86" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="147.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D10" class="0">
@@ -19363,6 +19538,11 @@ TESA IO Board Design.</text>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="SR" gate="1" pin="P"/>
+</segment>
+<segment>
+<pinref part="BL" gate="-3" pin="S"/>
+<wire x1="149.86" y1="35.56" x2="147.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="147.32" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
