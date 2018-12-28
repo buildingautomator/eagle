@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-12-28T15:37:17Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "KMO_IO_MV1_1"
+        },
+        "Owner": "Ozan Celikada <celikada@hotmail.com>",
+        "Size": {
+            "X": 84.5,
+            "Y": 96.5
+        }
+    }
+}

@@ -1,0 +1,76 @@
+Partlist
+
+Exported from KMO_IO_MV1_1.brd at 10/30/2018 4:07 PM
+
+EAGLE Version 9.2.2 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value          Package                      Library                      Position (mm)         Orientation
+
+BL       057-006-1      057-006-1                    con-panduit                  (62.5 90)             R0
+C1       0.1uF          0805                         SparkFun-Passives            (47.75 76.5)          R0
+C2       0.1uF          0805                         SparkFun-Passives            (51.75 86)            R270
+C3       0.1uF          0805                         SparkFun-Passives            (47.75 81.25)         R0
+EC1      18p            0805                         SparkFun-Passives            (51.25 34)            R0
+EC2      18p            0805                         SparkFun-Passives            (51.25 36.75)         R0
+EC3      10u            CT3216                       rcl                          (32 43)               R90
+EC4      10n            0805                         SparkFun-Passives            (51.25 31.5)          R180
+EC5      10n            0805                         SparkFun-Passives            (51.25 28.75)         R180
+EL1      10µH           0805                         SparkFun-Coils               (60.25 42.25)         R270
+ENC      ENC28J60-SSOP  SSOP28                       microchip-enc28j60           (40.75 37.75)         R270
+ER1      10k            0805                         SparkFun-Passives            (30.75 35)            R180
+ER2      10k            0805                         SparkFun-Passives            (30.75 38.25)         R180
+ER3      1k             0805                         SparkFun-Passives            (49.5 47.25)          R180
+ER4      1k             0805                         SparkFun-Passives            (45.25 47.25)         R180
+ER6      50R            0805                         SparkFun-Passives            (60.25 36.75)         R90
+ER7      50R            0805                         SparkFun-Passives            (56 36.75)            R90
+ER8      50R            0805                         SparkFun-Passives            (56 31.25)            R90
+ER9      50R            0805                         SparkFun-Passives            (60.25 31.25)         R90
+ER10     2.7K           0805                         SparkFun-Passives            (33.25 32.25)         R180
+INDL     BLU            CHIP-LED0805                 led                          (71.75 25.25)         R270
+IR1      10K            0805                         SparkFun-Passives            (13.5 37.75)          R270
+IR2      10K            0805                         SparkFun-Passives            (13.5 32.75)          R270
+IR3      10K            0805                         SparkFun-Passives            (13.5 27.75)          R270
+IR4      10K            0805                         SparkFun-Passives            (13.5 22.75)          R270
+IR5      10K            0805                         SparkFun-Passives            (13.5 17.5)           R270
+IR6      10K            0805                         SparkFun-Passives            (13.5 12.25)          R270
+IR7      10K            0805                         SparkFun-Passives            (13.5 7.25)           R270
+NIR1     4700           0805                         SparkFun-Passives            (73.25 61.25)         R270
+NIR2     4700           0805                         SparkFun-Passives            (73.25 73.75)         R270
+NIR3     4700           0805                         SparkFun-Passives            (73.25 86.25)         R270
+OD1      M7             SMA-DIODE                    SparkFun-DiscreteSemi        (17 90.5)             R90
+OD2      M7             SMA-DIODE                    SparkFun-DiscreteSemi        (17 76)               R90
+OD3      M7             SMA-DIODE                    SparkFun-DiscreteSemi        (17.25 63.25)         R90
+OQ1      IRF3707S       D2PACK                       transistor-power             (28.25 88.5)          R90
+OQ2      IRF3707S       D2PACK                       transistor-power             (28.25 75.5)          R90
+OQ3      IRF3707S       D2PACK                       transistor-power             (28.5 62.5)           R90
+OR1      1K             0805                         SparkFun-Passives            (41.25 90.5)          R270
+OR2      1K             0805                         SparkFun-Passives            (41.5 77.5)           R270
+OR3      1K             0805                         SparkFun-Passives            (41.5 62.5)           R270
+PC1      680uf          140CLH-1010                  rcl                          (32.75 23.5)          R270
+PC2      220uf          140CLH-1010                  rcl                          (59.75 15.5)          R270
+PCO      33 uh          MSS1260                      inductor-coilcraft           (33.25 9.25)          R0
+PD1      M7             SMA-DIODE                    SparkFun-DiscreteSemi        (66.5 5.5)            R180
+PD2      SS54           SMB                          diode                        (47 22)               R180
+PF1      1A             1820                         _hhn_PtcFuses_Siba_r500_Ozan (59 5.5)              R180
+PIC33    LM2596S        TO263-5                      national-semiconductor       (47.25 10.75)         R180
+PJ1      POWER_JACKTOE  POWER_JACK_SMD_OVERPASTE_TOE SparkFun-Connectors          (82 10)               R180
+PL       GRN            CHIP-LED0805                 led                          (71.75 20)            R270
+PP       22-05-7048-04  7395-04                      con-molex                    (72.25 51.25)         R90
+PR1      470            0805                         SparkFun-Passives            (67.25 20)            R180
+Q1       8MHz           RESONATOR-SMD-1:1            Testing                      (67.5 65.5)           R45
+Q2       25MHz          5.0X3.2_2                    crystal-geyer_V1_0           (53 42)               R0
+R1                      0805                         SparkFun-Passives            (47.75 69.25)         R180
+R2       10K            0805                         SparkFun-Passives            (48.25 86)            R270
+R3                      0805                         SparkFun-Passives            (47.75 63.75)         R180
+R6       330            0805                         SparkFun-Passives            (67.25 25.25)         R0
+SR                      B3F-31XX                     switch-omron                 (80.25 23.25)         R90
+SV1                     S03P                         con_io_sxp                   (79.75 62.75)         R270
+SV2                     S03P                         con_io_sxp                   (79.75 75.25)         R270
+SV3                     S03P                         con_io_sxp                   (79.75 87.75)         R270
+U$2      HR911105A      RJ45                         HR911105A                    (75 36)               R0
+U1       ATMEGA328      TQFP32-08                    SparkFun                     (60.25 72.25)         R135
+WIFI     ESP01          ESP01                        esp8266modules               (30.75 38)            R270
+XI       MSTBA10        MSTBA10                      con-phoenix-508              (2 29.25)             R270
+XO       MSTBA6         MSTBA6                       con-phoenix-508              (1.75 77.75)          R270
