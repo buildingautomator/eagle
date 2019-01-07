@@ -18768,7 +18768,7 @@ straight</description>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
 <part name="Q1" library="Testing" deviceset="RESONATOR" device="1:1" value="8MHz"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
-<part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="680uf"/>
+<part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="470uf"/>
 <part name="PC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="220uf"/>
 <part name="PCO" library="inductor-coilcraft" deviceset="MSS1260" device="" value="33 uh"/>
 <part name="PIC33" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:21218/1"/>
