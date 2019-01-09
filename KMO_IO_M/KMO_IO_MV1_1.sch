@@ -19753,14 +19753,14 @@ TESA IO Board Design.</text>
 <wire x1="190.5" y1="134.62" x2="200.66" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB4(MISO)"/>
-<label x="116.84" y="22.86" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB3(MOSI/OC2)"/>
+<wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
+<label x="116.84" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="147.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="BL" gate="-1" pin="S"/>
+<pinref part="BL" gate="-4" pin="S"/>
+<wire x1="149.86" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
+<label x="147.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -20100,14 +20100,14 @@ TESA IO Board Design.</text>
 <label x="198.12" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="114.3" y1="25.4" x2="116.84" y2="25.4" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PB3(MOSI/OC2)"/>
-<label x="116.84" y="25.4" size="1.27" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="PB4(MISO)"/>
+<wire x1="114.3" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
+<label x="116.84" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="149.86" y1="50.8" x2="147.32" y2="50.8" width="0.1524" layer="91"/>
-<label x="147.32" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="BL" gate="-4" pin="S"/>
+<pinref part="BL" gate="-1" pin="S"/>
+<wire x1="149.86" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="147.32" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="D10" class="0">

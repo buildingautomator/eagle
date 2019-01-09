@@ -1,7 +1,7 @@
 {
     "Header": {
         "Comment": "All values are metric (mm)",
-        "CreationDate": "2019-01-07T07:04:19Z",
+        "CreationDate": "2019-01-09T10:08:13Z",
         "GenerationSoftware": {
             "Application": "EAGLE",
             "Vendor": "Autodesk",
@@ -15,7 +15,7 @@
         "Name": {
             "ProjectId": "KMO_IO_MV1_1"
         },
-        "Owner": "Ozan Celikada <celikada@hotmail.com>",
+        "Owner": "  <>",
         "Size": {
             "X": 84.5,
             "Y": 96.5
