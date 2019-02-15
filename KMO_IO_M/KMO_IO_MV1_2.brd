@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.3.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -179,6 +179,7 @@
 <wire x1="67.25" y1="49.75" x2="69" y2="52" width="0.1524" layer="22" curve="165.963757"/>
 <text x="19.75" y="52.25" size="1.6764" layer="21">www.iotech.com.tr</text>
 <text x="44.75" y="49.5" size="1.6764" layer="21">S/N:</text>
+<text x="51.75" y="61" size="1.6764" layer="21" font="vector">Edge</text>
 </plain>
 <libraries>
 <library name="SparkFun-DiscreteSemi">
