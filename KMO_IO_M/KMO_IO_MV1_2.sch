@@ -18820,7 +18820,7 @@ straight</description>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="NIR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4700"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="IR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10M"/>
+<part name="IR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="IR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10M"/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
