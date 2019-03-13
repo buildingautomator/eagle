@@ -18850,12 +18850,12 @@ straight</description>
 <part name="PP" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
-<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
+<part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
 <part name="INDL" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="U1" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328"/>
-<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
 <part name="Q1" library="Testing" deviceset="RESONATOR" device="1:1" value="8MHz"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
