@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.1">
+<eagle version="9.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17956,6 +17956,8 @@ straight</description>
 <part name="WIR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1K"/>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="WIL2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
+<part name="IR" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="GND11" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18463,8 +18465,8 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="344.932" y="51.816" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="344.932" y="53.975" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="XI" gate=".1" x="190.5" y="91.44" smashed="yes">
-<attribute name="NAME" x="182.88" y="93.345" size="1.524" layer="95"/>
+<instance part="XI" gate=".1" x="193.04" y="91.44" smashed="yes">
+<attribute name="NAME" x="185.42" y="93.345" size="1.524" layer="95"/>
 </instance>
 <instance part="XI" gate=".2" x="228.6" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="236.22" y="66.675" size="1.524" layer="95" rot="R180"/>
@@ -18530,6 +18532,13 @@ TESA IO Board Design.</text>
 <instance part="WIL2" gate="G$1" x="213.36" y="53.34" smashed="yes" rot="R90">
 <attribute name="NAME" x="217.932" y="56.896" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="217.932" y="59.055" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="IR" gate="G$1" x="203.2" y="91.44" smashed="yes">
+<attribute name="NAME" x="199.39" y="92.9386" size="1.778" layer="95"/>
+<attribute name="VALUE" x="199.39" y="88.138" size="1.778" layer="96"/>
+</instance>
+<instance part="GND11" gate="1" x="213.36" y="91.44" smashed="yes" rot="R90">
+<attribute name="VALUE" x="215.9" y="88.9" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -18725,6 +18734,11 @@ TESA IO Board Design.</text>
 <junction x="48.26" y="10.16"/>
 <junction x="53.34" y="10.16"/>
 <junction x="63.5" y="10.16"/>
+</segment>
+<segment>
+<pinref part="IR" gate="G$1" pin="2"/>
+<pinref part="GND11" gate="1" pin="GND"/>
+<wire x1="208.28" y1="91.44" x2="210.82" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RAW_IV" class="1">
@@ -19763,6 +19777,13 @@ TESA IO Board Design.</text>
 <pinref part="WIL2" gate="G$1" pin="C"/>
 <wire x1="218.44" y1="53.34" x2="228.6" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="XI" gate=".3" pin="SK"/>
+</segment>
+</net>
+<net name="N$29" class="0">
+<segment>
+<pinref part="XI" gate=".1" pin="SK"/>
+<pinref part="IR" gate="G$1" pin="1"/>
+<wire x1="193.04" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
