@@ -1,0 +1,5 @@
+digital input olarak degistirilecek optokuplör kullanilacak
+digital çikislar daha küçük hatta grup mosfet ile degistirilecek hatta optokuplör kullanilacak
+girislerden bir kismi 16bit ananolg giris olarak revize edilecek
+Tüm bu sistemler 24V ile çalisacak sekilde ayarlanacak
+
