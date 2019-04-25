@@ -17742,6 +17742,19 @@ straight</description>
 <text x="-5.08" y="2.54" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
 </package>
+<package name="MC2">
+<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
+ (ohne Gegenstecker)</description>
+<wire x1="-4.5049" y1="-8" x2="4.495" y2="-8" width="0.127" layer="21"/>
+<wire x1="4.495" y1="-8" x2="4.495" y2="1.1999" width="0.127" layer="21"/>
+<wire x1="4.495" y1="1.1999" x2="-4.5049" y2="1.1999" width="0.127" layer="21"/>
+<wire x1="-4.5049" y1="1.1999" x2="-4.5049" y2="-8" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-5.08" x2="4.445" y2="-5.08" width="0.127" layer="21"/>
+<pad name="1" x="-1.905" y="0" drill="1.27" shape="long" rot="R90"/>
+<pad name="2" x="1.905" y="0" drill="1.27" shape="long" rot="R90"/>
+<text x="-3.175" y="2.54" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.175" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="MCST">
@@ -17827,6 +17840,25 @@ straight</description>
 <connect gate=".1" pin="SK" pad="1"/>
 <connect gate=".2" pin="SK" pad="2"/>
 <connect gate=".3" pin="SK" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC2" prefix="X">
+<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
+ (ohne Gegenstecker)</description>
+<gates>
+<gate name=".1" symbol="MCST" x="0" y="2.54" addlevel="always"/>
+<gate name=".2" symbol="MCST" x="0" y="-2.54" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="MC2">
+<connects>
+<connect gate=".1" pin="SK" pad="1"/>
+<connect gate=".2" pin="SK" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18645,6 +18677,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <part name="IL8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="MCP23017" device="SS" package3d_urn="urn:adsk.eagle:package:20800/2"/>
+<part name="XNO" library="con-phoenix-381_l" deviceset="MC2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18659,7 +18692,7 @@ Source: http://ww1.microchip.com/downloads/en/DeviceDoc/21952a.pdf</description>
 <text x="38.1" y="129.54" size="1.778" layer="91">OUT3</text>
 <text x="299.72" y="238.76" size="1.778" layer="91">NATIVE ANALOG-DIGITAL SENSOR 3</text>
 <text x="309.88" y="15.24" size="2.54" layer="94">IOTB by Team IOTECH</text>
-<text x="365.76" y="12.7" size="2.54" layer="94">2.0</text>
+<text x="365.76" y="12.7" size="2.54" layer="94">2.1</text>
 <text x="170.18" y="170.18" size="1.778" layer="91">ETHERNET</text>
 <text x="175.26" y="109.22" size="1.778" layer="97">D2  -&gt;INT
 D10-&gt;CS
@@ -19079,6 +19112,12 @@ TESA IO Board Design.</text>
 </instance>
 <instance part="XV" gate=".3" x="215.9" y="58.42" smashed="yes">
 <attribute name="NAME" x="208.28" y="60.325" size="1.524" layer="95"/>
+</instance>
+<instance part="XNO" gate=".1" x="261.62" y="68.58" smashed="yes">
+<attribute name="NAME" x="254" y="70.485" size="1.524" layer="95"/>
+</instance>
+<instance part="XNO" gate=".2" x="261.62" y="63.5" smashed="yes">
+<attribute name="NAME" x="254" y="65.405" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
@@ -20428,26 +20467,14 @@ TESA IO Board Design.</text>
 </net>
 <net name="A5" class="0">
 <segment>
-<label x="218.44" y="233.68" size="1.778" layer="95" xref="yes"/>
-<pinref part="IR5" gate="G$1" pin="2"/>
-<wire x1="198.12" y1="233.68" x2="200.66" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="233.68" x2="218.44" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="233.68" x2="200.66" y2="220.98" width="0.1524" layer="91"/>
-<pinref part="OK2" gate="A" pin="COL"/>
-<wire x1="200.66" y1="220.98" x2="195.58" y2="220.98" width="0.1524" layer="91"/>
-<junction x="200.66" y="233.68"/>
+<label x="335.28" y="210.82" size="1.778" layer="95" xref="yes"/>
+<wire x1="317.5" y1="210.82" x2="335.28" y2="210.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A4" class="0">
 <segment>
-<label x="96.52" y="142.24" size="1.778" layer="95" xref="yes"/>
-<pinref part="IR4" gate="G$1" pin="2"/>
-<wire x1="76.2" y1="142.24" x2="78.74" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="142.24" x2="78.74" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="OK1" gate="D" pin="COL"/>
-<wire x1="78.74" y1="129.54" x2="73.66" y2="129.54" width="0.1524" layer="91"/>
-<junction x="78.74" y="142.24"/>
+<label x="335.28" y="218.44" size="1.778" layer="95" xref="yes"/>
+<wire x1="317.5" y1="218.44" x2="335.28" y2="218.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="A6" class="0">
