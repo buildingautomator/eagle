@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.2">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -17742,35 +17742,6 @@ straight</description>
 <text x="-5.08" y="2.54" size="1.27" layer="21">&gt;NAME</text>
 <text x="-5.08" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
 </package>
-<package name="MC5">
-<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 5-polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<wire x1="-10.2199" y1="-8" x2="10.21" y2="-8" width="0.127" layer="21"/>
-<wire x1="10.21" y1="-8" x2="10.21" y2="1.1999" width="0.127" layer="21"/>
-<wire x1="10.21" y1="1.1999" x2="-10.2199" y2="1.1999" width="0.127" layer="21"/>
-<wire x1="-10.2199" y1="1.1999" x2="-10.2199" y2="-8" width="0.127" layer="21"/>
-<wire x1="-10.16" y1="-5.08" x2="10.16" y2="-5.08" width="0.127" layer="21"/>
-<pad name="1" x="-7.62" y="0" drill="1.27" shape="long" rot="R90"/>
-<pad name="2" x="-3.81" y="0" drill="1.27" shape="long" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.27" shape="long" rot="R90"/>
-<pad name="4" x="3.81" y="0" drill="1.27" shape="long" rot="R90"/>
-<pad name="5" x="7.62" y="0" drill="1.27" shape="long" rot="R90"/>
-<text x="-8.89" y="2.54" size="1.27" layer="21">&gt;NAME</text>
-<text x="-8.89" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
-</package>
-<package name="MC2">
-<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<wire x1="-4.5049" y1="-8" x2="4.495" y2="-8" width="0.127" layer="21"/>
-<wire x1="4.495" y1="-8" x2="4.495" y2="1.1999" width="0.127" layer="21"/>
-<wire x1="4.495" y1="1.1999" x2="-4.5049" y2="1.1999" width="0.127" layer="21"/>
-<wire x1="-4.5049" y1="1.1999" x2="-4.5049" y2="-8" width="0.127" layer="21"/>
-<wire x1="-4.445" y1="-5.08" x2="4.445" y2="-5.08" width="0.127" layer="21"/>
-<pad name="1" x="-1.905" y="0" drill="1.27" shape="long" rot="R90"/>
-<pad name="2" x="1.905" y="0" drill="1.27" shape="long" rot="R90"/>
-<text x="-3.175" y="2.54" size="1.27" layer="21">&gt;NAME</text>
-<text x="-3.175" y="-4.445" size="1.27" layer="21">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
 <symbol name="MCST">
@@ -17856,50 +17827,6 @@ straight</description>
 <connect gate=".1" pin="SK" pad="1"/>
 <connect gate=".2" pin="SK" pad="2"/>
 <connect gate=".3" pin="SK" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC5" prefix="X">
-<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 5-polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<gates>
-<gate name=".1" symbol="MCST" x="0" y="0" addlevel="always"/>
-<gate name=".2" symbol="MCST" x="0" y="-5.08" addlevel="always"/>
-<gate name=".3" symbol="MCST" x="0" y="-10.16" addlevel="always"/>
-<gate name=".4" symbol="MCST" x="0" y="-15.24" addlevel="always"/>
-<gate name=".5" symbol="MCST" x="0" y="-20.32" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MC5">
-<connects>
-<connect gate=".1" pin="SK" pad="1"/>
-<connect gate=".2" pin="SK" pad="2"/>
-<connect gate=".3" pin="SK" pad="3"/>
-<connect gate=".4" pin="SK" pad="4"/>
-<connect gate=".5" pin="SK" pad="5"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="MC2" prefix="X">
-<description>&lt;b&gt;Mini-Combicon 3.81mm horizontal 2-polig&lt;/b&gt;&lt;p&gt;
- (ohne Gegenstecker)</description>
-<gates>
-<gate name=".1" symbol="MCST" x="0" y="2.54" addlevel="always"/>
-<gate name=".2" symbol="MCST" x="0" y="-2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="MC2">
-<connects>
-<connect gate=".1" pin="SK" pad="1"/>
-<connect gate=".2" pin="SK" pad="2"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -18189,9 +18116,7 @@ Source: http://www.semicon.toshiba.co.jp/td/en/Opto/Photocoupler/en_20050928_TLP
 <part name="+3V12" library="supply1" deviceset="+3V3" device=""/>
 <part name="IL8" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="X2" library="con-phoenix-381_l" deviceset="MC5" device=""/>
-<part name="X3" library="con-phoenix-381_l" deviceset="MC2" device=""/>
-<part name="X4" library="con-phoenix-381_l" deviceset="MC5" device=""/>
+<part name="XI1" library="con-phoenix-381_l" deviceset="MC10" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18627,41 +18552,35 @@ TESA IO Board Design.</text>
 <instance part="X1" gate=".3" x="119.38" y="129.54" smashed="yes">
 <attribute name="NAME" x="111.76" y="131.445" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate=".1" x="218.44" y="71.12" smashed="yes">
-<attribute name="NAME" x="210.82" y="73.025" size="1.524" layer="95"/>
+<instance part="XI1" gate=".1" x="248.92" y="78.74" smashed="yes">
+<attribute name="NAME" x="241.3" y="80.645" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate=".2" x="218.44" y="66.04" smashed="yes">
-<attribute name="NAME" x="210.82" y="67.945" size="1.524" layer="95"/>
+<instance part="XI1" gate=".2" x="248.92" y="73.66" smashed="yes">
+<attribute name="NAME" x="241.3" y="75.565" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate=".3" x="218.44" y="60.96" smashed="yes">
-<attribute name="NAME" x="210.82" y="62.865" size="1.524" layer="95"/>
+<instance part="XI1" gate=".3" x="248.92" y="68.58" smashed="yes">
+<attribute name="NAME" x="241.3" y="70.485" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate=".4" x="218.44" y="55.88" smashed="yes">
-<attribute name="NAME" x="210.82" y="57.785" size="1.524" layer="95"/>
+<instance part="XI1" gate=".4" x="248.92" y="63.5" smashed="yes">
+<attribute name="NAME" x="241.3" y="65.405" size="1.524" layer="95"/>
 </instance>
-<instance part="X2" gate=".5" x="218.44" y="50.8" smashed="yes">
-<attribute name="NAME" x="210.82" y="52.705" size="1.524" layer="95"/>
+<instance part="XI1" gate=".5" x="248.92" y="58.42" smashed="yes">
+<attribute name="NAME" x="241.3" y="60.325" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate=".1" x="218.44" y="33.02" smashed="yes">
-<attribute name="NAME" x="210.82" y="34.925" size="1.524" layer="95"/>
+<instance part="XI1" gate=".6" x="248.92" y="53.34" smashed="yes">
+<attribute name="NAME" x="241.3" y="55.245" size="1.524" layer="95"/>
 </instance>
-<instance part="X3" gate=".2" x="218.44" y="27.94" smashed="yes">
-<attribute name="NAME" x="210.82" y="29.845" size="1.524" layer="95"/>
+<instance part="XI1" gate=".7" x="248.92" y="48.26" smashed="yes">
+<attribute name="NAME" x="241.3" y="50.165" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate=".1" x="248.92" y="76.2" smashed="yes">
-<attribute name="NAME" x="241.3" y="78.105" size="1.524" layer="95"/>
+<instance part="XI1" gate=".8" x="248.92" y="43.18" smashed="yes">
+<attribute name="NAME" x="241.3" y="45.085" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate=".2" x="248.92" y="71.12" smashed="yes">
-<attribute name="NAME" x="241.3" y="73.025" size="1.524" layer="95"/>
+<instance part="XI1" gate=".9" x="248.92" y="38.1" smashed="yes">
+<attribute name="NAME" x="241.3" y="40.005" size="1.524" layer="95"/>
 </instance>
-<instance part="X4" gate=".3" x="248.92" y="66.04" smashed="yes">
-<attribute name="NAME" x="241.3" y="67.945" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate=".4" x="248.92" y="60.96" smashed="yes">
-<attribute name="NAME" x="241.3" y="62.865" size="1.524" layer="95"/>
-</instance>
-<instance part="X4" gate=".5" x="248.92" y="55.88" smashed="yes">
-<attribute name="NAME" x="241.3" y="57.785" size="1.524" layer="95"/>
+<instance part="XI1" gate=".10" x="248.92" y="33.02" smashed="yes">
+<attribute name="NAME" x="241.3" y="34.925" size="1.524" layer="95"/>
 </instance>
 </instances>
 <busses>
