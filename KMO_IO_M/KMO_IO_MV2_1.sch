@@ -20607,11 +20607,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="OF5" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
 <part name="EC6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="10u"/>
 <part name="XO" library="con-phoenix-381_l" deviceset="MC10" device=""/>
-<part name="U1" library="ULN2803ADW" deviceset="ULN2803ADW" device=""/>
+<part name="U1" library="ULN2803ADW" deviceset="ULN2803ADW" device="" override_package3d_urn="urn:adsk.eagle:package:10694723/2" override_package_urn="urn:adsk.eagle:footprint:10694724/1"/>
 <part name="OF6" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
 <part name="OF7" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF8" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF9" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
+<part name="OF8" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694732/2" override_package_urn="urn:adsk.eagle:footprint:10694733/1" value="6V/0.75A"/>
+<part name="OF9" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
 <part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
 <part name="ORN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="1K"/>
 <part name="ORN5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10K"/>
@@ -20624,8 +20624,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GPIO" library="con-panduit" library_urn="urn:adsk.eagle:library:169" deviceset="057-014-" device="1" package3d_urn="urn:adsk.eagle:package:9205/1"/>
 <part name="D1" library="BAV70" deviceset="BAV70" device=""/>
-<part name="D2" library="BAV70" deviceset="BAV70" device=""/>
-<part name="D3" library="BAV70" deviceset="BAV70" device=""/>
+<part name="D2" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694704/2" override_package_urn="urn:adsk.eagle:footprint:10694705/1"/>
+<part name="D3" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694719/2" override_package_urn="urn:adsk.eagle:footprint:10694720/1"/>
 <part name="D4" library="BAV70" deviceset="BAV70" device=""/>
 </parts>
 <sheets>
@@ -21035,7 +21035,7 @@ TESA IO Board Design.</text>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="PL" gate="G$1" pin="C"/>
@@ -22626,7 +22626,7 @@ TESA IO Board Design.</text>
 <wire x1="55.88" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="0">
+<net name="GND" class="1">
 <segment>
 <pinref part="IL1" gate="G$1" pin="C"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -23726,6 +23726,11 @@ will not be understood (or retained) with this version.
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
+will not be understood (or retained) with this version.
 </note>
 <note version="8.4" severity="warning">
 Since Version 8.4, EAGLE supports properties for SPICE simulation. 
