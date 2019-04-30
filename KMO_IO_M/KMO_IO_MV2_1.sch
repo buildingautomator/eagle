@@ -20490,8 +20490,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="1" name="vcc" width="0.254" drill="0.3">
 <clearance class="1" value="0.16"/>
 </class>
-<class number="2" name="POWER" width="0.254" drill="0.3">
+<class number="2" name="3.3 power line" width="0.254" drill="0.3">
 <clearance class="2" value="0.16"/>
+</class>
+<class number="3" name="outsise power line" width="0.254" drill="0.3">
+<clearance class="3" value="0.16"/>
 </class>
 </classes>
 <parts>
@@ -23120,7 +23123,7 @@ TESA IO Board Design.</text>
 <wire x1="157.48" y1="236.22" x2="162.56" y2="236.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VDDO" class="0">
+<net name="VDDO" class="3">
 <segment>
 <pinref part="OF1" gate="G$1" pin="1"/>
 <wire x1="172.72" y1="236.22" x2="175.26" y2="236.22" width="0.1524" layer="91"/>
@@ -23197,7 +23200,7 @@ TESA IO Board Design.</text>
 <pinref part="ORN5" gate="D" pin="2"/>
 </segment>
 </net>
-<net name="GNDO" class="0">
+<net name="GNDO" class="3">
 <segment>
 <pinref part="OD2" gate="G$1" pin="A"/>
 <wire x1="175.26" y1="226.06" x2="175.26" y2="228.6" width="0.1524" layer="91"/>
