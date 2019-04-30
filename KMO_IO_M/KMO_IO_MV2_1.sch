@@ -20490,65 +20490,68 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="1" name="vcc" width="0.254" drill="0.3">
 <clearance class="1" value="0.16"/>
 </class>
+<class number="2" name="POWER" width="0.254" drill="0.3">
+<clearance class="2" value="0.16"/>
+</class>
 </classes>
 <parts>
 <part name="PL" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="GRN"/>
 <part name="PD1" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="SMA" value="M7"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="PR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="PF1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" value="1A"/>
+<part name="PR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707853/2" override_package_urn="urn:adsk.eagle:footprint:10707854/1" value="1k"/>
+<part name="PF1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" override_package3d_urn="urn:adsk.eagle:package:10707824/2" override_package_urn="urn:adsk.eagle:footprint:10707825/1" value="1A"/>
 <part name="PJ1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="TOE"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="NIR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4700"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="NIR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4700"/>
-<part name="WIFI" library="esp8266modules" deviceset="ESP01" device=""/>
+<part name="WIFI" library="esp8266modules" deviceset="ESP01" device="" override_package3d_urn="urn:adsk.eagle:package:10705307/2" override_package_urn="urn:adsk.eagle:footprint:10705315/1"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="NIR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="4700"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
 <part name="FRAME2" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="LETTER_L" device=""/>
-<part name="ENC" library="microchip-enc28j60" deviceset="ENC28J60-*" device="SSOP"/>
-<part name="ER1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="ER2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10k"/>
-<part name="ER10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="2.7K"/>
-<part name="Q2" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-9B" package3d_urn="urn:adsk.eagle:package:11930/1" value="25MHz"/>
+<part name="ENC" library="microchip-enc28j60" deviceset="ENC28J60-*" device="SSOP" override_package3d_urn="urn:adsk.eagle:package:10707289/2" override_package_urn="urn:adsk.eagle:footprint:10707291/1"/>
+<part name="ER1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707857/2" override_package_urn="urn:adsk.eagle:footprint:10707858/1" value="10k"/>
+<part name="ER2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707855/2" override_package_urn="urn:adsk.eagle:footprint:10707856/1" value="10k"/>
+<part name="ER10" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707859/2" override_package_urn="urn:adsk.eagle:footprint:10707860/1" value="2.7K"/>
+<part name="Q2" library="crystal-geyer_V1_0" library_urn="urn:adsk.eagle:library:203" deviceset="KX" device="-9B" package3d_urn="urn:adsk.eagle:package:11930/1" override_package3d_urn="urn:adsk.eagle:package:10707868/2" override_package_urn="urn:adsk.eagle:footprint:11875/1" value="25MHz"/>
 <part name="EC1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="18p"/>
 <part name="EC2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="18p"/>
 <part name="EC4" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10n"/>
 <part name="EL1" library="SparkFun-Coils" deviceset="INDUCTOR" device="-0805-3.3UH" value="10µH"/>
 <part name="EC5" library="SparkFun-Passives" deviceset="CAP" device="0805" value="10n"/>
 <part name="EC3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="10u"/>
-<part name="ER3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
-<part name="ER4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
+<part name="ER3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707861/2" override_package_urn="urn:adsk.eagle:footprint:10707862/1" value="1k"/>
+<part name="ER4" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707864/2" override_package_urn="urn:adsk.eagle:footprint:10707865/1" value="1k"/>
 <part name="U$2" library="HR911105A" deviceset="HR911105A" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="PP" library="con-molex" library_urn="urn:adsk.eagle:library:165" deviceset="22-?-04" device="05-7048"/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707866/2" override_package_urn="urn:adsk.eagle:footprint:10707867/1" value="10K"/>
 <part name="C3" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
-<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1k"/>
+<part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707851/2" override_package_urn="urn:adsk.eagle:footprint:10707852/1" value="1k"/>
 <part name="INDL" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
-<part name="MC" library="SparkFun" deviceset="ATMEGA168" device="" value="ATMEGA328"/>
+<part name="MC" library="SparkFun" deviceset="ATMEGA168" device="" override_package3d_urn="urn:adsk.eagle:package:10705350/2" override_package_urn="urn:adsk.eagle:footprint:10705351/1" value="ATMEGA328"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" value="100nF"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
 <part name="Q1" library="Testing" deviceset="RESONATOR" device="1:1" value="8MHz"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES"/>
-<part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="220uf 50v"/>
-<part name="PC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" value="220uf 50v"/>
-<part name="PCO" library="inductor-coilcraft" deviceset="MSS1260" device="" value="220 uh"/>
-<part name="PIC33" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:21218/1"/>
+<part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" override_package3d_urn="urn:adsk.eagle:package:10705447/2" override_package_urn="urn:adsk.eagle:footprint:22897/1" value="220uf 50v"/>
+<part name="PC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/1" override_package3d_urn="urn:adsk.eagle:package:10705466/2" override_package_urn="urn:adsk.eagle:footprint:22897/1" value="220uf 50v"/>
+<part name="PCO" library="inductor-coilcraft" deviceset="MSS1260" device="" override_package3d_urn="urn:adsk.eagle:package:10707278/2" override_package_urn="urn:adsk.eagle:footprint:10707279/1" value="220 uh"/>
+<part name="PIC33" library="national-semiconductor" library_urn="urn:adsk.eagle:library:307" deviceset="LM2596" device="S" package3d_urn="urn:adsk.eagle:package:21218/1" override_package3d_urn="urn:adsk.eagle:package:10705478/2" override_package_urn="urn:adsk.eagle:footprint:21182/1"/>
 <part name="PD2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2" value="SS54"/>
-<part name="SR" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1"/>
-<part name="SV1" library="con_io_sxp" deviceset="S03P" device=""/>
-<part name="SV2" library="con_io_sxp" deviceset="S03P" device=""/>
-<part name="SV3" library="con_io_sxp" deviceset="S03P" device=""/>
+<part name="SR" library="switch-omron" library_urn="urn:adsk.eagle:library:377" deviceset="31-XX" device="" package3d_urn="urn:adsk.eagle:package:27487/1" value="gnd"/>
+<part name="SV1" library="con_io_sxp" deviceset="S03P" device="" value="3.3V"/>
+<part name="SV2" library="con_io_sxp" deviceset="S03P" device="" value="3.3V"/>
+<part name="SV3" library="con_io_sxp" deviceset="S03P" device="" value="3.3V"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
 <part name="BL" library="con-panduit" library_urn="urn:adsk.eagle:library:169" deviceset="057-006-" device="1" package3d_urn="urn:adsk.eagle:package:9198/1"/>
 <part name="GND7" library="SparkFun" deviceset="GND" device=""/>
-<part name="BLS" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1"/>
+<part name="BLS" library="special" library_urn="urn:adsk.eagle:library:367" deviceset="SW_DIP-1" device="" package3d_urn="urn:adsk.eagle:package:26661/1" value="on-off"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -20563,12 +20566,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IL5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="IL6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="IL7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
-<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
+<part name="OK1" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" override_package3d_urn="urn:adsk.eagle:package:10703864/2" override_package_urn="urn:adsk.eagle:footprint:21913/1">
+<attribute name="SPICEPREFIX" value="O"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
+<part name="OK2" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" override_package3d_urn="urn:adsk.eagle:package:10704540/2" override_package_urn="urn:adsk.eagle:footprint:21913/1">
+<attribute name="SPICEPREFIX" value="O"/>
+</part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
@@ -20577,21 +20584,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="IC1" library="microchip" library_urn="urn:adsk.eagle:library:294" deviceset="MCP23017" device="SS" package3d_urn="urn:adsk.eagle:package:20800/2"/>
 <part name="XV" library="con-phoenix-381_l" deviceset="MC2" device=""/>
-<part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
+<part name="OK3" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" override_package3d_urn="urn:adsk.eagle:package:10704846/2" override_package_urn="urn:adsk.eagle:footprint:21913/1"/>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
-<part name="MR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K"/>
-<part name="MR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K"/>
-<part name="IIR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="6.8K"/>
-<part name="IR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="1K"/>
-<part name="IIR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="6.8K"/>
-<part name="IR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="1K"/>
-<part name="ERN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="49.9R"/>
-<part name="ORN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="1K"/>
-<part name="ORN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10K"/>
+<part name="MR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707849/2" override_package_urn="urn:adsk.eagle:footprint:10707850/1" value="1.5K"/>
+<part name="MR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707847/2" override_package_urn="urn:adsk.eagle:footprint:10707848/1" value="1.5K"/>
+<part name="IIR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705413/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="6.8K"/>
+<part name="IR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705410/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="IIR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705419/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="6.8K"/>
+<part name="IR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705415/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="ERN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705420/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="49.9R"/>
+<part name="ORN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="ORN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705426/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
 <part name="ORN3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10K"/>
 <part name="XI1" library="con-phoenix-381_l" deviceset="MC5" device=""/>
 <part name="XI2" library="con-phoenix-381_l" deviceset="MC5" device=""/>
-<part name="MR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="MR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707839/2" override_package_urn="urn:adsk.eagle:footprint:10707840/1" value="10K"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun" deviceset="GND" device=""/>
 <part name="OL1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
@@ -20599,23 +20606,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="OL3" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OL4" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OD1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="SCHOTTKY-DIODE" device="SMD" package3d_urn="urn:adsk.eagle:package:43404/2" value="SS54"/>
-<part name="OD2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2"/>
-<part name="OF1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" value="750mA"/>
-<part name="OF2" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF3" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF4" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF5" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
+<part name="OD2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="ZENER-DIODE" device="SMB" package3d_urn="urn:adsk.eagle:package:43404/2" value="28V"/>
+<part name="OF1" library="_hhn_PtcFuses_Siba_r500_Ozan" deviceset="SIBA194600*" device="" override_package3d_urn="urn:adsk.eagle:package:10707829/2" override_package_urn="urn:adsk.eagle:footprint:10707830/1" value="750mA"/>
 <part name="EC6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="CT3216" package3d_urn="urn:adsk.eagle:package:23327/2" value="10u"/>
 <part name="XO" library="con-phoenix-381_l" deviceset="MC10" device=""/>
 <part name="U1" library="ULN2803ADW" deviceset="ULN2803ADW" device="" override_package3d_urn="urn:adsk.eagle:package:10694723/2" override_package_urn="urn:adsk.eagle:footprint:10694724/1"/>
-<part name="OF6" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF7" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" value="6V/0.75A"/>
-<part name="OF8" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694732/2" override_package_urn="urn:adsk.eagle:footprint:10694733/1" value="6V/0.75A"/>
 <part name="OF9" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
-<part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1"/>
-<part name="ORN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="1K"/>
-<part name="ORN5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10K"/>
-<part name="ORN6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" value="10K"/>
+<part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" override_package3d_urn="urn:adsk.eagle:package:10705087/2" override_package_urn="urn:adsk.eagle:footprint:21913/1"/>
+<part name="ORN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705407/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="ORN5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705437/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
+<part name="ORN6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705421/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
 <part name="OL5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OL6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OL7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
@@ -20623,10 +20623,18 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GPIO" library="con-panduit" library_urn="urn:adsk.eagle:library:169" deviceset="057-014-" device="1" package3d_urn="urn:adsk.eagle:package:9205/1"/>
-<part name="D1" library="BAV70" deviceset="BAV70" device=""/>
 <part name="D2" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694704/2" override_package_urn="urn:adsk.eagle:footprint:10694705/1"/>
-<part name="D3" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694719/2" override_package_urn="urn:adsk.eagle:footprint:10694720/1"/>
-<part name="D4" library="BAV70" deviceset="BAV70" device=""/>
+<part name="GND8" library="SparkFun" deviceset="GND" device=""/>
+<part name="D1" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694704/2" override_package_urn="urn:adsk.eagle:footprint:10694705/1"/>
+<part name="D3" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694704/2" override_package_urn="urn:adsk.eagle:footprint:10694705/1"/>
+<part name="D4" library="BAV70" deviceset="BAV70" device="" override_package3d_urn="urn:adsk.eagle:package:10694704/2" override_package_urn="urn:adsk.eagle:footprint:10694705/1"/>
+<part name="OF8" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF7" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF6" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF5" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF4" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF2" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
+<part name="OF3" library="SparkFun-Fuses" deviceset="PPTC" device="_0.75A" override_package3d_urn="urn:adsk.eagle:package:10694727/2" override_package_urn="urn:adsk.eagle:footprint:10694728/1" value="6V/0.75A"/>
 </parts>
 <sheets>
 <sheet>
@@ -21031,11 +21039,14 @@ TESA IO Board Design.</text>
 <instance part="GPIO" gate="-14" x="25.4" y="12.7" smashed="yes" rot="R180">
 <attribute name="NAME" x="24.384" y="13.462" size="1.524" layer="95" rot="R180"/>
 </instance>
+<instance part="GND8" gate="1" x="137.16" y="104.14" smashed="yes" rot="MR90">
+<attribute name="VALUE" x="134.62" y="101.6" size="1.778" layer="96" rot="MR90"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="PL" gate="G$1" pin="C"/>
@@ -21155,6 +21166,8 @@ TESA IO Board Design.</text>
 <wire x1="335.28" y1="162.56" x2="373.38" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="373.38" y1="162.56" x2="373.38" y2="139.7" width="0.1524" layer="91"/>
 <junction x="373.38" y="139.7"/>
+<junction x="304.8" y="93.98"/>
+<junction x="325.12" y="93.98"/>
 </segment>
 <segment>
 <pinref part="PP" gate="-2" pin="S"/>
@@ -21205,6 +21218,12 @@ TESA IO Board Design.</text>
 <wire x1="33.02" y1="68.58" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GPIO" gate="-4" pin="S"/>
 <wire x1="33.02" y1="63.5" x2="30.48" y2="63.5" width="0.1524" layer="91"/>
+<junction x="33.02" y="68.58"/>
+</segment>
+<segment>
+<wire x1="139.7" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="BL" gate="-6" pin="S"/>
+<pinref part="GND8" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="RAW_IV" class="1">
@@ -21270,7 +21289,7 @@ TESA IO Board Design.</text>
 <pinref part="GPIO" gate="-8" pin="S"/>
 </segment>
 </net>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <label x="137.16" y="231.14" size="1.778" layer="95" xref="yes"/>
 <pinref part="PR1" gate="G$1" pin="2"/>
@@ -21801,7 +21820,6 @@ TESA IO Board Design.</text>
 </net>
 <net name="VIN" class="0">
 <segment>
-<wire x1="20.32" y1="218.44" x2="22.86" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="PJ1" gate="G$1" pin="PWR"/>
 <wire x1="22.86" y1="218.44" x2="33.02" y2="218.44" width="0.1524" layer="91"/>
 <pinref part="PD1" gate="G$1" pin="A"/>
@@ -21943,13 +21961,6 @@ TESA IO Board Design.</text>
 <wire x1="142.24" y1="109.22" x2="139.7" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="BL" gate="-2" pin="S"/>
 <label x="139.7" y="109.22" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="BLG" class="0">
-<segment>
-<wire x1="139.7" y1="104.14" x2="142.24" y2="104.14" width="0.1524" layer="91"/>
-<pinref part="BL" gate="-6" pin="S"/>
-<label x="139.7" y="104.14" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="WFGPIO0" class="0">
@@ -22330,22 +22341,6 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="152.146" y="163.322" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="150.114" y="153.797" size="1.778" layer="96"/>
 </instance>
-<instance part="OF2" gate="F1" x="215.9" y="68.58" smashed="yes" rot="R180">
-<attribute name="NAME" x="218.44" y="67.0814" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="218.44" y="71.882" size="1.6764" layer="96" rot="R180"/>
-</instance>
-<instance part="OF3" gate="F1" x="226.06" y="66.04" smashed="yes" rot="R180">
-<attribute name="NAME" x="228.6" y="64.5414" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.6" y="69.342" size="1.6764" layer="96" rot="R180"/>
-</instance>
-<instance part="OF4" gate="F1" x="236.22" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="238.76" y="62.0014" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="238.76" y="66.802" size="1.6764" layer="96" rot="R180"/>
-</instance>
-<instance part="OF5" gate="F1" x="246.38" y="60.96" smashed="yes" rot="R180">
-<attribute name="NAME" x="248.92" y="59.4614" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="248.92" y="64.262" size="1.6764" layer="96" rot="R180"/>
-</instance>
 <instance part="EC6" gate="G$1" x="185.42" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="185.9026" y="11.557" size="1.778" layer="95" rot="R270"/>
 <attribute name="VALUE" x="180.8226" y="11.557" size="1.778" layer="96" rot="R270"/>
@@ -22377,18 +22372,6 @@ TESA IO Board Design.</text>
 <instance part="U1" gate="A" x="177.8" y="60.96" smashed="yes">
 <attribute name="NAME" x="172.6184" y="76.0476" size="2.032" layer="95" ratio="5" rot="SR0"/>
 <attribute name="VALUE" x="168.783" y="38.2778" size="2.032" layer="96" ratio="5" rot="SR0"/>
-</instance>
-<instance part="OF6" gate="F1" x="220.98" y="58.42" smashed="yes" rot="R180">
-<attribute name="NAME" x="223.52" y="56.9214" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="223.52" y="61.722" size="1.6764" layer="96" rot="R180"/>
-</instance>
-<instance part="OF7" gate="F1" x="231.14" y="55.88" smashed="yes" rot="R180">
-<attribute name="NAME" x="233.68" y="54.3814" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="233.68" y="59.182" size="1.6764" layer="96" rot="R180"/>
-</instance>
-<instance part="OF8" gate="F1" x="241.3" y="53.34" smashed="yes" rot="R180">
-<attribute name="NAME" x="243.84" y="51.8414" size="1.6764" layer="95" rot="R180"/>
-<attribute name="VALUE" x="243.84" y="56.642" size="1.6764" layer="96" rot="R180"/>
 </instance>
 <instance part="OF9" gate="F1" x="251.46" y="50.8" smashed="yes" rot="R180">
 <attribute name="NAME" x="254" y="49.3014" size="1.6764" layer="95" rot="R180"/>
@@ -22474,13 +22457,13 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="152.146" y="89.662" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="150.114" y="80.137" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="210.82" y="22.86" smashed="yes" rot="R270">
-<attribute name="NAME" x="213.3622" y="20.3178" size="1.2711" layer="95" rot="R270"/>
-<attribute name="VALUE" x="205.733640625" y="33.0327" size="1.271590625" layer="96" rot="R270"/>
-</instance>
 <instance part="D2" gate="G$1" x="220.98" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="223.5222" y="20.3178" size="1.2711" layer="95" rot="R270"/>
 <attribute name="VALUE" x="215.893640625" y="33.0327" size="1.271590625" layer="96" rot="R270"/>
+</instance>
+<instance part="D1" gate="G$1" x="210.82" y="22.86" smashed="yes" rot="R270">
+<attribute name="NAME" x="213.3622" y="20.3178" size="1.2711" layer="95" rot="R270"/>
+<attribute name="VALUE" x="205.733640625" y="33.0327" size="1.271590625" layer="96" rot="R270"/>
 </instance>
 <instance part="D3" gate="G$1" x="231.14" y="22.86" smashed="yes" rot="R270">
 <attribute name="NAME" x="233.6822" y="20.3178" size="1.2711" layer="95" rot="R270"/>
@@ -22490,11 +22473,39 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="243.8422" y="20.3178" size="1.2711" layer="95" rot="R270"/>
 <attribute name="VALUE" x="236.213640625" y="33.0327" size="1.271590625" layer="96" rot="R270"/>
 </instance>
+<instance part="OF8" gate="F1" x="241.3" y="53.34" smashed="yes" rot="R180">
+<attribute name="NAME" x="243.84" y="51.8414" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="243.84" y="56.642" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF7" gate="F1" x="231.14" y="55.88" smashed="yes" rot="R180">
+<attribute name="NAME" x="233.68" y="54.3814" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="233.68" y="59.182" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF6" gate="F1" x="220.98" y="58.42" smashed="yes" rot="R180">
+<attribute name="NAME" x="223.52" y="56.9214" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="223.52" y="61.722" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF5" gate="F1" x="246.38" y="60.96" smashed="yes" rot="R180">
+<attribute name="NAME" x="248.92" y="59.4614" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="248.92" y="64.262" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF4" gate="F1" x="236.22" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="238.76" y="62.0014" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="238.76" y="66.802" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF2" gate="F1" x="226.06" y="66.04" smashed="yes" rot="R180">
+<attribute name="NAME" x="228.6" y="64.5414" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="228.6" y="69.342" size="1.6764" layer="96" rot="R180"/>
+</instance>
+<instance part="OF3" gate="F1" x="215.9" y="68.58" smashed="yes" rot="R180">
+<attribute name="NAME" x="218.44" y="67.0814" size="1.6764" layer="95" rot="R180"/>
+<attribute name="VALUE" x="218.44" y="71.882" size="1.6764" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="+3V3" class="0">
+<net name="+3V3" class="2">
 <segment>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 <wire x1="40.64" y1="134.62" x2="45.72" y2="134.62" width="0.1524" layer="91"/>
@@ -22626,7 +22637,7 @@ TESA IO Board Design.</text>
 <wire x1="55.88" y1="25.4" x2="53.34" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="GND" class="1">
+<net name="GND" class="2">
 <segment>
 <pinref part="IL1" gate="G$1" pin="C"/>
 <pinref part="GND12" gate="1" pin="GND"/>
@@ -23151,19 +23162,19 @@ TESA IO Board Design.</text>
 <wire x1="241.3" y1="12.7" x2="246.38" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="12.7" x2="198.12" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="COM"/>
-<pinref part="D1" gate="G$1" pin="3"/>
 <wire x1="210.82" y1="15.24" x2="210.82" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="3"/>
 <wire x1="220.98" y1="15.24" x2="220.98" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="D3" gate="G$1" pin="3"/>
 <wire x1="231.14" y1="15.24" x2="231.14" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="D4" gate="G$1" pin="3"/>
 <wire x1="241.3" y1="15.24" x2="241.3" y2="12.7" width="0.1524" layer="91"/>
 <junction x="210.82" y="12.7"/>
 <junction x="220.98" y="12.7"/>
 <junction x="231.14" y="12.7"/>
 <junction x="241.3" y="12.7"/>
 <junction x="198.12" y="12.7"/>
+<pinref part="D1" gate="G$1" pin="3"/>
+<pinref part="D3" gate="G$1" pin="3"/>
+<pinref part="D4" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <wire x1="210.82" y1="142.24" x2="213.36" y2="142.24" width="0.1524" layer="91"/>
@@ -23375,7 +23386,6 @@ TESA IO Board Design.</text>
 <net name="N$7" class="0">
 <segment>
 <wire x1="195.58" y1="66.04" x2="205.74" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="OF3" gate="F1" pin="2"/>
 <wire x1="205.74" y1="66.04" x2="218.44" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="66.04" x2="205.74" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="205.74" y1="35.56" x2="213.36" y2="35.56" width="0.1524" layer="91"/>
@@ -23383,12 +23393,12 @@ TESA IO Board Design.</text>
 <junction x="205.74" y="66.04"/>
 <pinref part="U1" gate="A" pin="2C"/>
 <pinref part="D1" gate="G$1" pin="1"/>
+<pinref part="OF2" gate="F1" pin="2"/>
 </segment>
 </net>
 <net name="N$49" class="0">
 <segment>
 <wire x1="195.58" y1="63.5" x2="208.28" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="OF4" gate="F1" pin="2"/>
 <wire x1="208.28" y1="63.5" x2="228.6" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="63.5" x2="208.28" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="38.1" x2="218.44" y2="38.1" width="0.1524" layer="91"/>
@@ -23396,12 +23406,12 @@ TESA IO Board Design.</text>
 <junction x="208.28" y="63.5"/>
 <pinref part="U1" gate="A" pin="3C"/>
 <pinref part="D2" gate="G$1" pin="2"/>
+<pinref part="OF4" gate="F1" pin="2"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
 <wire x1="195.58" y1="60.96" x2="210.82" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="OF5" gate="F1" pin="2"/>
 <wire x1="210.82" y1="60.96" x2="238.76" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="60.96" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="210.82" y1="40.64" x2="223.52" y2="40.64" width="0.1524" layer="91"/>
@@ -23409,12 +23419,12 @@ TESA IO Board Design.</text>
 <junction x="210.82" y="60.96"/>
 <pinref part="U1" gate="A" pin="4C"/>
 <pinref part="D2" gate="G$1" pin="1"/>
+<pinref part="OF5" gate="F1" pin="2"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <wire x1="195.58" y1="68.58" x2="200.66" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="OF2" gate="F1" pin="2"/>
 <wire x1="200.66" y1="68.58" x2="208.28" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="68.58" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="200.66" y1="33.02" x2="208.28" y2="33.02" width="0.1524" layer="91"/>
@@ -23422,30 +23432,31 @@ TESA IO Board Design.</text>
 <junction x="200.66" y="68.58"/>
 <pinref part="U1" gate="A" pin="1C"/>
 <pinref part="D1" gate="G$1" pin="2"/>
+<pinref part="OF3" gate="F1" pin="2"/>
 </segment>
 </net>
 <net name="N$57" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="6C"/>
 <wire x1="195.58" y1="55.88" x2="223.52" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="OF7" gate="F1" pin="2"/>
 <wire x1="223.52" y1="55.88" x2="223.52" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="223.52" y1="45.72" x2="233.68" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="45.72" x2="233.68" y2="30.48" width="0.1524" layer="91"/>
-<junction x="223.52" y="55.88"/>
 <pinref part="D3" gate="G$1" pin="1"/>
+<pinref part="OF7" gate="F1" pin="2"/>
+<junction x="223.52" y="55.88"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
 <pinref part="U1" gate="A" pin="7C"/>
 <wire x1="195.58" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
-<pinref part="OF8" gate="F1" pin="2"/>
 <wire x1="233.68" y1="53.34" x2="233.68" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="233.68" y1="48.26" x2="238.76" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="238.76" y1="48.26" x2="238.76" y2="30.48" width="0.1524" layer="91"/>
-<junction x="233.68" y="53.34"/>
 <pinref part="D4" gate="G$1" pin="2"/>
+<pinref part="OF8" gate="F1" pin="2"/>
+<junction x="233.68" y="53.34"/>
 </segment>
 </net>
 <net name="N$64" class="0">
@@ -23462,61 +23473,61 @@ TESA IO Board Design.</text>
 <segment>
 <pinref part="U1" gate="A" pin="5C"/>
 <wire x1="195.58" y1="58.42" x2="213.36" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="OF6" gate="F1" pin="2"/>
 <wire x1="213.36" y1="58.42" x2="213.36" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="213.36" y1="43.18" x2="228.6" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="228.6" y1="43.18" x2="228.6" y2="30.48" width="0.1524" layer="91"/>
-<junction x="213.36" y="58.42"/>
 <pinref part="D3" gate="G$1" pin="2"/>
+<pinref part="OF6" gate="F1" pin="2"/>
+<junction x="213.36" y="58.42"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="OF2" gate="F1" pin="1"/>
 <pinref part="XO" gate=".10" pin="SK"/>
 <wire x1="220.98" y1="68.58" x2="246.38" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="OF3" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="OF3" gate="F1" pin="1"/>
 <pinref part="XO" gate=".9" pin="SK"/>
 <wire x1="231.14" y1="66.04" x2="248.92" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="OF2" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$52" class="0">
 <segment>
-<pinref part="OF4" gate="F1" pin="1"/>
 <pinref part="XO" gate=".8" pin="SK"/>
 <wire x1="241.3" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="OF4" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
-<pinref part="OF5" gate="F1" pin="1"/>
 <pinref part="XO" gate=".7" pin="SK"/>
 <wire x1="251.46" y1="60.96" x2="254" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="OF5" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="OF6" gate="F1" pin="1"/>
 <pinref part="XO" gate=".6" pin="SK"/>
 <wire x1="226.06" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="OF6" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$66" class="0">
 <segment>
-<pinref part="OF7" gate="F1" pin="1"/>
 <pinref part="XO" gate=".5" pin="SK"/>
 <wire x1="236.22" y1="55.88" x2="254" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="OF7" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
-<pinref part="OF8" gate="F1" pin="1"/>
 <pinref part="XO" gate=".4" pin="SK"/>
 <wire x1="246.38" y1="53.34" x2="256.54" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="OF8" gate="F1" pin="1"/>
 </segment>
 </net>
 <net name="N$68" class="0">
@@ -23596,6 +23607,7 @@ TESA IO Board Design.</text>
 <wire x1="198.12" y1="132.08" x2="203.2" y2="132.08" width="0.1524" layer="91"/>
 <label x="203.2" y="132.08" size="1.778" layer="95" xref="yes"/>
 <pinref part="ORN6" gate="A" pin="2"/>
+<junction x="198.12" y="137.16"/>
 </segment>
 </net>
 <net name="IO6" class="0">
@@ -23612,6 +23624,7 @@ TESA IO Board Design.</text>
 <wire x1="198.12" y1="114.3" x2="203.2" y2="114.3" width="0.1524" layer="91"/>
 <label x="203.2" y="114.3" size="1.778" layer="95" xref="yes"/>
 <pinref part="ORN6" gate="B" pin="1"/>
+<junction x="198.12" y="119.38"/>
 </segment>
 </net>
 <net name="IO7" class="0">
@@ -23628,6 +23641,7 @@ TESA IO Board Design.</text>
 <wire x1="198.12" y1="96.52" x2="203.2" y2="96.52" width="0.1524" layer="91"/>
 <label x="203.2" y="96.52" size="1.778" layer="95" xref="yes"/>
 <pinref part="ORN6" gate="C" pin="1"/>
+<junction x="198.12" y="101.6"/>
 </segment>
 </net>
 <net name="IO8" class="0">
@@ -23644,6 +23658,7 @@ TESA IO Board Design.</text>
 <wire x1="198.12" y1="78.74" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="203.2" y="78.74" size="1.778" layer="95" xref="yes"/>
 <pinref part="ORN6" gate="D" pin="1"/>
+<junction x="198.12" y="83.82"/>
 </segment>
 </net>
 <net name="N$8" class="0">
