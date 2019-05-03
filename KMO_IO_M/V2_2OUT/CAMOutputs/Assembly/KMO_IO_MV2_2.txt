@@ -1,4 +1,4 @@
-Partlist exported from D:/Users/celikada/Documents/GitHub/eagle/KMO_IO_M/KMO_IO_MV2_2.sch at 5/3/2019 3:04 PM
+Partlist exported from D:/Users/celikada/Documents/GitHub/eagle/KMO_IO_M/KMO_IO_MV2_2.sch at 5/3/2019 4:06 PM
 
 Qty Value         Device              Package                      Parts                                                                                Description                                                             AVAILABILITY DESCRIPTION                     MF                     MP     MPN              OC_FARNELL OC_NEWARK PACKAGE          PRICE PROD_ID    SF_ID     SPICEPREFIX SUPPLIER          VALUE           
 1   057-006-1     057-006-1           057-006-1                    BL                                                                                   CONNECTOR                                                                                                                                                           unknown    unknown                                                                                             
