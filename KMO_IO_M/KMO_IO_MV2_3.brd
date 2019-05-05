@@ -3,7 +3,7 @@
 <eagle version="9.4.0">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
@@ -3786,7 +3786,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="60.5" y="32.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="61.77" y="34.655" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="ORN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="17.75" y="47.5" smashed="yes" rot="R180">
+<element name="OR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="17.75" y="47.5" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="17.75" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="17.75" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="19.655" y="50.04" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -3794,7 +3794,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="17.75" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="19.655" y="46.23" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="ORN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705426/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="78.75" smashed="yes" rot="R270">
+<element name="OR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705426/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="78.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="48.5" y="78.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="48.5" y="78.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.96" y="80.655" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -3802,7 +3802,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.5" y="78.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.77" y="80.655" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="ORN3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10712812/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="84.75" smashed="yes" rot="R270">
+<element name="OR3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10712812/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="84.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="48.5" y="84.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="48.5" y="84.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.96" y="86.655" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -3872,7 +3872,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="39.75" y="66.5" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="37.845" y="59.515" size="1.27" layer="27"/>
 </element>
-<element name="ORN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705407/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="23.25" y="47.5" smashed="yes" rot="R180">
+<element name="OR4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705407/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="23.25" y="47.5" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="23.25" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="23.25" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="25.155" y="50.04" size="1.27" layer="25" ratio="10" rot="R180"/>
@@ -3880,7 +3880,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="23.25" y="47.5" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="25.155" y="46.23" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
-<element name="ORN5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705437/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="72.75" smashed="yes" rot="R270">
+<element name="OR5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705437/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="72.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="48.5" y="72.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="48.5" y="72.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.96" y="74.655" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -3888,7 +3888,7 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="unknown" x="48.5" y="72.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="49.77" y="74.655" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="ORN6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705421/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="66.75" smashed="yes" rot="R270">
+<element name="OR6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705421/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K" x="48.5" y="66.75" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="48.5" y="66.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="48.5" y="66.75" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="45.96" y="68.655" size="1.27" layer="25" ratio="10" rot="R270"/>
@@ -4728,42 +4728,42 @@ design rules under a new name.</description>
 </signal>
 <signal name="GPB0">
 <contactref element="IC1" pad="1"/>
-<contactref element="ORN4" pad="8"/>
+<contactref element="OR4" pad="8"/>
 <wire x1="22.975" y1="43.625" x2="24.45" y2="46.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB1">
 <contactref element="IC1" pad="2"/>
-<contactref element="ORN4" pad="7"/>
+<contactref element="OR4" pad="7"/>
 <wire x1="22.325" y1="43.625" x2="23.65" y2="46.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB2">
 <contactref element="IC1" pad="3"/>
-<contactref element="ORN4" pad="6"/>
+<contactref element="OR4" pad="6"/>
 <wire x1="21.675" y1="43.625" x2="22.85" y2="46.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB3">
 <contactref element="IC1" pad="4"/>
-<contactref element="ORN4" pad="5"/>
+<contactref element="OR4" pad="5"/>
 <wire x1="21.025" y1="43.625" x2="22.05" y2="46.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB4">
 <contactref element="IC1" pad="5"/>
-<contactref element="ORN1" pad="8"/>
+<contactref element="OR1" pad="8"/>
 <wire x1="18.95" y1="46.875" x2="20.375" y2="43.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB5">
 <contactref element="IC1" pad="6"/>
-<contactref element="ORN1" pad="7"/>
+<contactref element="OR1" pad="7"/>
 <wire x1="19.725" y1="43.625" x2="18.15" y2="46.875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB6">
 <contactref element="IC1" pad="7"/>
-<contactref element="ORN1" pad="6"/>
+<contactref element="OR1" pad="6"/>
 <wire x1="17.35" y1="46.875" x2="19.075" y2="43.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GPB7">
 <contactref element="IC1" pad="8"/>
-<contactref element="ORN1" pad="5"/>
+<contactref element="OR1" pad="5"/>
 <wire x1="16.55" y1="46.875" x2="18.425" y2="43.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$3">
@@ -4773,22 +4773,22 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$48">
 <contactref element="OK3" pad="16"/>
-<contactref element="ORN3" pad="1"/>
+<contactref element="OR3" pad="1"/>
 <wire x1="42.74" y1="85.195" x2="47.875" y2="85.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$53">
 <contactref element="OK3" pad="14"/>
-<contactref element="ORN3" pad="2"/>
+<contactref element="OR3" pad="2"/>
 <wire x1="42.74" y1="82.655" x2="47.875" y2="85.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$56">
 <contactref element="OK3" pad="12"/>
-<contactref element="ORN3" pad="3"/>
+<contactref element="OR3" pad="3"/>
 <wire x1="42.74" y1="80.115" x2="47.875" y2="84.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$58">
 <contactref element="OK3" pad="10"/>
-<contactref element="ORN3" pad="4"/>
+<contactref element="OR3" pad="4"/>
 <wire x1="42.74" y1="77.575" x2="47.875" y2="83.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$60">
@@ -4817,17 +4817,17 @@ design rules under a new name.</description>
 <wire x1="15.95" y1="91.5" x2="21.35" y2="90.5" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VDDO" class="3">
-<contactref element="ORN3" pad="8"/>
-<contactref element="ORN3" pad="7"/>
-<contactref element="ORN3" pad="6"/>
-<contactref element="ORN3" pad="5"/>
+<contactref element="OR3" pad="8"/>
+<contactref element="OR3" pad="7"/>
+<contactref element="OR3" pad="6"/>
+<contactref element="OR3" pad="5"/>
 <contactref element="OD2" pad="C"/>
 <contactref element="EC6" pad="+"/>
 <contactref element="U1" pad="10"/>
-<contactref element="ORN5" pad="8"/>
-<contactref element="ORN5" pad="7"/>
-<contactref element="ORN5" pad="6"/>
-<contactref element="ORN5" pad="5"/>
+<contactref element="OR5" pad="8"/>
+<contactref element="OR5" pad="7"/>
+<contactref element="OR5" pad="6"/>
+<contactref element="OR5" pad="5"/>
 <contactref element="D2" pad="3"/>
 <contactref element="D1" pad="3"/>
 <contactref element="D3" pad="3"/>
@@ -4851,17 +4851,17 @@ design rules under a new name.</description>
 </signal>
 <signal name="GNDO" class="3">
 <contactref element="OD2" pad="A"/>
-<contactref element="ORN2" pad="6"/>
-<contactref element="ORN2" pad="8"/>
-<contactref element="ORN2" pad="5"/>
-<contactref element="ORN2" pad="7"/>
+<contactref element="OR2" pad="6"/>
+<contactref element="OR2" pad="8"/>
+<contactref element="OR2" pad="5"/>
+<contactref element="OR2" pad="7"/>
 <contactref element="EC6" pad="-"/>
 <contactref element="U1" pad="9"/>
 <contactref element="XO" pad="2"/>
-<contactref element="ORN6" pad="1"/>
-<contactref element="ORN6" pad="7"/>
-<contactref element="ORN6" pad="6"/>
-<contactref element="ORN6" pad="5"/>
+<contactref element="OR6" pad="1"/>
+<contactref element="OR6" pad="7"/>
+<contactref element="OR6" pad="6"/>
+<contactref element="OR6" pad="5"/>
 <wire x1="49.125" y1="79.15" x2="49.125" y2="79.95" width="0" layer="19" extent="1-1"/>
 <wire x1="49.125" y1="78.35" x2="49.125" y2="79.15" width="0" layer="19" extent="1-1"/>
 <wire x1="49.125" y1="77.55" x2="49.125" y2="78.35" width="0" layer="19" extent="1-1"/>
@@ -4881,28 +4881,28 @@ design rules under a new name.</description>
 </signal>
 <signal name="OI1">
 <contactref element="OK3" pad="15"/>
-<contactref element="ORN2" pad="1"/>
+<contactref element="OR2" pad="1"/>
 <contactref element="U1" pad="8"/>
 <wire x1="47.875" y1="79.95" x2="42.74" y2="83.925" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="77.81" x2="42.74" y2="83.925" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OI2">
 <contactref element="OK3" pad="13"/>
-<contactref element="ORN2" pad="2"/>
+<contactref element="OR2" pad="2"/>
 <contactref element="U1" pad="7"/>
 <wire x1="42.74" y1="81.385" x2="47.875" y2="79.15" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="76.54" x2="42.74" y2="81.385" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OI3">
 <contactref element="OK3" pad="11"/>
-<contactref element="ORN2" pad="3"/>
+<contactref element="OR2" pad="3"/>
 <contactref element="U1" pad="6"/>
 <wire x1="42.74" y1="78.845" x2="47.875" y2="78.35" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="75.27" x2="42.74" y2="78.845" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="OI4">
 <contactref element="OK3" pad="9"/>
-<contactref element="ORN2" pad="4"/>
+<contactref element="OR2" pad="4"/>
 <contactref element="U1" pad="5"/>
 <wire x1="42.74" y1="76.305" x2="47.875" y2="77.55" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="74" x2="42.74" y2="76.305" width="0" layer="19" extent="1-1"/>
@@ -5005,22 +5005,22 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$73">
 <contactref element="OK4" pad="16"/>
-<contactref element="ORN5" pad="1"/>
+<contactref element="OR5" pad="1"/>
 <wire x1="42.99" y1="70.945" x2="47.875" y2="73.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$74">
 <contactref element="OK4" pad="14"/>
-<contactref element="ORN5" pad="2"/>
+<contactref element="OR5" pad="2"/>
 <wire x1="42.99" y1="68.405" x2="47.875" y2="73.15" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$75">
 <contactref element="OK4" pad="12"/>
-<contactref element="ORN5" pad="3"/>
+<contactref element="OR5" pad="3"/>
 <wire x1="42.99" y1="65.865" x2="47.875" y2="72.35" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$76">
 <contactref element="OK4" pad="10"/>
-<contactref element="ORN5" pad="4"/>
+<contactref element="OR5" pad="4"/>
 <wire x1="42.99" y1="63.325" x2="47.875" y2="71.55" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$77">
@@ -5046,68 +5046,68 @@ design rules under a new name.</description>
 <signal name="IO5">
 <contactref element="U1" pad="4"/>
 <contactref element="OK4" pad="15"/>
-<contactref element="ORN6" pad="8"/>
+<contactref element="OR6" pad="8"/>
 <wire x1="42.99" y1="69.675" x2="49.125" y2="67.95" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="72.73" x2="42.99" y2="69.675" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO6">
 <contactref element="U1" pad="3"/>
 <contactref element="OK4" pad="13"/>
-<contactref element="ORN6" pad="2"/>
+<contactref element="OR6" pad="2"/>
 <wire x1="42.99" y1="67.135" x2="47.875" y2="67.15" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="71.46" x2="42.99" y2="67.135" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO7">
 <contactref element="U1" pad="2"/>
 <contactref element="OK4" pad="11"/>
-<contactref element="ORN6" pad="3"/>
+<contactref element="OR6" pad="3"/>
 <wire x1="42.99" y1="64.595" x2="47.875" y2="66.35" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="70.19" x2="42.99" y2="64.595" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="IO8">
 <contactref element="U1" pad="1"/>
 <contactref element="OK4" pad="9"/>
-<contactref element="ORN6" pad="4"/>
+<contactref element="OR6" pad="4"/>
 <wire x1="42.99" y1="62.055" x2="47.875" y2="65.55" width="0" layer="19" extent="1-1"/>
 <wire x1="26.6736" y1="68.92" x2="42.99" y2="62.055" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$8">
-<contactref element="ORN1" pad="4"/>
+<contactref element="OR1" pad="4"/>
 <contactref element="OK3" pad="1"/>
 <wire x1="16.55" y1="48.125" x2="36.26" y2="85.195" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$35">
-<contactref element="ORN1" pad="3"/>
+<contactref element="OR1" pad="3"/>
 <contactref element="OK3" pad="3"/>
 <wire x1="17.35" y1="48.125" x2="36.26" y2="82.655" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$45">
-<contactref element="ORN1" pad="2"/>
+<contactref element="OR1" pad="2"/>
 <contactref element="OK3" pad="5"/>
 <wire x1="18.15" y1="48.125" x2="36.26" y2="80.115" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$46">
-<contactref element="ORN1" pad="1"/>
+<contactref element="OR1" pad="1"/>
 <contactref element="OK3" pad="7"/>
 <wire x1="18.95" y1="48.125" x2="36.26" y2="77.575" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$69">
-<contactref element="ORN4" pad="4"/>
+<contactref element="OR4" pad="4"/>
 <contactref element="OK4" pad="1"/>
 <wire x1="22.05" y1="48.125" x2="36.51" y2="70.945" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$70">
-<contactref element="ORN4" pad="3"/>
+<contactref element="OR4" pad="3"/>
 <contactref element="OK4" pad="3"/>
 <wire x1="22.85" y1="48.125" x2="36.51" y2="68.405" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$71">
-<contactref element="ORN4" pad="2"/>
+<contactref element="OR4" pad="2"/>
 <contactref element="OK4" pad="5"/>
 <wire x1="23.65" y1="48.125" x2="36.51" y2="65.865" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$72">
-<contactref element="ORN4" pad="1"/>
+<contactref element="OR4" pad="1"/>
 <contactref element="OK4" pad="7"/>
 <wire x1="24.45" y1="48.125" x2="36.51" y2="63.325" width="0" layer="19" extent="1-1"/>
 </signal>

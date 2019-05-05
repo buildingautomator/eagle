@@ -20594,9 +20594,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="IIR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705419/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="6.8K"/>
 <part name="IR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705415/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
 <part name="ERN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705420/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="49.9R"/>
-<part name="ORN1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
-<part name="ORN2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705426/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
-<part name="ORN3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10712812/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
+<part name="OR1" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="OR2" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705426/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
+<part name="OR3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10712812/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
 <part name="XI1" library="con-phoenix-381_l" deviceset="MC5" device="" override_package3d_urn="urn:adsk.eagle:package:10711966/2" override_package_urn="urn:adsk.eagle:footprint:10711967/1"/>
 <part name="XI2" library="con-phoenix-381_l" deviceset="MC5" device="" override_package3d_urn="urn:adsk.eagle:package:10711980/2" override_package_urn="urn:adsk.eagle:footprint:10711981/1"/>
 <part name="MR3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:10707839/2" override_package_urn="urn:adsk.eagle:footprint:10707840/1" value="10K"/>
@@ -20612,9 +20612,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="XO" library="con-phoenix-381_l" deviceset="MC10" device="" override_package3d_urn="urn:adsk.eagle:package:10711862/3" override_package_urn="urn:adsk.eagle:footprint:10711863/1"/>
 <part name="U1" library="ULN2803ADW" deviceset="ULN2803ADW" device="" override_package3d_urn="urn:adsk.eagle:package:10694723/2" override_package_urn="urn:adsk.eagle:footprint:10694724/1"/>
 <part name="OK4" library="optocoupler" library_urn="urn:adsk.eagle:library:320" deviceset="TLP283-4" device="" package3d_urn="urn:adsk.eagle:package:21967/1" override_package3d_urn="urn:adsk.eagle:package:10705087/2" override_package_urn="urn:adsk.eagle:footprint:21913/1"/>
-<part name="ORN4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705407/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
-<part name="ORN5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705437/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
-<part name="ORN6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705421/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
+<part name="OR4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705407/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="OR5" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705437/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
+<part name="OR6" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705421/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="10K"/>
 <part name="OL5" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OL6" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="OL7" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
@@ -22001,10 +22001,10 @@ TESA IO Board Design.</text>
 <text x="129.54" y="198.12" size="1.778" layer="91">IN2</text>
 <text x="129.54" y="170.18" size="1.778" layer="91">IN3</text>
 <text x="129.54" y="142.24" size="1.778" layer="91">IN4</text>
-<text x="198.12" y="226.06" size="1.778" layer="91">IN5</text>
-<text x="198.12" y="198.12" size="1.778" layer="91">IN6</text>
-<text x="198.12" y="170.18" size="1.778" layer="91">IN7</text>
-<text x="198.12" y="142.24" size="1.778" layer="91">IN8</text>
+<text x="205.74" y="226.06" size="1.778" layer="91">IN5</text>
+<text x="205.74" y="198.12" size="1.778" layer="91">IN6</text>
+<text x="205.74" y="170.18" size="1.778" layer="91">IN7</text>
+<text x="205.74" y="142.24" size="1.778" layer="91">IN8</text>
 <text x="106.68" y="228.6" size="1.778" layer="91">COM</text>
 <text x="10.16" y="180.34" size="1.778" layer="91">OUTPUT</text>
 <text x="10.16" y="246.38" size="1.778" layer="91">IO EXTENDER</text>
@@ -22028,14 +22028,14 @@ TESA IO Board Design.</text>
 <instance part="+3V6" gate="G$1" x="132.08" y="139.7" smashed="yes" rot="R90">
 <attribute name="VALUE" x="137.16" y="137.16" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V7" gate="G$1" x="200.66" y="223.52" smashed="yes" rot="R90">
-<attribute name="VALUE" x="205.74" y="220.98" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V7" gate="G$1" x="208.28" y="223.52" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.36" y="220.98" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V8" gate="G$1" x="200.66" y="195.58" smashed="yes" rot="R90">
-<attribute name="VALUE" x="205.74" y="193.04" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V8" gate="G$1" x="208.28" y="195.58" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.36" y="193.04" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="+3V9" gate="G$1" x="200.66" y="167.64" smashed="yes" rot="R90">
-<attribute name="VALUE" x="205.74" y="165.1" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V9" gate="G$1" x="208.28" y="167.64" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.36" y="165.1" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="IL1" gate="G$1" x="154.94" y="213.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="159.512" y="216.916" size="1.778" layer="95" rot="R180"/>
@@ -22053,17 +22053,17 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="159.512" y="135.636" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="159.512" y="137.795" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IL5" gate="G$1" x="223.52" y="215.9" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.092" y="219.456" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.092" y="221.615" size="1.778" layer="96" rot="R180"/>
+<instance part="IL5" gate="G$1" x="231.14" y="215.9" smashed="yes" rot="R90">
+<attribute name="NAME" x="235.712" y="219.456" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="235.712" y="221.615" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IL6" gate="G$1" x="223.52" y="187.96" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.092" y="191.516" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.092" y="193.675" size="1.778" layer="96" rot="R180"/>
+<instance part="IL6" gate="G$1" x="231.14" y="187.96" smashed="yes" rot="R90">
+<attribute name="NAME" x="235.712" y="191.516" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="235.712" y="193.675" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IL7" gate="G$1" x="223.52" y="160.02" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.092" y="163.576" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.092" y="165.735" size="1.778" layer="96" rot="R180"/>
+<instance part="IL7" gate="G$1" x="231.14" y="160.02" smashed="yes" rot="R90">
+<attribute name="NAME" x="235.712" y="163.576" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="235.712" y="165.735" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="OK1" gate="A" x="139.7" y="210.82" smashed="yes">
 <attribute name="NAME" x="132.715" y="216.535" size="1.778" layer="95"/>
@@ -22093,40 +22093,40 @@ TESA IO Board Design.</text>
 <instance part="GND15" gate="1" x="165.1" y="121.92" smashed="yes" rot="R90">
 <attribute name="VALUE" x="167.64" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="OK2" gate="A" x="208.28" y="210.82" smashed="yes">
-<attribute name="NAME" x="201.295" y="216.535" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="203.2" size="1.778" layer="96"/>
+<instance part="OK2" gate="A" x="215.9" y="210.82" smashed="yes">
+<attribute name="NAME" x="208.915" y="216.535" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.915" y="203.2" size="1.778" layer="96"/>
 </instance>
-<instance part="OK2" gate="B" x="208.28" y="182.88" smashed="yes">
-<attribute name="NAME" x="201.295" y="188.595" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="175.26" size="1.778" layer="96"/>
+<instance part="OK2" gate="B" x="215.9" y="182.88" smashed="yes">
+<attribute name="NAME" x="208.915" y="188.595" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.915" y="175.26" size="1.778" layer="96"/>
 </instance>
-<instance part="OK2" gate="C" x="208.28" y="154.94" smashed="yes">
-<attribute name="NAME" x="201.295" y="160.655" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="147.32" size="1.778" layer="96"/>
+<instance part="OK2" gate="C" x="215.9" y="154.94" smashed="yes">
+<attribute name="NAME" x="208.915" y="160.655" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.915" y="147.32" size="1.778" layer="96"/>
 </instance>
-<instance part="OK2" gate="D" x="208.28" y="127" smashed="yes">
-<attribute name="NAME" x="201.295" y="132.715" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.295" y="119.38" size="1.778" layer="96"/>
+<instance part="OK2" gate="D" x="215.9" y="127" smashed="yes">
+<attribute name="NAME" x="208.915" y="132.715" size="1.778" layer="95"/>
+<attribute name="VALUE" x="208.915" y="119.38" size="1.778" layer="96"/>
 </instance>
-<instance part="GND16" gate="1" x="233.68" y="205.74" smashed="yes" rot="R90">
-<attribute name="VALUE" x="236.22" y="203.2" size="1.778" layer="96" rot="R90"/>
+<instance part="GND16" gate="1" x="241.3" y="205.74" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="203.2" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND17" gate="1" x="233.68" y="177.8" smashed="yes" rot="R90">
-<attribute name="VALUE" x="236.22" y="175.26" size="1.778" layer="96" rot="R90"/>
+<instance part="GND17" gate="1" x="241.3" y="177.8" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="175.26" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND18" gate="1" x="233.68" y="149.86" smashed="yes" rot="R90">
-<attribute name="VALUE" x="236.22" y="147.32" size="1.778" layer="96" rot="R90"/>
+<instance part="GND18" gate="1" x="241.3" y="149.86" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="147.32" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V12" gate="G$1" x="200.66" y="139.7" smashed="yes" rot="R90">
-<attribute name="VALUE" x="205.74" y="137.16" size="1.778" layer="96" rot="R180"/>
+<instance part="+3V12" gate="G$1" x="208.28" y="139.7" smashed="yes" rot="R90">
+<attribute name="VALUE" x="213.36" y="137.16" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="IL8" gate="G$1" x="223.52" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="228.092" y="135.636" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="228.092" y="137.795" size="1.778" layer="96" rot="R180"/>
+<instance part="IL8" gate="G$1" x="231.14" y="132.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="235.712" y="135.636" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="235.712" y="137.795" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND19" gate="1" x="233.68" y="121.92" smashed="yes" rot="R90">
-<attribute name="VALUE" x="236.22" y="119.38" size="1.778" layer="96" rot="R90"/>
+<instance part="GND19" gate="1" x="241.3" y="121.92" smashed="yes" rot="R90">
+<attribute name="VALUE" x="243.84" y="119.38" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="IC1" gate="G$1" x="45.72" y="213.36" smashed="yes">
 <attribute name="NAME" x="35.56" y="237.49" size="1.778" layer="95"/>
@@ -22167,37 +22167,37 @@ TESA IO Board Design.</text>
 <attribute name="VALUE" x="147.32" y="136.652" size="1.778" layer="96"/>
 <attribute name="NAME" x="139.7" y="136.652" size="1.778" layer="95"/>
 </instance>
-<instance part="IIR2" gate="A" x="187.96" y="213.36" smashed="yes">
-<attribute name="VALUE" x="190.5" y="210.312" size="1.778" layer="96"/>
-<attribute name="NAME" x="182.88" y="210.312" size="1.778" layer="95"/>
+<instance part="IIR2" gate="A" x="195.58" y="213.36" smashed="yes">
+<attribute name="VALUE" x="198.12" y="210.312" size="1.778" layer="96"/>
+<attribute name="NAME" x="190.5" y="210.312" size="1.778" layer="95"/>
 </instance>
-<instance part="IIR2" gate="B" x="187.96" y="185.42" smashed="yes">
-<attribute name="VALUE" x="190.5" y="182.372" size="1.778" layer="96"/>
-<attribute name="NAME" x="182.88" y="182.372" size="1.778" layer="95"/>
+<instance part="IIR2" gate="B" x="195.58" y="185.42" smashed="yes">
+<attribute name="VALUE" x="198.12" y="182.372" size="1.778" layer="96"/>
+<attribute name="NAME" x="190.5" y="182.372" size="1.778" layer="95"/>
 </instance>
-<instance part="IIR2" gate="C" x="187.96" y="157.48" smashed="yes">
-<attribute name="VALUE" x="190.5" y="154.432" size="1.778" layer="96"/>
-<attribute name="NAME" x="182.88" y="154.432" size="1.778" layer="95"/>
+<instance part="IIR2" gate="C" x="195.58" y="157.48" smashed="yes">
+<attribute name="VALUE" x="198.12" y="154.432" size="1.778" layer="96"/>
+<attribute name="NAME" x="190.5" y="154.432" size="1.778" layer="95"/>
 </instance>
-<instance part="IIR2" gate="D" x="187.96" y="129.54" smashed="yes">
-<attribute name="VALUE" x="190.5" y="126.492" size="1.778" layer="96"/>
-<attribute name="NAME" x="182.88" y="126.492" size="1.778" layer="95"/>
+<instance part="IIR2" gate="D" x="195.58" y="129.54" smashed="yes">
+<attribute name="VALUE" x="198.12" y="126.492" size="1.778" layer="96"/>
+<attribute name="NAME" x="190.5" y="126.492" size="1.778" layer="95"/>
 </instance>
-<instance part="IR2" gate="A" x="213.36" y="223.52" smashed="yes">
-<attribute name="VALUE" x="215.9" y="220.472" size="1.778" layer="96"/>
-<attribute name="NAME" x="208.28" y="220.472" size="1.778" layer="95"/>
+<instance part="IR2" gate="A" x="220.98" y="223.52" smashed="yes">
+<attribute name="VALUE" x="223.52" y="220.472" size="1.778" layer="96"/>
+<attribute name="NAME" x="215.9" y="220.472" size="1.778" layer="95"/>
 </instance>
-<instance part="IR2" gate="B" x="213.36" y="195.58" smashed="yes">
-<attribute name="VALUE" x="215.9" y="192.532" size="1.778" layer="96"/>
-<attribute name="NAME" x="208.28" y="192.532" size="1.778" layer="95"/>
+<instance part="IR2" gate="B" x="220.98" y="195.58" smashed="yes">
+<attribute name="VALUE" x="223.52" y="192.532" size="1.778" layer="96"/>
+<attribute name="NAME" x="215.9" y="192.532" size="1.778" layer="95"/>
 </instance>
-<instance part="IR2" gate="C" x="213.36" y="167.64" smashed="yes">
-<attribute name="VALUE" x="215.9" y="164.592" size="1.778" layer="96"/>
-<attribute name="NAME" x="208.28" y="164.592" size="1.778" layer="95"/>
+<instance part="IR2" gate="C" x="220.98" y="167.64" smashed="yes">
+<attribute name="VALUE" x="223.52" y="164.592" size="1.778" layer="96"/>
+<attribute name="NAME" x="215.9" y="164.592" size="1.778" layer="95"/>
 </instance>
-<instance part="IR2" gate="D" x="213.36" y="139.7" smashed="yes">
-<attribute name="VALUE" x="215.9" y="136.652" size="1.778" layer="96"/>
-<attribute name="NAME" x="208.28" y="136.652" size="1.778" layer="95"/>
+<instance part="IR2" gate="D" x="220.98" y="139.7" smashed="yes">
+<attribute name="VALUE" x="223.52" y="136.652" size="1.778" layer="96"/>
+<attribute name="NAME" x="215.9" y="136.652" size="1.778" layer="95"/>
 </instance>
 <instance part="XI1" gate=".1" x="121.92" y="223.52" smashed="yes">
 <attribute name="NAME" x="114.3" y="225.425" size="1.524" layer="95"/>
@@ -22214,20 +22214,20 @@ TESA IO Board Design.</text>
 <instance part="XI1" gate=".5" x="111.76" y="129.54" smashed="yes">
 <attribute name="NAME" x="104.14" y="131.445" size="1.524" layer="95"/>
 </instance>
-<instance part="XI2" gate=".1" x="190.5" y="223.52" smashed="yes">
-<attribute name="NAME" x="182.88" y="225.425" size="1.524" layer="95"/>
+<instance part="XI2" gate=".1" x="198.12" y="223.52" smashed="yes">
+<attribute name="NAME" x="190.5" y="225.425" size="1.524" layer="95"/>
 </instance>
-<instance part="XI2" gate=".2" x="180.34" y="213.36" smashed="yes">
-<attribute name="NAME" x="172.72" y="215.265" size="1.524" layer="95"/>
+<instance part="XI2" gate=".2" x="187.96" y="213.36" smashed="yes">
+<attribute name="NAME" x="180.34" y="215.265" size="1.524" layer="95"/>
 </instance>
-<instance part="XI2" gate=".3" x="180.34" y="185.42" smashed="yes">
-<attribute name="NAME" x="172.72" y="187.325" size="1.524" layer="95"/>
+<instance part="XI2" gate=".3" x="187.96" y="185.42" smashed="yes">
+<attribute name="NAME" x="180.34" y="187.325" size="1.524" layer="95"/>
 </instance>
-<instance part="XI2" gate=".4" x="180.34" y="157.48" smashed="yes">
-<attribute name="NAME" x="172.72" y="159.385" size="1.524" layer="95"/>
+<instance part="XI2" gate=".4" x="187.96" y="157.48" smashed="yes">
+<attribute name="NAME" x="180.34" y="159.385" size="1.524" layer="95"/>
 </instance>
-<instance part="XI2" gate=".5" x="180.34" y="129.54" smashed="yes">
-<attribute name="NAME" x="172.72" y="131.445" size="1.524" layer="95"/>
+<instance part="XI2" gate=".5" x="187.96" y="129.54" smashed="yes">
+<attribute name="NAME" x="180.34" y="131.445" size="1.524" layer="95"/>
 </instance>
 <instance part="MR3" gate="G$1" x="12.7" y="218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="11.2014" y="214.63" size="1.778" layer="95" rot="R90"/>
@@ -22266,51 +22266,51 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="46.355" y="104.775" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.355" y="91.44" size="1.778" layer="96"/>
 </instance>
-<instance part="ORN1" gate="A" x="35.56" y="101.6" smashed="yes" rot="R180">
+<instance part="OR1" gate="A" x="35.56" y="101.6" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="104.648" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="104.648" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN1" gate="B" x="35.56" y="119.38" smashed="yes" rot="R180">
+<instance part="OR1" gate="B" x="35.56" y="119.38" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="122.428" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="122.428" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN1" gate="C" x="35.56" y="137.16" smashed="yes" rot="R180">
+<instance part="OR1" gate="C" x="35.56" y="137.16" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="140.208" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="140.208" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN1" gate="D" x="35.56" y="154.94" smashed="yes" rot="R180">
+<instance part="OR1" gate="D" x="35.56" y="154.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="157.988" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="157.988" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN2" gate="A" x="71.12" y="149.86" smashed="yes">
+<instance part="OR2" gate="A" x="71.12" y="149.86" smashed="yes">
 <attribute name="VALUE" x="73.66" y="146.812" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="146.812" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN2" gate="B" x="71.12" y="132.08" smashed="yes">
+<instance part="OR2" gate="B" x="71.12" y="132.08" smashed="yes">
 <attribute name="VALUE" x="73.66" y="129.032" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="129.032" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN2" gate="C" x="71.12" y="114.3" smashed="yes">
+<instance part="OR2" gate="C" x="71.12" y="114.3" smashed="yes">
 <attribute name="VALUE" x="73.66" y="111.252" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="111.252" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN2" gate="D" x="71.12" y="96.52" smashed="yes">
+<instance part="OR2" gate="D" x="71.12" y="96.52" smashed="yes">
 <attribute name="VALUE" x="73.66" y="93.472" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="93.472" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN3" gate="A" x="71.12" y="154.94" smashed="yes">
+<instance part="OR3" gate="A" x="71.12" y="154.94" smashed="yes">
 <attribute name="VALUE" x="73.66" y="151.892" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="151.892" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN3" gate="B" x="71.12" y="137.16" smashed="yes">
+<instance part="OR3" gate="B" x="71.12" y="137.16" smashed="yes">
 <attribute name="VALUE" x="73.66" y="134.112" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="134.112" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN3" gate="C" x="71.12" y="119.38" smashed="yes">
+<instance part="OR3" gate="C" x="71.12" y="119.38" smashed="yes">
 <attribute name="VALUE" x="73.66" y="116.332" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="116.332" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN3" gate="D" x="71.12" y="101.6" smashed="yes">
+<instance part="OR3" gate="D" x="71.12" y="101.6" smashed="yes">
 <attribute name="VALUE" x="73.66" y="98.552" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="98.552" size="1.778" layer="95"/>
 </instance>
@@ -22381,51 +22381,51 @@ TESA IO Board Design.</text>
 <attribute name="NAME" x="46.355" y="31.115" size="1.778" layer="95"/>
 <attribute name="VALUE" x="46.355" y="17.78" size="1.778" layer="96"/>
 </instance>
-<instance part="ORN4" gate="A" x="35.56" y="27.94" smashed="yes" rot="R180">
+<instance part="OR4" gate="A" x="35.56" y="27.94" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="30.988" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="30.988" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN4" gate="B" x="35.56" y="45.72" smashed="yes" rot="R180">
+<instance part="OR4" gate="B" x="35.56" y="45.72" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="48.768" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="48.768" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN4" gate="C" x="35.56" y="63.5" smashed="yes" rot="R180">
+<instance part="OR4" gate="C" x="35.56" y="63.5" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="66.548" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="66.548" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN4" gate="D" x="35.56" y="81.28" smashed="yes" rot="R180">
+<instance part="OR4" gate="D" x="35.56" y="81.28" smashed="yes" rot="R180">
 <attribute name="VALUE" x="33.02" y="84.328" size="1.778" layer="96" rot="R180"/>
 <attribute name="NAME" x="40.64" y="84.328" size="1.778" layer="95" rot="R180"/>
 </instance>
-<instance part="ORN5" gate="A" x="71.12" y="81.28" smashed="yes">
+<instance part="OR5" gate="A" x="71.12" y="81.28" smashed="yes">
 <attribute name="VALUE" x="73.66" y="78.232" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="78.232" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN5" gate="B" x="71.12" y="63.5" smashed="yes">
+<instance part="OR5" gate="B" x="71.12" y="63.5" smashed="yes">
 <attribute name="VALUE" x="73.66" y="60.452" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="60.452" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN5" gate="C" x="71.12" y="45.72" smashed="yes">
+<instance part="OR5" gate="C" x="71.12" y="45.72" smashed="yes">
 <attribute name="VALUE" x="73.66" y="42.672" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="42.672" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN5" gate="D" x="71.12" y="27.94" smashed="yes">
+<instance part="OR5" gate="D" x="71.12" y="27.94" smashed="yes">
 <attribute name="VALUE" x="73.66" y="24.892" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="24.892" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN6" gate="A" x="71.12" y="76.2" smashed="yes" rot="MR0">
+<instance part="OR6" gate="A" x="71.12" y="76.2" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="68.58" y="73.152" size="1.778" layer="96" rot="MR0"/>
 <attribute name="NAME" x="76.2" y="73.152" size="1.778" layer="95" rot="MR0"/>
 </instance>
-<instance part="ORN6" gate="B" x="71.12" y="58.42" smashed="yes">
+<instance part="OR6" gate="B" x="71.12" y="58.42" smashed="yes">
 <attribute name="VALUE" x="73.66" y="55.372" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="55.372" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN6" gate="C" x="71.12" y="40.64" smashed="yes">
+<instance part="OR6" gate="C" x="71.12" y="40.64" smashed="yes">
 <attribute name="VALUE" x="73.66" y="37.592" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="37.592" size="1.778" layer="95"/>
 </instance>
-<instance part="ORN6" gate="D" x="71.12" y="22.86" smashed="yes">
+<instance part="OR6" gate="D" x="71.12" y="22.86" smashed="yes">
 <attribute name="VALUE" x="73.66" y="19.812" size="1.778" layer="96"/>
 <attribute name="NAME" x="66.04" y="19.812" size="1.778" layer="95"/>
 </instance>
@@ -22513,21 +22513,21 @@ TESA IO Board Design.</text>
 <attribute name="VALUE" x="163.068" y="129.54" size="1.778" layer="96" rot="R90"/>
 <attribute name="NAME" x="163.068" y="121.92" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IR4" gate="A" x="228.6" y="210.82" smashed="yes" rot="R90">
-<attribute name="VALUE" x="231.648" y="213.36" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="231.648" y="205.74" size="1.778" layer="95" rot="R90"/>
+<instance part="IR4" gate="A" x="236.22" y="210.82" smashed="yes" rot="R90">
+<attribute name="VALUE" x="239.268" y="213.36" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="239.268" y="205.74" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IR4" gate="B" x="228.6" y="182.88" smashed="yes" rot="R90">
-<attribute name="VALUE" x="231.648" y="185.42" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="231.648" y="177.8" size="1.778" layer="95" rot="R90"/>
+<instance part="IR4" gate="B" x="236.22" y="182.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="239.268" y="185.42" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="239.268" y="177.8" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IR4" gate="C" x="228.6" y="154.94" smashed="yes" rot="R90">
-<attribute name="VALUE" x="231.648" y="157.48" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="231.648" y="149.86" size="1.778" layer="95" rot="R90"/>
+<instance part="IR4" gate="C" x="236.22" y="154.94" smashed="yes" rot="R90">
+<attribute name="VALUE" x="239.268" y="157.48" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="239.268" y="149.86" size="1.778" layer="95" rot="R90"/>
 </instance>
-<instance part="IR4" gate="D" x="228.6" y="127" smashed="yes" rot="R90">
-<attribute name="VALUE" x="231.648" y="129.54" size="1.778" layer="96" rot="R90"/>
-<attribute name="NAME" x="231.648" y="121.92" size="1.778" layer="95" rot="R90"/>
+<instance part="IR4" gate="D" x="236.22" y="127" smashed="yes" rot="R90">
+<attribute name="VALUE" x="239.268" y="129.54" size="1.778" layer="96" rot="R90"/>
+<attribute name="NAME" x="239.268" y="121.92" size="1.778" layer="95" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -22551,22 +22551,22 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="+3V7" gate="G$1" pin="+3V3"/>
-<wire x1="203.2" y1="223.52" x2="208.28" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="223.52" x2="215.9" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="IR2" gate="A" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V8" gate="G$1" pin="+3V3"/>
-<wire x1="203.2" y1="195.58" x2="208.28" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="195.58" x2="215.9" y2="195.58" width="0.1524" layer="91"/>
 <pinref part="IR2" gate="B" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
-<wire x1="203.2" y1="167.64" x2="208.28" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="167.64" x2="215.9" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="IR2" gate="C" pin="1"/>
 </segment>
 <segment>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
-<wire x1="203.2" y1="139.7" x2="208.28" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="139.7" x2="215.9" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="IR2" gate="D" pin="1"/>
 </segment>
 <segment>
@@ -22678,12 +22678,12 @@ TESA IO Board Design.</text>
 <segment>
 <pinref part="OK2" gate="A" pin="EMIT"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="215.9" y1="208.28" x2="220.98" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="208.28" x2="220.98" y2="205.74" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="205.74" x2="228.6" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="208.28" x2="228.6" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="208.28" x2="228.6" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="205.74" x2="236.22" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="IR4" gate="A" pin="1"/>
-<wire x1="228.6" y1="205.74" x2="231.14" y2="205.74" width="0.1524" layer="91"/>
-<junction x="228.6" y="205.74"/>
+<wire x1="236.22" y1="205.74" x2="238.76" y2="205.74" width="0.1524" layer="91"/>
+<junction x="236.22" y="205.74"/>
 </segment>
 <segment>
 <pinref part="OK1" gate="D" pin="EMIT"/>
@@ -22717,33 +22717,33 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="OK2" gate="B" pin="EMIT"/>
-<wire x1="215.9" y1="180.34" x2="220.98" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="180.34" x2="220.98" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="180.34" x2="228.6" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="180.34" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="GND17" gate="1" pin="GND"/>
-<wire x1="220.98" y1="177.8" x2="228.6" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="177.8" x2="236.22" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="IR4" gate="B" pin="1"/>
-<wire x1="228.6" y1="177.8" x2="231.14" y2="177.8" width="0.1524" layer="91"/>
-<junction x="228.6" y="177.8"/>
+<wire x1="236.22" y1="177.8" x2="238.76" y2="177.8" width="0.1524" layer="91"/>
+<junction x="236.22" y="177.8"/>
 </segment>
 <segment>
 <pinref part="OK2" gate="C" pin="EMIT"/>
-<wire x1="215.9" y1="152.4" x2="220.98" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="152.4" x2="220.98" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="152.4" x2="228.6" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="152.4" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-<wire x1="220.98" y1="149.86" x2="228.6" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="149.86" x2="236.22" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="IR4" gate="C" pin="1"/>
-<wire x1="228.6" y1="149.86" x2="231.14" y2="149.86" width="0.1524" layer="91"/>
-<junction x="228.6" y="149.86"/>
+<wire x1="236.22" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
+<junction x="236.22" y="149.86"/>
 </segment>
 <segment>
 <pinref part="OK2" gate="D" pin="EMIT"/>
-<wire x1="215.9" y1="124.46" x2="220.98" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="124.46" x2="220.98" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="223.52" y1="124.46" x2="228.6" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="124.46" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="GND19" gate="1" pin="GND"/>
-<wire x1="220.98" y1="121.92" x2="228.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="121.92" x2="236.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="IR4" gate="D" pin="1"/>
-<wire x1="228.6" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
-<junction x="228.6" y="121.92"/>
+<wire x1="236.22" y1="121.92" x2="238.76" y2="121.92" width="0.1524" layer="91"/>
+<junction x="236.22" y="121.92"/>
 </segment>
 <segment>
 <pinref part="IR1" gate="A" pin="2"/>
@@ -22812,29 +22812,29 @@ TESA IO Board Design.</text>
 </net>
 <net name="COM2" class="0">
 <segment>
-<wire x1="190.5" y1="223.52" x2="195.58" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="223.52" x2="195.58" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="223.52" x2="203.2" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="223.52" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="A" pin="C"/>
-<wire x1="198.12" y1="208.28" x2="195.58" y2="208.28" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="208.28" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="208.28" x2="203.2" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="208.28" x2="203.2" y2="180.34" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="B" pin="C"/>
-<wire x1="198.12" y1="180.34" x2="195.58" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="180.34" x2="195.58" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="180.34" x2="203.2" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="180.34" x2="203.2" y2="152.4" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="C" pin="C"/>
-<wire x1="195.58" y1="152.4" x2="198.12" y2="152.4" width="0.1524" layer="91"/>
-<junction x="195.58" y="208.28"/>
-<junction x="195.58" y="180.34"/>
-<wire x1="195.58" y1="152.4" x2="195.58" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
+<junction x="203.2" y="208.28"/>
+<junction x="203.2" y="180.34"/>
+<wire x1="203.2" y1="152.4" x2="203.2" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="OK2" gate="D" pin="C"/>
-<wire x1="195.58" y1="124.46" x2="198.12" y2="124.46" width="0.1524" layer="91"/>
-<junction x="195.58" y="152.4"/>
-<label x="193.04" y="223.52" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="203.2" y1="124.46" x2="205.74" y2="124.46" width="0.1524" layer="91"/>
+<junction x="203.2" y="152.4"/>
+<label x="200.66" y="223.52" size="1.778" layer="95" rot="R90" xref="yes"/>
 <pinref part="XI2" gate=".1" pin="SK"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<wire x1="180.34" y1="213.36" x2="182.88" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="213.36" x2="190.5" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="A" pin="1"/>
 <pinref part="XI2" gate=".2" pin="SK"/>
 </segment>
@@ -22842,13 +22842,13 @@ TESA IO Board Design.</text>
 <net name="N$37" class="0">
 <segment>
 <pinref part="OK2" gate="A" pin="A"/>
-<wire x1="193.04" y1="213.36" x2="198.12" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="213.36" x2="205.74" y2="213.36" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<wire x1="180.34" y1="185.42" x2="182.88" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="B" pin="1"/>
 <pinref part="XI2" gate=".3" pin="SK"/>
 </segment>
@@ -22856,13 +22856,13 @@ TESA IO Board Design.</text>
 <net name="N$39" class="0">
 <segment>
 <pinref part="OK2" gate="B" pin="A"/>
-<wire x1="193.04" y1="185.42" x2="198.12" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="185.42" x2="205.74" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<wire x1="180.34" y1="157.48" x2="182.88" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="157.48" x2="190.5" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="C" pin="1"/>
 <pinref part="XI2" gate=".4" pin="SK"/>
 </segment>
@@ -22870,13 +22870,13 @@ TESA IO Board Design.</text>
 <net name="N$41" class="0">
 <segment>
 <pinref part="OK2" gate="C" pin="A"/>
-<wire x1="193.04" y1="157.48" x2="198.12" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<wire x1="180.34" y1="129.54" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="D" pin="1"/>
 <pinref part="XI2" gate=".5" pin="SK"/>
 </segment>
@@ -22884,7 +22884,7 @@ TESA IO Board Design.</text>
 <net name="N$43" class="0">
 <segment>
 <pinref part="OK2" gate="D" pin="A"/>
-<wire x1="193.04" y1="129.54" x2="198.12" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="129.54" x2="205.74" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="IIR2" gate="D" pin="2"/>
 </segment>
 </net>
@@ -22970,14 +22970,14 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="OK2" gate="A" pin="COL"/>
-<wire x1="215.9" y1="213.36" x2="220.98" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="213.36" x2="220.98" y2="215.9" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="215.9" x2="220.98" y2="223.52" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="223.52" x2="218.44" y2="223.52" width="0.1524" layer="91"/>
-<label x="220.98" y="223.52" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="213.36" x2="228.6" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="213.36" x2="228.6" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="215.9" x2="228.6" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="223.52" x2="226.06" y2="223.52" width="0.1524" layer="91"/>
+<label x="228.6" y="223.52" size="1.778" layer="95" xref="yes"/>
 <pinref part="IR2" gate="A" pin="2"/>
 <pinref part="IL5" gate="G$1" pin="A"/>
-<junction x="220.98" y="215.9"/>
+<junction x="228.6" y="215.9"/>
 </segment>
 </net>
 <net name="GPA5" class="0">
@@ -22988,14 +22988,14 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="OK2" gate="B" pin="COL"/>
-<wire x1="215.9" y1="185.42" x2="220.98" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="185.42" x2="220.98" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="187.96" x2="220.98" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="195.58" x2="218.44" y2="195.58" width="0.1524" layer="91"/>
-<label x="220.98" y="195.58" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="185.42" x2="228.6" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="185.42" x2="228.6" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="187.96" x2="228.6" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="195.58" x2="226.06" y2="195.58" width="0.1524" layer="91"/>
+<label x="228.6" y="195.58" size="1.778" layer="95" xref="yes"/>
 <pinref part="IR2" gate="B" pin="2"/>
 <pinref part="IL6" gate="G$1" pin="A"/>
-<junction x="220.98" y="187.96"/>
+<junction x="228.6" y="187.96"/>
 </segment>
 </net>
 <net name="GPA6" class="0">
@@ -23006,14 +23006,14 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="OK2" gate="C" pin="COL"/>
-<wire x1="215.9" y1="157.48" x2="220.98" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="157.48" x2="220.98" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="160.02" x2="220.98" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="167.64" x2="218.44" y2="167.64" width="0.1524" layer="91"/>
-<label x="220.98" y="167.64" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="157.48" x2="228.6" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="157.48" x2="228.6" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="160.02" x2="228.6" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="167.64" x2="226.06" y2="167.64" width="0.1524" layer="91"/>
+<label x="228.6" y="167.64" size="1.778" layer="95" xref="yes"/>
 <pinref part="IR2" gate="C" pin="2"/>
 <pinref part="IL7" gate="G$1" pin="A"/>
-<junction x="220.98" y="160.02"/>
+<junction x="228.6" y="160.02"/>
 </segment>
 </net>
 <net name="GPA7" class="0">
@@ -23024,14 +23024,14 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <pinref part="OK2" gate="D" pin="COL"/>
-<wire x1="215.9" y1="129.54" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="129.54" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="132.08" x2="220.98" y2="139.7" width="0.1524" layer="91"/>
-<wire x1="220.98" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
-<label x="220.98" y="139.7" size="1.778" layer="95" xref="yes"/>
+<wire x1="223.52" y1="129.54" x2="228.6" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="129.54" x2="228.6" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="132.08" x2="228.6" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="228.6" y1="139.7" x2="226.06" y2="139.7" width="0.1524" layer="91"/>
+<label x="228.6" y="139.7" size="1.778" layer="95" xref="yes"/>
 <pinref part="IR2" gate="D" pin="2"/>
 <pinref part="IL8" gate="G$1" pin="A"/>
-<junction x="220.98" y="132.08"/>
+<junction x="228.6" y="132.08"/>
 </segment>
 </net>
 <net name="GPB0" class="0">
@@ -23043,7 +23043,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="27.94" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
 <label x="27.94" y="27.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN4" gate="A" pin="2"/>
+<pinref part="OR4" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="GPB1" class="0">
@@ -23055,7 +23055,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="45.72" x2="27.94" y2="45.72" width="0.1524" layer="91"/>
 <label x="27.94" y="45.72" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN4" gate="B" pin="2"/>
+<pinref part="OR4" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="GPB2" class="0">
@@ -23067,7 +23067,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="63.5" x2="27.94" y2="63.5" width="0.1524" layer="91"/>
 <label x="27.94" y="63.5" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN4" gate="C" pin="2"/>
+<pinref part="OR4" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="GPB3" class="0">
@@ -23079,7 +23079,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="81.28" x2="27.94" y2="81.28" width="0.1524" layer="91"/>
 <label x="27.94" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN4" gate="D" pin="2"/>
+<pinref part="OR4" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="GPB4" class="0">
@@ -23091,7 +23091,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="101.6" x2="27.94" y2="101.6" width="0.1524" layer="91"/>
 <label x="27.94" y="101.6" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN1" gate="A" pin="2"/>
+<pinref part="OR1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="GPB5" class="0">
@@ -23103,7 +23103,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="119.38" x2="27.94" y2="119.38" width="0.1524" layer="91"/>
 <label x="27.94" y="119.38" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN1" gate="B" pin="2"/>
+<pinref part="OR1" gate="B" pin="2"/>
 </segment>
 </net>
 <net name="GPB6" class="0">
@@ -23115,7 +23115,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="137.16" x2="27.94" y2="137.16" width="0.1524" layer="91"/>
 <label x="27.94" y="137.16" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN1" gate="C" pin="2"/>
+<pinref part="OR1" gate="C" pin="2"/>
 </segment>
 </net>
 <net name="GPB7" class="0">
@@ -23127,7 +23127,7 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="30.48" y1="154.94" x2="27.94" y2="154.94" width="0.1524" layer="91"/>
 <label x="27.94" y="154.94" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="ORN1" gate="D" pin="2"/>
+<pinref part="OR1" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -23157,21 +23157,21 @@ TESA IO Board Design.</text>
 </segment>
 <segment>
 <wire x1="76.2" y1="154.94" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="ORN3" gate="A" pin="2"/>
+<pinref part="OR3" gate="A" pin="2"/>
 <label x="78.74" y="154.94" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ORN3" gate="B" pin="2"/>
+<pinref part="OR3" gate="B" pin="2"/>
 <wire x1="76.2" y1="137.16" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
 <label x="78.74" y="137.16" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ORN3" gate="C" pin="2"/>
+<pinref part="OR3" gate="C" pin="2"/>
 <wire x1="76.2" y1="119.38" x2="78.74" y2="119.38" width="0.1524" layer="91"/>
 <label x="78.74" y="119.38" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ORN3" gate="D" pin="2"/>
+<pinref part="OR3" gate="D" pin="2"/>
 <wire x1="76.2" y1="101.6" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
 <label x="78.74" y="101.6" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -23204,22 +23204,22 @@ TESA IO Board Design.</text>
 <segment>
 <wire x1="76.2" y1="81.28" x2="78.74" y2="81.28" width="0.1524" layer="91"/>
 <label x="78.74" y="81.28" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN5" gate="A" pin="2"/>
+<pinref part="OR5" gate="A" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="63.5" x2="78.74" y2="63.5" width="0.1524" layer="91"/>
 <label x="78.74" y="63.5" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN5" gate="B" pin="2"/>
+<pinref part="OR5" gate="B" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="45.72" x2="78.74" y2="45.72" width="0.1524" layer="91"/>
 <label x="78.74" y="45.72" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN5" gate="C" pin="2"/>
+<pinref part="OR5" gate="C" pin="2"/>
 </segment>
 <segment>
 <wire x1="76.2" y1="27.94" x2="78.74" y2="27.94" width="0.1524" layer="91"/>
 <label x="78.74" y="27.94" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN5" gate="D" pin="2"/>
+<pinref part="OR5" gate="D" pin="2"/>
 </segment>
 </net>
 <net name="GNDO" class="3">
@@ -23233,12 +23233,12 @@ TESA IO Board Design.</text>
 <pinref part="XO" gate=".2" pin="SK"/>
 </segment>
 <segment>
-<pinref part="ORN2" gate="C" pin="2"/>
+<pinref part="OR2" gate="C" pin="2"/>
 <wire x1="76.2" y1="114.3" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="ORN2" gate="A" pin="2"/>
+<pinref part="OR2" gate="A" pin="2"/>
 <wire x1="76.2" y1="149.86" x2="91.44" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="149.86" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="ORN2" gate="D" pin="2"/>
+<pinref part="OR2" gate="D" pin="2"/>
 <wire x1="91.44" y1="132.08" x2="91.44" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="114.3" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="96.52" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
@@ -23249,7 +23249,7 @@ TESA IO Board Design.</text>
 <wire x1="76.2" y1="96.52" x2="91.44" y2="96.52" width="0.1524" layer="91"/>
 <junction x="91.44" y="114.3"/>
 <junction x="91.44" y="96.52"/>
-<pinref part="ORN2" gate="B" pin="2"/>
+<pinref part="OR2" gate="B" pin="2"/>
 <wire x1="76.2" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
 <junction x="91.44" y="132.08"/>
 <label x="91.44" y="15.24" size="1.778" layer="95" xref="yes"/>
@@ -23258,13 +23258,13 @@ TESA IO Board Design.</text>
 <junction x="91.44" y="58.42"/>
 <junction x="91.44" y="76.2"/>
 <wire x1="76.2" y1="76.2" x2="91.44" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="ORN6" gate="A" pin="1"/>
+<pinref part="OR6" gate="A" pin="1"/>
 <wire x1="76.2" y1="58.42" x2="91.44" y2="58.42" width="0.1524" layer="91"/>
-<pinref part="ORN6" gate="B" pin="2"/>
+<pinref part="OR6" gate="B" pin="2"/>
 <wire x1="76.2" y1="40.64" x2="91.44" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="ORN6" gate="C" pin="2"/>
+<pinref part="OR6" gate="C" pin="2"/>
 <wire x1="76.2" y1="22.86" x2="91.44" y2="22.86" width="0.1524" layer="91"/>
-<pinref part="ORN6" gate="D" pin="2"/>
+<pinref part="OR6" gate="D" pin="2"/>
 </segment>
 <segment>
 <wire x1="121.92" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
@@ -23288,27 +23288,27 @@ TESA IO Board Design.</text>
 <segment>
 <pinref part="OK3" gate="A" pin="COL"/>
 <wire x1="60.96" y1="154.94" x2="66.04" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="ORN3" gate="A" pin="1"/>
+<pinref part="OR3" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="OK3" gate="B" pin="COL"/>
-<pinref part="ORN3" gate="B" pin="1"/>
+<pinref part="OR3" gate="B" pin="1"/>
 <wire x1="60.96" y1="137.16" x2="66.04" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$56" class="0">
 <segment>
 <pinref part="OK3" gate="C" pin="COL"/>
-<pinref part="ORN3" gate="C" pin="1"/>
+<pinref part="OR3" gate="C" pin="1"/>
 <wire x1="60.96" y1="119.38" x2="66.04" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">
 <segment>
 <pinref part="OK3" gate="D" pin="COL"/>
-<pinref part="ORN3" gate="D" pin="1"/>
+<pinref part="OR3" gate="D" pin="1"/>
 <wire x1="60.96" y1="101.6" x2="66.04" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -23344,7 +23344,7 @@ TESA IO Board Design.</text>
 <segment>
 <pinref part="OK3" gate="A" pin="EMIT"/>
 <wire x1="60.96" y1="149.86" x2="63.5" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="ORN2" gate="A" pin="1"/>
+<pinref part="OR2" gate="A" pin="1"/>
 <wire x1="63.5" y1="149.86" x2="66.04" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="149.86" x2="63.5" y2="144.78" width="0.1524" layer="91"/>
 <junction x="63.5" y="149.86"/>
@@ -23360,7 +23360,7 @@ TESA IO Board Design.</text>
 <net name="OI2" class="0">
 <segment>
 <pinref part="OK3" gate="B" pin="EMIT"/>
-<pinref part="ORN2" gate="B" pin="1"/>
+<pinref part="OR2" gate="B" pin="1"/>
 <wire x1="60.96" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="132.08" x2="63.5" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="132.08" x2="63.5" y2="127" width="0.1524" layer="91"/>
@@ -23377,7 +23377,7 @@ TESA IO Board Design.</text>
 <net name="OI3" class="0">
 <segment>
 <pinref part="OK3" gate="C" pin="EMIT"/>
-<pinref part="ORN2" gate="C" pin="1"/>
+<pinref part="OR2" gate="C" pin="1"/>
 <wire x1="60.96" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="114.3" x2="63.5" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="114.3" x2="63.5" y2="109.22" width="0.1524" layer="91"/>
@@ -23394,7 +23394,7 @@ TESA IO Board Design.</text>
 <net name="OI4" class="0">
 <segment>
 <pinref part="OK3" gate="D" pin="EMIT"/>
-<pinref part="ORN2" gate="D" pin="1"/>
+<pinref part="OR2" gate="D" pin="1"/>
 <wire x1="60.96" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="96.52" x2="63.5" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="96.52" x2="63.5" y2="91.44" width="0.1524" layer="91"/>
@@ -23566,28 +23566,28 @@ TESA IO Board Design.</text>
 <segment>
 <pinref part="OK4" gate="A" pin="COL"/>
 <wire x1="60.96" y1="81.28" x2="66.04" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="ORN5" gate="A" pin="1"/>
+<pinref part="OR5" gate="A" pin="1"/>
 </segment>
 </net>
 <net name="N$74" class="0">
 <segment>
 <pinref part="OK4" gate="B" pin="COL"/>
 <wire x1="60.96" y1="63.5" x2="66.04" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="ORN5" gate="B" pin="1"/>
+<pinref part="OR5" gate="B" pin="1"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
 <pinref part="OK4" gate="C" pin="COL"/>
 <wire x1="60.96" y1="45.72" x2="66.04" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="ORN5" gate="C" pin="1"/>
+<pinref part="OR5" gate="C" pin="1"/>
 </segment>
 </net>
 <net name="N$76" class="0">
 <segment>
 <pinref part="OK4" gate="D" pin="COL"/>
 <wire x1="60.96" y1="27.94" x2="66.04" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="ORN5" gate="D" pin="1"/>
+<pinref part="OR5" gate="D" pin="1"/>
 </segment>
 </net>
 <net name="N$77" class="0">
@@ -23631,7 +23631,7 @@ TESA IO Board Design.</text>
 <wire x1="63.5" y1="76.2" x2="63.5" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
 <label x="68.58" y="71.12" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN6" gate="A" pin="2"/>
+<pinref part="OR6" gate="A" pin="2"/>
 <junction x="63.5" y="76.2"/>
 </segment>
 </net>
@@ -23648,7 +23648,7 @@ TESA IO Board Design.</text>
 <wire x1="63.5" y1="58.42" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="53.34" x2="68.58" y2="53.34" width="0.1524" layer="91"/>
 <label x="68.58" y="53.34" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN6" gate="B" pin="1"/>
+<pinref part="OR6" gate="B" pin="1"/>
 <junction x="63.5" y="58.42"/>
 </segment>
 </net>
@@ -23665,7 +23665,7 @@ TESA IO Board Design.</text>
 <wire x1="63.5" y1="40.64" x2="63.5" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="35.56" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 <label x="68.58" y="35.56" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN6" gate="C" pin="1"/>
+<pinref part="OR6" gate="C" pin="1"/>
 <junction x="63.5" y="40.64"/>
 </segment>
 </net>
@@ -23682,62 +23682,62 @@ TESA IO Board Design.</text>
 <wire x1="63.5" y1="22.86" x2="63.5" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="17.78" x2="68.58" y2="17.78" width="0.1524" layer="91"/>
 <label x="68.58" y="17.78" size="1.778" layer="95" xref="yes"/>
-<pinref part="ORN6" gate="D" pin="1"/>
+<pinref part="OR6" gate="D" pin="1"/>
 <junction x="63.5" y="22.86"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="ORN1" gate="D" pin="1"/>
+<pinref part="OR1" gate="D" pin="1"/>
 <pinref part="OK3" gate="A" pin="A"/>
 <wire x1="40.64" y1="154.94" x2="43.18" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="ORN1" gate="C" pin="1"/>
+<pinref part="OR1" gate="C" pin="1"/>
 <pinref part="OK3" gate="B" pin="A"/>
 <wire x1="40.64" y1="137.16" x2="43.18" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="ORN1" gate="B" pin="1"/>
+<pinref part="OR1" gate="B" pin="1"/>
 <pinref part="OK3" gate="C" pin="A"/>
 <wire x1="40.64" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="ORN1" gate="A" pin="1"/>
+<pinref part="OR1" gate="A" pin="1"/>
 <pinref part="OK3" gate="D" pin="A"/>
 <wire x1="40.64" y1="101.6" x2="43.18" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="ORN4" gate="D" pin="1"/>
+<pinref part="OR4" gate="D" pin="1"/>
 <pinref part="OK4" gate="A" pin="A"/>
 <wire x1="40.64" y1="81.28" x2="43.18" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="ORN4" gate="C" pin="1"/>
+<pinref part="OR4" gate="C" pin="1"/>
 <pinref part="OK4" gate="B" pin="A"/>
 <wire x1="40.64" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$71" class="0">
 <segment>
-<pinref part="ORN4" gate="B" pin="1"/>
+<pinref part="OR4" gate="B" pin="1"/>
 <pinref part="OK4" gate="C" pin="A"/>
 <wire x1="40.64" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="ORN4" gate="A" pin="1"/>
+<pinref part="OR4" gate="A" pin="1"/>
 <pinref part="OK4" gate="D" pin="A"/>
 <wire x1="40.64" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
 </segment>
