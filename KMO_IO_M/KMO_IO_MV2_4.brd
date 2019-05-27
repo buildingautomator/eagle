@@ -150,7 +150,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzc1ODdm" projecturn="a.cGVyc29uYWw6dWUyYzc1ODdmIzIwMTkwNDI1MTkwMzAwMTgx" f3durn="urn:adsk.wipprod:dm.lineage:NyGoLFpNTXyJCtd3-WzVqQ" pcbguid="dda2ae1a-66fa-46dd-96ea-e6794cc07e63" lastpulledtime="" lastsyncedchangeguid="e43d72be-6b22-b311-6665-bb54d413ce22"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzc1ODdm" projecturn="a.cGVyc29uYWw6dWUyYzc1ODdmIzIwMTkwNDI1MTkwMzAwMTgx" f3durn="urn:adsk.wipprod:dm.lineage:NyGoLFpNTXyJCtd3-WzVqQ" pcbguid="dda2ae1a-66fa-46dd-96ea-e6794cc07e63" lastpulledtime="" lastsyncedchangeguid="26bf622e-7293-418d-f36e-aa942b9fc4ce"/>
 <plain>
 <hole x="17.25" y="83.25" drill="3" locked="yes"/>
 <hole x="67.25" y="83.25" drill="3" locked="yes"/>
