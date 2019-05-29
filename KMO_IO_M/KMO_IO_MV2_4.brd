@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.4.0">
+<eagle version="9.4.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -150,7 +150,7 @@
 <layer number="255" name="Accent" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYzc1ODdm" projecturn="a.cGVyc29uYWw6dWUyYzc1ODdmIzIwMTkwNDI1MTkwMzAwMTgx" f3durn="urn:adsk.wipprod:dm.lineage:NyGoLFpNTXyJCtd3-WzVqQ" pcbguid="dda2ae1a-66fa-46dd-96ea-e6794cc07e63" lastpulledtime="" lastsyncedchangeguid="6025e090-d2eb-548c-78ae-7d63f40098b2"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYzc1ODdm" projecturn="a.cGVyc29uYWw6dWUyYzc1ODdmIzIwMTkwNDI1MTkwMzAwMTgx" f3durn="urn:adsk.wipprod:dm.lineage:NyGoLFpNTXyJCtd3-WzVqQ" pcbguid="dda2ae1a-66fa-46dd-96ea-e6794cc07e63" lastpulledtime="" lastsyncedchangeguid="b439189c-7f65-db2c-ec31-fef8df1e15d6"/>
 <plain>
 <hole x="17.25" y="83.25" drill="3" locked="yes"/>
 <hole x="67.25" y="83.25" drill="3" locked="yes"/>
@@ -5559,10 +5559,10 @@ design rules under a new name.</description>
 <element name="IR3" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705410/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="24.5" y="32.5" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="24.5" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="24.5" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="22.21" y="33.655" size="1.016" layer="25" ratio="10" rot="R270"/>
+<attribute name="NAME" x="26.02" y="33.528" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="24.5" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="24.5" y="32.5" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="25.77" y="34.405" size="1.27" layer="27" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="21.96" y="33.516" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="IR4" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" package="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705410/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K" x="25.75" y="22.25" smashed="yes" rot="R180">
 <attribute name="MF" value="" x="25.75" y="22.25" size="1.778" layer="27" rot="R180" display="off"/>
