@@ -6059,6 +6059,27 @@ design rules under a new name.</description>
 <via x="28.47195" y="68.27145" extent="1-16" drill="0.35"/>
 <via x="30.8191" y="82.6605" extent="1-16" drill="0.35"/>
 <via x="53.98445" y="83.57895" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1" isolate="0.3048">
+<vertex x="-2.286" y="99.441"/>
+<vertex x="87.122" y="99.441"/>
+<vertex x="88.519" y="98.044"/>
+<vertex x="88.519" y="0"/>
+<vertex x="83.947" y="-4.572"/>
+<vertex x="-0.889" y="-4.572"/>
+<vertex x="-5.334" y="-0.127"/>
+<vertex x="-5.334" y="96.393"/>
+<vertex x="-2.413" y="99.314"/>
+</polygon>
+<polygon width="0.1524" layer="16" isolate="0.3048">
+<vertex x="-5.461" y="101.473"/>
+<vertex x="89.662" y="101.473"/>
+<vertex x="90.805" y="100.33"/>
+<vertex x="90.805" y="-3.556"/>
+<vertex x="88.9" y="-5.461"/>
+<vertex x="-5.588" y="-5.461"/>
+<vertex x="-5.842" y="-5.715"/>
+<vertex x="-5.842" y="101.092"/>
+</polygon>
 </signal>
 <signal name="N$11">
 <contactref element="PR1" pad="1"/>
