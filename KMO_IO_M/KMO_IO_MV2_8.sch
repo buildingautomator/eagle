@@ -21056,6 +21056,69 @@ by exp-lbrs.ulp</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="sht3x-dis">
+<packages>
+<package name="SHT3X">
+<wire x1="-1.25" y1="-1.25" x2="-1.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="-1.25" y1="1.25" x2="1.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="1.25" y1="1.25" x2="1.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="1.25" y1="-1.25" x2="-1.25" y2="-1.25" width="0.127" layer="21"/>
+<smd name="SCL" x="-1.175" y="-0.75" dx="0.55" dy="0.25" layer="1" roundness="3"/>
+<smd name="ALERT" x="-1.175" y="-0.25" dx="0.55" dy="0.25" layer="1" roundness="3"/>
+<smd name="ADDR" x="-1.175" y="0.25" dx="0.55" dy="0.25" layer="1" roundness="3"/>
+<smd name="SDA" x="-1.175" y="0.75" dx="0.55" dy="0.25" layer="1" roundness="3"/>
+<smd name="GND" x="1.175" y="0.75" dx="0.55" dy="0.25" layer="1" roundness="3" rot="R180"/>
+<smd name="R" x="1.175" y="0.25" dx="0.55" dy="0.25" layer="1" roundness="3" rot="R180"/>
+<smd name="RESET" x="1.175" y="-0.25" dx="0.55" dy="0.25" layer="1" roundness="3" rot="R180"/>
+<smd name="VDD" x="1.175" y="-0.75" dx="0.55" dy="0.25" layer="1" roundness="3" rot="R180"/>
+<text x="-1.3" y="1.4" size="0.254" layer="25">SHT3x-DIS</text>
+<smd name="GND_PAD" x="0" y="-0.025" dx="1.7" dy="1" layer="1" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="SHT3X-DIS">
+<pin name="SDA" x="-15.24" y="7.62" visible="pin" length="middle"/>
+<pin name="ADDR" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="ALERT" x="-15.24" y="-2.54" visible="pin" length="middle"/>
+<pin name="SCL" x="-15.24" y="-7.62" visible="pin" length="middle"/>
+<pin name="VDD" x="15.24" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="RESET" x="15.24" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="R" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="15.24" y="7.62" visible="pin" length="middle" rot="R180"/>
+<wire x1="-10.16" y1="11.43" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="11.43" width="0.254" layer="94"/>
+<wire x1="10.16" y1="11.43" x2="-10.16" y2="11.43" width="0.254" layer="94"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">SHT3x-Dist</text>
+<pin name="GND_PAD" x="15.24" y="-12.7" visible="pin" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="SHT3X">
+<gates>
+<gate name="G$1" symbol="SHT3X-DIS" x="30.48" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="SHT3X">
+<connects>
+<connect gate="G$1" pin="ADDR" pad="ADDR"/>
+<connect gate="G$1" pin="ALERT" pad="ALERT"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND_PAD" pad="GND_PAD"/>
+<connect gate="G$1" pin="R" pad="R"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VDD" pad="VDD"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -21224,6 +21287,7 @@ by exp-lbrs.ulp</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="OR7" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
 <part name="OR8" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
+<part name="U$3" library="sht3x-dis" deviceset="SHT3X" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21649,6 +21713,7 @@ NTC</text>
 <instance part="GND20" gate="1" x="134.62" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="137.16" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$3" gate="G$1" x="190.5" y="48.26" smashed="yes"/>
 </instances>
 <busses>
 </busses>
