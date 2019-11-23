@@ -21287,7 +21287,11 @@ by exp-lbrs.ulp</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="OR7" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
 <part name="OR8" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
-<part name="U$3" library="sht3x-dis" deviceset="SHT3X" device=""/>
+<part name="SHT" library="sht3x-dis" deviceset="SHT3X" device=""/>
+<part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
+<part name="GND22" library="supply1" deviceset="GND" device=""/>
+<part name="GND23" library="supply1" deviceset="GND" device=""/>
+<part name="GND24" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21648,7 +21652,7 @@ NTC</text>
 <attribute name="NAME" x="300.228" y="109.22" size="1.778" layer="95" rot="R90"/>
 </instance>
 <instance part="+3V11" gate="G$1" x="35.56" y="73.66" smashed="yes" rot="R270">
-<attribute name="VALUE" x="35.56" y="73.66" size="1.778" layer="96"/>
+<attribute name="VALUE" x="38.1" y="73.66" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="38.1" y="68.58" smashed="yes" rot="R90">
 <attribute name="VALUE" x="40.64" y="66.04" size="1.778" layer="96" rot="R90"/>
@@ -21713,7 +21717,19 @@ NTC</text>
 <instance part="GND20" gate="1" x="134.62" y="73.66" smashed="yes" rot="R90">
 <attribute name="VALUE" x="137.16" y="71.12" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="U$3" gate="G$1" x="190.5" y="48.26" smashed="yes"/>
+<instance part="SHT" gate="G$1" x="190.5" y="48.26" smashed="yes"/>
+<instance part="+3V14" gate="G$1" x="223.52" y="45.72" smashed="yes" rot="R270">
+<attribute name="VALUE" x="226.06" y="45.72" size="1.778" layer="96"/>
+</instance>
+<instance part="GND22" gate="1" x="223.52" y="55.88" smashed="yes" rot="R90">
+<attribute name="VALUE" x="226.06" y="53.34" size="1.778" layer="96" rot="R90"/>
+</instance>
+<instance part="GND23" gate="1" x="170.18" y="50.8" smashed="yes" rot="R270">
+<attribute name="VALUE" x="167.64" y="53.34" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="GND24" gate="1" x="218.44" y="35.56" smashed="yes" rot="R90">
+<attribute name="VALUE" x="220.98" y="33.02" size="1.778" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21897,6 +21913,26 @@ NTC</text>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="129.54" y1="73.66" x2="132.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND23" gate="1" pin="GND"/>
+<pinref part="SHT" gate="G$1" pin="ADDR"/>
+<wire x1="172.72" y1="50.8" x2="175.26" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SHT" gate="G$1" pin="GND"/>
+<pinref part="GND22" gate="1" pin="GND"/>
+<wire x1="205.74" y1="55.88" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="55.88" x2="220.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="55.88" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="SHT" gate="G$1" pin="R"/>
+<wire x1="208.28" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
+<junction x="208.28" y="55.88"/>
+</segment>
+<segment>
+<pinref part="SHT" gate="G$1" pin="GND_PAD"/>
+<pinref part="GND24" gate="1" pin="GND"/>
+<wire x1="205.74" y1="35.56" x2="215.9" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="RAW_IV" class="1">
 <segment>
@@ -22072,6 +22108,11 @@ NTC</text>
 <pinref part="+3V13" gate="G$1" pin="+3V3"/>
 <pinref part="THM" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="73.66" x2="104.14" y2="73.66" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SHT" gate="G$1" pin="VDD"/>
+<pinref part="+3V14" gate="G$1" pin="+3V3"/>
+<wire x1="205.74" y1="45.72" x2="220.98" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="D2" class="0">
@@ -22517,6 +22558,11 @@ NTC</text>
 <wire x1="30.48" y1="58.42" x2="33.02" y2="58.42" width="0.1524" layer="91"/>
 <label x="33.02" y="58.42" size="1.778" layer="95" xref="yes"/>
 </segment>
+<segment>
+<wire x1="175.26" y1="40.64" x2="172.72" y2="40.64" width="0.1524" layer="91"/>
+<label x="172.72" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SHT" gate="G$1" pin="SCL"/>
+</segment>
 </net>
 <net name="A4" class="0">
 <segment>
@@ -22530,6 +22576,11 @@ NTC</text>
 <pinref part="GPIO" gate="-4" pin="S"/>
 <wire x1="30.48" y1="63.5" x2="33.02" y2="63.5" width="0.1524" layer="91"/>
 <label x="33.02" y="63.5" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<wire x1="175.26" y1="55.88" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
+<label x="172.72" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SHT" gate="G$1" pin="SDA"/>
 </segment>
 </net>
 <net name="A6" class="0">
