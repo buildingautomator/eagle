@@ -3,7 +3,7 @@
 <eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.127" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.127" altunitdist="mm" altunit="mm"/>
@@ -159,7 +159,7 @@
 <wire x1="0" y1="96.5" x2="84.5" y2="96.5" width="0.1524" layer="20" locked="yes"/>
 <wire x1="84.5" y1="96.5" x2="84.5" y2="0" width="0.1524" layer="20" locked="yes"/>
 <wire x1="84.5" y1="0" x2="0" y2="0" width="0.1524" layer="20" locked="yes"/>
-<text x="44.5" y="53.25" size="1.6764" layer="21">IOTB v2.8 TOP</text>
+<text x="44.5" y="53.25" size="1.6764" layer="21">IOTB v2.9 TOP</text>
 <text x="46" y="57" size="1.6764" layer="21">IOTECH © 2019</text>
 <wire x1="43.75" y1="58" x2="43" y2="58.75" width="0.1524" layer="21"/>
 <wire x1="44.25" y1="57.5" x2="45" y2="56.75" width="0.1524" layer="21"/>

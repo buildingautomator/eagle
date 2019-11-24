@@ -21199,7 +21199,7 @@ by exp-lbrs.ulp</description>
 <text x="302.26" y="210.82" size="1.778" layer="91">WI-FI</text>
 <text x="299.72" y="241.3" size="1.778" layer="91">NATIVE ANALOG-DIGITAL SENSOR 3</text>
 <text x="309.88" y="15.24" size="2.54" layer="94">IOTB by Team IOTECH</text>
-<text x="365.76" y="12.7" size="2.54" layer="94">2.8</text>
+<text x="365.76" y="12.7" size="2.54" layer="94">2.9</text>
 <text x="187.96" y="170.18" size="1.778" layer="91">ETHERNET</text>
 <text x="193.04" y="109.22" size="1.778" layer="97">D2  -&gt;INT
 D10-&gt;CS
