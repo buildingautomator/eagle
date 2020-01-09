@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.5.1">
+<eagle version="9.4.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -21097,9 +21097,9 @@ by exp-lbrs.ulp</description>
 <part name="INDL" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="BLU"/>
 <part name="MC" library="SparkFun" deviceset="ATMEGA168" device="" override_package3d_urn="urn:adsk.eagle:package:10705350/2" override_package_urn="urn:adsk.eagle:footprint:10705351/1" value="ATMEGA328"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0805" override_package3d_urn="urn:adsk.eagle:package:10708054/2" override_package_urn="urn:adsk.eagle:footprint:10708055/1" value="100nF"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:16326575/2" override_package_urn="urn:adsk.eagle:footprint:16326576/1" value="1.5K"/>
 <part name="Q1" library="Testing" deviceset="RESONATOR" device="1:1" override_package3d_urn="urn:adsk.eagle:package:10708079/2" override_package_urn="urn:adsk.eagle:footprint:10708080/1" value="8MHz"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="1.5K"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:16326616/2" override_package_urn="urn:adsk.eagle:footprint:16326617/1" value="1.5K"/>
 <part name="PC1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/2" override_package3d_urn="urn:adsk.eagle:package:10705447/2" override_package_urn="urn:adsk.eagle:footprint:22897/1" value="220uf 50v"/>
 <part name="PC2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="140CLH-1010" package3d_urn="urn:adsk.eagle:package:23391/2" override_package3d_urn="urn:adsk.eagle:package:10705466/2" override_package_urn="urn:adsk.eagle:footprint:22897/1" value="220uf 50v"/>
 <part name="PCO" library="inductor-coilcraft" deviceset="MSS1260" device="" override_package3d_urn="urn:adsk.eagle:package:10707278/3" override_package_urn="urn:adsk.eagle:footprint:10707279/1" value="220 uh"/>
@@ -21201,7 +21201,7 @@ by exp-lbrs.ulp</description>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="OR7" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
 <part name="OR8" library="resistor-dil" library_urn="urn:adsk.eagle:library:342" deviceset="4R-N" device="0603-ARV" package3d_urn="urn:adsk.eagle:package:24915/1" override_package3d_urn="urn:adsk.eagle:package:10705390/2" override_package_urn="urn:adsk.eagle:footprint:24895/1" value="1K"/>
-<part name="SHT" library="sht3x-dis" deviceset="SHT3X" device=""/>
+<part name="SHT" library="sht3x-dis" deviceset="SHT3X" device="" override_package3d_urn="urn:adsk.eagle:package:16327389/2" override_package_urn="urn:adsk.eagle:footprint:16327390/1"/>
 <part name="+3V14" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
@@ -21209,8 +21209,8 @@ by exp-lbrs.ulp</description>
 <part name="NI" library="con-phoenix-381_l" deviceset="MC5" device="" override_package3d_urn="urn:adsk.eagle:package:10711966/2" override_package_urn="urn:adsk.eagle:footprint:10711967/1"/>
 <part name="+3V15" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="SR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
-<part name="SR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" value="10K"/>
+<part name="SR2" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:16326517/2" override_package_urn="urn:adsk.eagle:footprint:16326518/1" value="10K"/>
+<part name="SR1" library="SparkFun-Passives" deviceset="RESISTOR" device="0805-RES" override_package3d_urn="urn:adsk.eagle:package:16326542/2" override_package_urn="urn:adsk.eagle:footprint:16326543/1" value="10K"/>
 <part name="SC1" library="SparkFun-Passives" deviceset="CAP" device="0805" override_package3d_urn="urn:adsk.eagle:package:10708058/2" override_package_urn="urn:adsk.eagle:footprint:10708059/1" value="100nF"/>
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 </parts>
